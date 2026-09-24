@@ -52,6 +52,43 @@ var productsCant = 0;
 var PrimerClickDeFiltro = true;
 
 document.addEventListener('DOMContentLoaded', function() {
+	
+	
+	
+	
+	
+
+    // Leemos el archivo JSON generado localmente en tu repositorio
+    $.getJSON('productos.json', function(productos) {
+        $('#contenedor-celulares').empty(); // Limpiamos el contenedor
+        
+        productos.forEach(function(producto) {
+            let tarjeta = `
+                <div class="card-producto">
+                    <div class="img-container">
+                        <img src="${producto.imagen}" alt="${producto.titulo}">
+                    </div>
+                    <h3>${producto.titulo}</h3>
+                    <p class="precio">${producto.precio}</p>
+                    <a href="${producto.link}" target="_blank" rel="noopener noreferrer" class="btn-amazon">
+                        Ver en Amazon
+                    </a>
+                </div>
+            `;
+            $('#contenedor-celulares').append(tarjeta);
+        });
+    }).fail(function() {
+        console.error("No se pudo cargar la lista de productos.");
+    });
+
+
+
+
+
+
+
+
+
 	$(".woocommerce-result-count").text("Mostrando " + document.querySelectorAll('ul.products li.product').length + " de " + document.querySelectorAll('ul.products li.product').length + " Productos" );
 	
 
