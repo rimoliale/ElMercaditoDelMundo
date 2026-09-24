@@ -1,0 +1,7 @@
+#MenuPrincipal{
+		display:none !important;
+}
+
+.force-visible {
+  visibility: hidden !important;
+}

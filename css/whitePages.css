@@ -1,0 +1,86 @@
+.copyright{
+  color: Black !important;
+}
+
+.site-content{
+    background-color: white !important;
+  }
+  
+ a{
+    color: black;
+  }
+  
+  .filters a:hover {
+    background: #82441e !important;
+    color: white !important;
+}
+
+a, .page-title{
+    color: black;
+}
+span.woocommerce-Price-amount.amount{
+	color: black !important;
+}
+.sidebar-main{
+    background-color: white !important;
+  }
+  
+  .widget-title, .widget .wp-block-heading{
+    background-color: white !important;
+	color: black !important;
+  }
+  html, body{
+    background-color: white !important;
+  }
+  
+.ast-shop-load-more.active{
+   color: black !important;
+  }
+
+.woocommerce.archive ul.products li a.button{
+   color: white !important;
+   background-color:black !important;
+  }
+  .sub-titulos{
+  background: #f4c183;
+  color: #82441e;
+}
+  
+@media (max-width: 768px) {
+
+#alg_wc_msrp > span.woocommerce-Price-amount.amount >bdi{
+  font-size: 4vw;
+}
+html, body{
+    background-color: white !important;
+  }
+.woocommerce.archive ul.products li a.button{
+   color: white !important;
+   background-color:black !important;
+  }
+.ast-shop-load-more.active{
+   color: black !important;
+   padding:0px !important;
+   line-height:1.2em !important;
+  }
+
+	.copyright{
+  color: Black !important;
+}
+.ast-left-sidebar #primary{
+	top: 28px;
+}
+
+.wpc-filters-scroll-container{
+background-color: white !important;
+}
+ .wpc-filters-scroll-container{
+	color: black !important;
+}
+
+
+
+.wpc-filters-widget-containers-wrapper{
+background-color: white !important;
+}
+}

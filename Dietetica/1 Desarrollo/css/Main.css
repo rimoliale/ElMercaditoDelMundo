@@ -1,0 +1,185 @@
+
+section h2 {
+font-size: 32px;
+margin-bottom: 20px;
+color: #82441e;
+}
+
+section p, section li {
+font-size: 18px;
+line-height: 1.6;
+}
+
+section ul {
+list-style: disc;
+padding-left: 20px;
+}
+  
+#imgPrincipal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logo-text {
+  font-family:Helvetica now text;
+  font-size: 38px;
+  color: #000;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style: none; /*quitar marker */
+}
+
+
+
+.header_top{
+  padding-top: 38px;
+}
+
+.section-card {
+  background-color: white;/* Cartas de abajo */
+  border-radius: 12px;
+  padding: 20px;
+  margin: 23px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family:Helvetica now text;
+}
+
+.section-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.css-11krs8p,.css-1u5f2wr {
+  color: #fff;/* Titulos de todas las tarjetas */
+}
+
+.css-11krs8p{
+  margin-top: 0px !important;
+}
+
+.css-1c9q47y{
+  background-color: #f4c183;/* Contenedor Total de todas las tarjetas de Producto */
+  color: #000 !important;/* Letras descripcion de cada tarjeta */ 
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.css-ux9vc3{
+  margin-top: 0px;/* Diseño de tarjetas principales */
+  margin-bottom: 0px !important;
+}
+
+
+.tooltip .tooltip-inner {
+  background-color: white; /* fondo */
+  color: black;              /* color del texto */
+  font-family: Times New Roman, sans-serif;
+  /* font-weight: bold;         /* opcional: texto más grueso */ */
+}
+
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before,
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before,
+.tooltip.bs-tooltip-start .tooltip-arrow::before,
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+body {
+  font-family:Helvetica now text;
+}
+
+.page-title{
+  color: #fff;
+  font-family:Helvetica now text;
+}
+
+
+.woocommerce-result-count{
+  color: #000;
+  font-family:Helvetica now text;
+}
+
+.sidebar-main{
+  background-color: #fff;
+}
+
+.widget-title wpc-filter-title{
+  display: none;
+}
+.wpc-filter-content wpc-filter-pa_combustion{
+  display: none;
+}
+
+a, .page-title{
+  color: #000;
+}
+
+.wpc-filters-widget-wrapper{
+font-family:Helvetica now text;
+}
+
+
+.woocommerce-loop-product__title{
+  color: #fff;
+}
+
+.wpc-term-count{
+  color: #fff;
+}
+
+.ast-shop-load-more{
+  color: #fff;
+}
+
+.widget-title{
+  color: #000;
+}
+
+/* Header con el volver */
+.ast-above-header{
+  background: #aaa !important;
+}
+
+.add_to_cart_button{
+	margin-top: 3.4px !important;
+	margin-left: 3.4px !important;	
+}
+
+.wpc-filter-header{
+    font-family: 'Roboto Slab', serif !important;
+    line-height: 1.23em !important;
+}
+
+.ast-above-header {
+  height: 58px !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 10000 !important;
+}
+
+.ast-col-sm-12{
+	  background-color: #fff;
+}
+
+
+
+
+
+
+

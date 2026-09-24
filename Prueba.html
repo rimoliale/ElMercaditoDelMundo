@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor PDF con PDF.js</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <style>
+    canvas {
+      border: 1px solid #ccc;
+      display: block;
+      margin: 2rem auto;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center">Limpieza L2 - Visor PDF</h2>
+  <canvas id="pdf-render"></canvas>
+
+  <script>
+    const url = 'Supermercado/1 Desarrollo/Recursos/BD/LIMPIEZA L2.pdf';
+
+    const pdfjsLib = window['pdfjs-dist/build/pdf'];
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    const canvas = document.getElementById('pdf-render');
+    const ctx = canvas.getContext('2d');
+
+    pdfjsLib.getDocument(url).promise.then(pdf => {
+      return pdf.getPage(1); // Muestra la página 1
+    }).then(page => {
+      const scale = 1.5;
+      const viewport = page.getViewport({ scale });
+
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      const renderContext = {
+        canvasContext: ctx,
+        viewport
+      };
+
+      return page.render(renderContext).promise;
+    }).catch(err => {
+      console.error("❌ Error al cargar el PDF:", err);
+      alert("No se pudo cargar el PDF.");
+    });
+  </script>
+
+</body>
+</html>

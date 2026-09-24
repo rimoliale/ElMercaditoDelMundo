@@ -1,0 +1,148 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Web - El Mercadito del Mundo</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #1c1e21;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+      padding: 15px 40px;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .navbar-left img {
+      height: 24px;
+    }
+    .navbar-left span {
+      font-weight: bold;
+      font-size: 20px;
+      color: #25D366;
+    }
+    .navbar-right a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #1c1e21;
+      font-size: 14px;
+    }
+    .navbar-right a:hover {
+      text-decoration: underline;
+    }
+    .main {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    .title {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #128C7E;
+      color: white;
+      font-size: 1em;
+      padding: 14px 30px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #0e705f;
+    }
+    .footer {
+      margin-top: 80px;
+      font-size: 0.9em;
+      color: #555;
+    }
+    .footer a {
+      color: #00aaff;
+      text-decoration: none;
+    }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+  .navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .navbar-right a {
+    font-size: 13px;
+    margin: 0;
+  }
+  .main {
+    padding: 40px 10px;
+  }
+  .title {
+    font-size: 1.2em;
+  }
+  .button {
+    padding: 12px 24px;
+    font-size: 0.95em;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+      <span>WhatsApp</span>
+    </div>
+    <div class="navbar-right">
+      <a href="#">Funciones</a>
+      <a href="#">Privacidad</a>
+      <a href="#">Centro de ayuda</a>
+      <a href="#">Blog</a>
+      <a href="#">Para empresas</a>
+      <a href="#">Aplicaciones</a>
+      <a href="#">Iniciar sesión</a>
+      <a href="#" style="background:#25D366;color:white;padding:6px 12px;border-radius:20px;">Descargar</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <img src="images/Mono Principal.png" alt="Logo" class="logo">
+    <div class="title">El Mercadito del Mundo</div>
+    <a class="button"
+       href="https://api.whatsapp.com/send?phone=5491111111740&text=Hola,%20quiero%20más%20info%20sobre%20los%20productos"
+       target="_blank">
+      Ir al chat
+    </a>
+    <div class="footer">
+      ¿Aún no tienes WhatsApp? <a href="https://www.whatsapp.com/download" target="_blank">Descargar</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
