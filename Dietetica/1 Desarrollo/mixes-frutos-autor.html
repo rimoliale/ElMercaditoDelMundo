@@ -2937,6 +2937,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     $.getJSON('productos.json', function(productos) {
         $('#contenedor-celulares').empty(); // Limpiamos el contenedor
         
+		console.log(`🧠 ${productos.length} productos encontrados para "${categoria}"`);
+
         productos.forEach(function(producto) {
             let tarjeta = `
                 <div class="card-producto">
