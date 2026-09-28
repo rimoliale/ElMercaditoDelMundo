@@ -21,7 +21,7 @@
 
 <link rel="icon" type="image/png" href="../../images/Logo FavIcon Mono 6.png" sizes="128x128">
 
-<title>Dietética - El Chango de Ale</title>
+<title>Dietetica - El Chango de Ale</title>
 
 
 
@@ -2793,7 +2793,9 @@ function gtag(){}gtag('js', new Date());
 	
 <div id="content" class="site-content">
 	<div class="ast-container">
-
+	
+<div class="widget-area secondary" id="secondary">
+</div>
 
 <div id="primary" class="content-area primary">
 </div>
@@ -2806,9 +2808,11 @@ function gtag(){}gtag('js', new Date());
 <div id="footer"></div>
   
   <!-- jQuery y Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+  <!-- <script src="../../js/functions-general.js"></script> -->
+
+   
     <!-- jQuery y Bootstrap JS -->
 	
 <template id="tmpl-age-gate"></template> 
@@ -2830,12 +2834,17 @@ function gtag(){}gtag('js', new Date());
     spinner.style.transition = "opacity 0.5s ease";
     setTimeout(() => spinner.style.display = "none", 500);
   }
-
+  
   document.addEventListener("DOMContentLoaded", function () {
     // Paso 1: cargar filtros y productos en paralelo
+	    // Paso 1: cargar filtros y productos en paralelo
+    const cargarFiltros = fetch("Granola-Filtros.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("secondary").innerHTML = data;
+      });
 
-
-    const cargarProductos = fetch("MainDietetica-Productos.html")
+    const cargarProductos = fetch("Granola-Productos.html")
       .then(res => res.text())
       .then(data => {
         document.getElementById("primary").innerHTML = data;
@@ -2865,22 +2874,25 @@ function gtag(){}gtag('js', new Date());
 				script.src = "../../js/functions-general.js";
 				script.onload = () => {
 				  const script2 = document.createElement("script");
-				  script2.src = "../../js/common-dietetica.js";
+				  script2.src = "../../js/common.js";
 				  script2.onload = () => {
+					const cssLink = document.createElement("link");
+					cssLink.rel = "stylesheet";
+					cssLink.href = "../../css/common-productos-confiltros.css";
+					document.head.appendChild(cssLink);
 					
-					const cssLink2 = document.createElement("link");
-					cssLink2.rel = "stylesheet";
-					cssLink2.href = "../../css/common-productos-sinfiltros.css";
-					document.head.appendChild(cssLink2);
+
 					
 					const cssLink3 = document.createElement("link");
 					cssLink3.rel = "stylesheet";
 					cssLink3.href = "../../css/whitePages.css";
 					document.head.appendChild(cssLink3);
 					
-										setTimeout(() => {
+					setTimeout(() => {
 									  setAppReady()
-									}, 380);
+									}, 1200);
+
+					
 					
 					// Clonamos el menú principal al menú mobile
 						const mainNav = document.getElementById("main-nav-items");
@@ -2900,8 +2912,6 @@ function gtag(){}gtag('js', new Date());
 				  document.body.appendChild(script2);
 				  
 				  DOMContentLoadedPOSTA();
-				  
-
 				};
 				document.body.appendChild(script);
             };
@@ -2911,117 +2921,9 @@ function gtag(){}gtag('js', new Date());
       }, 100); // Delay opcional tras cargar filtros y productos
     });
   });
-
-async function cargarExcelYGuardar() {
-  try {
-    const res = await fetch("Recursos/MecohueDB.xlsx");
-    const buffer = await res.arrayBuffer();
-    const workbook = XLSX.read(buffer, { type: "array" });
-    const hoja = workbook.Sheets[workbook.SheetNames[0]];
-
-    const raw = XLSX.utils.sheet_to_json(hoja, { header: 1 }); // Leer como arrays
-    let categoriaActual = "";
-    let modoIngredientes = false;
-    const productos = [];
-    const ingredientesMixes = {};
-
-    for (const row of raw) {
-		//console.log("🔍 Fila cruda:", row);
-
-      // Fila textual para detectar "Mix de semillas:" aún si está en celdas fusionadas
-      const filaComoTexto = row.map(c => (c || "").toString().toUpperCase()).join(" ");
-      if (filaComoTexto.includes("MIX DE SEM")) {
-        modoIngredientes = true;
-        continue;
-      }
-
-	  // Detectar retorno a productos normales
-		if (modoIngredientes && row[2] && row[4]) {
-		modoIngredientes = false;
-		console.log("🔁 Desactivado modoIngredientes (vuelve a productos)");
-		}
-
-      const colC = row[2]; // Producto
-      const colD = row[3]; // Presentación
-      const colE = row[4]; // Precio
-      const colF = row[5]; // Ingredientes (para la parte de mixes)
-
-      // 🥜 Modo ingredientes activo
-if (modoIngredientes) {
-  const textoCrudo = (row[1] || "").toString().trim();
-
-if (!textoCrudo) {
-  continue;
-}
-
-
-  // Limpiar saltos de línea y comillas estilizadas
-  const textoLimpio = textoCrudo.replace(/["“”]+/g, '"').trim();
-
-  if (textoLimpio.includes(":")) {
-    // Caso normal con separador ":"
-    const partes = textoLimpio.split(":");
-    const nombreMix = partes[0].trim();
-    const ingredientes = partes.slice(1).join(":").replace(/[\r\n]+/g, " ").trim();
-
-    if (nombreMix && ingredientes) {
-      ingredientesMixes[nombreMix] = ingredientes;
-      console.log(`🥜 Guardado (con :) ${nombreMix}:`, ingredientes);
-    }
-  } else {
-    // Caso alternativo: intentar separar por salto de línea
-    const partes = textoLimpio.split(/[\r\n]+/);
-    const nombreMix = partes[0]?.trim();
-    const ingredientes = partes.slice(1).join(" ").trim();
-
-    if (nombreMix && ingredientes) {
-      ingredientesMixes[nombreMix] = ingredientes;
-      console.log(`🥜 Guardado (por salto de línea) ${nombreMix}:`, ingredientes);
-    } else {
-      console.warn("⚠️ No se pudo parsear mix sin ':' →", textoCrudo);
-    }
-  }
-
-  continue;
-}
-
-
-      // Detectar si es una categoría normal
-      if (typeof colC === "string" && !colD && !colE) {
-        categoriaActual = colC.trim();
-        continue;
-      }
-
-      // Detectar producto normal
-      if (colC && colE) {
-        productos.push({
-          categoria: categoriaActual,
-          producto: colC.toString().trim(),
-          presentacion: (colD || "").toString().trim(),
-          precio: colE.toString().trim()
-        });
-      }
-    }
-
-console.log("✅ Productos procesados:", productos.length);
-console.log("🧾 Lista de productos:", productos);
-
-console.log("🥜 Ingredientes procesados:", Object.keys(ingredientesMixes).length);
-console.log("📋 Ingredientes por mix:", ingredientesMixes);
-
-
-localStorage.setItem("productosMecohue", JSON.stringify(productos));
-localStorage.setItem("ingredientesMixes", JSON.stringify(ingredientesMixes));
-
-
-
-  } catch (err) {
-    console.error("❌ Error al cargar Excel:", err);
-    alert("No se pudo cargar el archivo MecohueDB.xlsx");
-  }
-}
-
-document.addEventListener("DOMContentLoaded", cargarExcelYGuardar);
 </script>
+
+
+
 
 </body></html>
