@@ -30,6 +30,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add productos.json
-          # Si no hay cambios en productos.json, evita que falle con exit code
-          git diff --quiet && git diff --staged --quiet || git commit -m "Automático: actualización de productos.json"
-          git push
+          # Si hay cambios, traemos lo último del remoto y subimos
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automático: actualización de productos.json" && git pull --rebase origin master && git push)
