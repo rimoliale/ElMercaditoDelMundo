@@ -2808,7 +2808,8 @@ function gtag(){}gtag('js', new Date());
   <!-- jQuery y Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-    <!-- jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    
+<!-- jQuery y Bootstrap JS -->
 	
 <template id="tmpl-age-gate"></template> 
 
@@ -2931,95 +2932,51 @@ document.addEventListener("DOMContentLoaded", async () => {
   const ul = await esperarElemento("ul.products");
   if (!ul) return console.error("❌ <ul class='products'> no encontrado");
 
-  // 📦 Obtener productos del localStorage
-  const raw = localStorage.getItem("productosMecohue");
-  if (!raw) {
-    ul.innerHTML = "<li class='product'>No hay productos disponibles.</li>";
-    return;
-  }
 
-  const productos = JSON.parse(raw);
+	// 📦  //--------------------- Leemos el archivo JSON de Celulares  ------------------------------------------------------->--
 
-  // 🧠 Detectar categoría desde nombre archivo
- /* const categoria = location.pathname.split('/').pop()
-    .replace(".html", "")
-    .replace("-productos", "")
-    .replace(/-/g, " ")
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .toUpperCase();
-*/
-  	const categoria = categoriaEnDB;
-	//console.log(categoriaEnDB);
-  const filtrados = productos.filter(p =>
-    p.categoria &&
-    p.categoria.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase() === categoria
-  );
+	$.getJSON('/productos.json', function(productos) {
+	$('#contenedor-celulares').empty(); // Limpiamos el contenedor
+	
+	console.log(`🧠 ${productos.length} productos encontrados para MERCADITO`);
 
-  console.log(`🧠 ${filtrados.length} productos encontrados para "${categoria}"`);
+/* 	productos.forEach(function(producto) {
+		let tarjeta = `
+			<div class="card-producto">
+				<div class="img-container">
+					<img src="${producto.imagen}" alt="${producto.titulo}">
+				</div>
+				<h3>${producto.titulo}</h3>
+				<p class="precio">${producto.precio}</p>
+				<a href="${producto.link}" target="_blank" rel="noopener noreferrer" class="btn-amazon">
+					Ver en Amazon
+				</a>
+			</div>
+		`;
+		$('#contenedor-celulares').append(tarjeta);
+	});
+ */
 
-  if (filtrados.length === 0) {
-    ul.innerHTML = "<li class='product'>No hay productos para mostrar.</li>";
-    return;
-  }
 
-  const ingredientesMixes = JSON.parse(localStorage.getItem("ingredientesMixes") || "{}");
-console.log(Object.keys(ingredientesMixes).length); 
-  // 🛍️ Render personalizado
-  filtrados.forEach((prod, i) => {
+	productos.forEach((prod, i) => {
     const li = document.createElement("li");
     li.className = "ast-col-sm-12 ast-article-post desktop-align-center tablet-align-center mobile-align-center ast-col-md-6 ast-product-gallery-layout-horizontal ast-product-single-variable ast-product-tabs-layout-horizontal product type-product post-10000 status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-variable has-default-attributes";
 
     const precio = formatearPrecio(prod.precio);
-    const imagen = "images/productos-generica.png";
-
-	    // Buscar si hay ingredientes por nombre exacto
-   
-		function normalizarTexto(txt) {
-  return txt.toLowerCase()
-            .replace(/["“”]/g, "")     // eliminar comillas
-            .normalize("NFD")          // quitar tildes
-            .replace(/[\u0300-\u036f]/g, "")
-            .trim();
-}
-
-// Buscar ingredientes por match parcial (al final)
-function normalizarTexto(txt) {
-  return txt.toLowerCase()
-            .replace(/["“”]/g, "")     // eliminar comillas
-            .normalize("NFD")          // quitar tildes
-            .replace(/[\u0300-\u036f]/g, "")
-            .trim();
-}
-
-let ingredientes = "";
-const nombreProdNorm = normalizarTexto(prod.producto);
-
-for (const claveMix in ingredientesMixes) {
-  const claveNorm = normalizarTexto(claveMix);
-
-  //console.log(ingredientesMixes); 
-
-  if (nombreProdNorm.endsWith(claveNorm) || claveNorm.endsWith(nombreProdNorm)) {
-    ingredientes = ingredientesMixes[claveMix];
-    break;
-  }
-}
-
-
-    const ingredientesTexto = ingredientes ? `${ingredientes}` : "";
+    const imagen = (prod.imagen);
 
     li.innerHTML = `
       <div class="astra-shop-thumbnail-wrap">
         <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-          <img src="${imagen}" alt="${prod.producto}">
+          <img src="${imagen}" alt="${prod.titulo}">
         </a>
       </div>
       <input type="hidden" class="wpmProductId" data-id="10000">
       <div class="astra-shop-summary-wrap">
-        <span class="ast-woo-product-category">${subProducto}</span>
-		<h2 class="woocommerce-loop-product__title granolaProducto">${prod.producto}<br>${prod.presentacion?.toLowerCase() || ""}</h2>
+        <span class="ast-woo-product-category">Smartphones</span>
+		<h2 class="woocommerce-loop-product__title granolaProducto">${prod.titulo}</h2>
         <a class="ast-loop-product__link"><h2 class="woocommerce-loop-product__title">
-  ${ingredientesTexto}
+  
 </h2></a>
         <span class="price">
           <div class="price">
@@ -3037,6 +2994,24 @@ for (const claveMix in ingredientesMixes) {
 
     ul.appendChild(li);
   });
+
+
+}).fail(function() {
+	console.error("No se pudo cargar la lista de productos.");
+	ul.innerHTML = "<li class='product'>No hay productos disponibles.</li>";
+});
+
+
+
+
+
+
+
+
+
+//--<------------------- Leemos el archivo JSON de Celulares  -------------------------------------------------------
+
+
 
   console.log("✅ Productos renderizados con formato Woo");
 });
