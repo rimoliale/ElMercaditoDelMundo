@@ -2933,30 +2933,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!ul) return console.error("❌ <ul class='products'> no encontrado");
 
 
-	// 📦  //--------------------- Leemos el archivo JSON de Celulares  ------------------------------------------------------->--
+// 📦  //--------------------- Leemos el archivo JSON de Celulares  ------------------------------------------------------->--
 
-	$.getJSON('/productos.json', function(productos) {
+	$.getJSON('productos.json', function(productos) {
 	$('#contenedor-celulares').empty(); // Limpiamos el contenedor
 	
 	console.log(`🧠 ${productos.length} productos encontrados para MERCADITO`);
-
-/* 	productos.forEach(function(producto) {
-		let tarjeta = `
-			<div class="card-producto">
-				<div class="img-container">
-					<img src="${producto.imagen}" alt="${producto.titulo}">
-				</div>
-				<h3>${producto.titulo}</h3>
-				<p class="precio">${producto.precio}</p>
-				<a href="${producto.link}" target="_blank" rel="noopener noreferrer" class="btn-amazon">
-					Ver en Amazon
-				</a>
-			</div>
-		`;
-		$('#contenedor-celulares').append(tarjeta);
-	});
- */
-
 
 	productos.forEach((prod, i) => {
     const li = document.createElement("li");
