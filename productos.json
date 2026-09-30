@@ -1,62 +1,290 @@
 [
     {
+        "titulo": "REDMI Note 17 Pro 5G, Smartphone 12+256GB, Negro, batería de 8340mAh",
+        "link": "https://www.amazon.es/Note-17-Pro-5G-Smartphone/dp/B0H4H7FVVZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-1",
+        "imagen": "https://m.media-amazon.com/images/I/615gMB9zOXL._AC_UL320_.jpg",
+        "precio": "330,51 €"
+    },
+    {
+        "titulo": "REDMI Note 17, Smartphone 6+256GB, Morado Celestial, batería de 7700mAh",
+        "link": "https://www.amazon.es/Note-17-Smartphone-Celestial-bater%C3%ADa/dp/B0H4H83XNV/ref=sr_1_2?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-2",
+        "imagen": "https://m.media-amazon.com/images/I/712BUA3Wl1L._AC_UL320_.jpg",
+        "precio": "198,28 €"
+    },
+    {
         "titulo": "XIAOMI POCO C85 Smartphone de 6+128GB Verde Batería de 6000 mAh",
-        "link": "https://www.amazon.es/XIAOMI-POCO-C85-Smartphone-procesador/dp/B0FHQFFDJ6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-1",
+        "link": "https://www.amazon.es/XIAOMI-POCO-C85-Smartphone-procesador/dp/B0FHQFFDJ6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-3",
         "imagen": "https://m.media-amazon.com/images/I/61A3J8F5uyL._AC_UL320_.jpg",
         "precio": "123,88 €"
     },
     {
         "titulo": "XIAOMI POCO M8 5G Smartphone de 8+512GB Negro Pantalla de 6,77\" 120Hz",
-        "link": "https://www.amazon.es/XIAOMI-POCO-M8-5G-Smartphone/dp/B0G269WF6V/ref=sr_1_2?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-2",
+        "link": "https://www.amazon.es/XIAOMI-POCO-M8-5G-Smartphone/dp/B0G269WF6V/ref=sr_1_4?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-4",
         "imagen": "https://m.media-amazon.com/images/I/71Zks3EGyHL._AC_UL320_.jpg",
-        "precio": "206,60 €"
+        "precio": "272,90 €"
     },
     {
-        "titulo": "XIAOMI POCO C81 Pro Smartphone 4+128 GB Negro Batería de 6000 mAh",
-        "link": "https://www.amazon.es/XIAOMI-C81-Pro-Smartphone-Bater%C3%ADa/dp/B0GVJTRHZH/ref=sr_1_3?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-3",
-        "imagen": "https://m.media-amazon.com/images/I/61UXAfWjpbL._AC_UL320_.jpg",
-        "precio": "90,83 €"
+        "titulo": "Xiaomi REDMI 15C Smartphone de 4+256GB Azul Pantalla de 6,9\" 120 Hz",
+        "link": "https://www.amazon.es/XIAOMI-Redmi-15C-Smartphone-procesador/dp/B0FHBT612T/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-5",
+        "imagen": "https://m.media-amazon.com/images/I/61AlRQbmaZL._AC_UL320_.jpg",
+        "precio": "123,14 €"
     },
     {
-        "titulo": "XIAOMI POCO C81 Pro Smartphone 4+128 GB Verde Batería de 6000 mAh",
-        "link": "https://www.amazon.es/XIAOMI-C81-Pro-Smartphone-Bater%C3%ADa/dp/B0GVJP7GPS/ref=sr_1_4?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-4",
-        "imagen": "https://m.media-amazon.com/images/I/61nlOMYs6ML._AC_UL320_.jpg",
-        "precio": "90,83 €"
+        "titulo": "REDMI Note 17 Pro MAX 5G, Smartphone 8+256GB, Negro, batería de 9210mAh",
+        "link": "https://www.amazon.es/Note-17-Pro-5G-Smartphone/dp/B0H4H6P325/ref=sr_1_6?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-6",
+        "imagen": "https://m.media-amazon.com/images/I/61UCSPXM5qL._AC_UL320_.jpg",
+        "precio": "396,63 €"
     },
     {
-        "titulo": "XIAOMI POCO X8 Pro MAX Smartphone de 12+512GB Negro Batería de 8500mAh",
-        "link": "https://www.amazon.es/XIAOMI-X8-Pro-Smartphone-Bater%C3%ADa/dp/B0GHNTDPBV/ref=sr_1_5?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-5",
-        "imagen": "https://m.media-amazon.com/images/I/61Nr4SATDAL._AC_UL320_.jpg",
-        "precio": "454,54 €"
+        "titulo": "XIAOMI REDMI Note 15 Smartphone de 8+256GB Azul Glaciar batería de 6000 mAh",
+        "link": "https://www.amazon.es/XIAOMI-REDMI-Note-15-Smartphone/dp/B0FX9YCJH9/ref=sr_1_7?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-7",
+        "imagen": "https://m.media-amazon.com/images/I/61KJFvDjJDL._AC_UL320_.jpg",
+        "precio": "189,26 €"
     },
     {
-        "titulo": "XIAOMI POCO M8 Pro 5G Smartphone de 8+256GB Verde Pantalla de 6,83\" 1.5K",
-        "link": "https://www.amazon.es/XIAOMI-POCO-Pro-Smartphone-Hypercharge/dp/B0FZLN6R8D/ref=sr_1_6?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-6",
-        "imagen": "https://m.media-amazon.com/images/I/71SYIg-oCBL._AC_UL320_.jpg",
-        "precio": "256,19 €"
+        "titulo": "Google Pixel 10a - 7 años de Nuevas actualizaciones y Funciones, más de 30 Horas de batería, Asistente de Cámara, Gemini Live, Seguridad de Pixel - Lavanda, 128GB",
+        "link": "https://www.amazon.es/Google-Pixel-10a-actualizaciones-Funciones/dp/B0GGCBQWG4/ref=sr_1_8?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-8",
+        "imagen": "https://m.media-amazon.com/images/I/61Bl1-FWMvL._AC_UL320_.jpg",
+        "precio": "371,07 €"
     },
     {
-        "titulo": "Google Pixel 10a - 7 años de Nuevas actualizaciones y Funciones, más de 30 Horas de batería, Asistente de Cámara, Gemini Live, Seguridad de Pixel - Obsidiana, 128GB",
-        "link": "https://www.amazon.es/Google-Pixel-10a-actualizaciones-Funciones/dp/B0GGCDV1Q1/ref=sr_1_7?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-7",
-        "imagen": "https://m.media-amazon.com/images/I/610ZiBxq7bL._AC_UL320_.jpg",
+        "titulo": "Google Pixel 10a - 7 años de Nuevas actualizaciones y Funciones, más de 30 Horas de batería, Asistente de Cámara, Gemini Live, Seguridad de Pixel - Gris Niebla, 128GB",
+        "link": "https://www.amazon.es/Google-Pixel-10a-actualizaciones-Funciones/dp/B0GGC9FJM7/ref=sr_1_9?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-9",
+        "imagen": "https://m.media-amazon.com/images/I/61MmG8xySYL._AC_UL320_.jpg",
+        "precio": "371,07 €"
+    },
+    {
+        "titulo": "REDMI 17 5G, Smartphone 4+128GB, Negro, batería de 7500mAh, Carga de 45 W",
+        "link": "https://www.amazon.es/17-5G-Smartphone-bater%C3%ADa-7500mAh/dp/B0H7156BS8/ref=sr_1_10?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-10",
+        "imagen": "https://m.media-amazon.com/images/I/613Y69NeryL._AC_UL320_.jpg",
+        "precio": "171,82 €"
+    },
+    {
+        "titulo": "XIAOMI POCO X8 Pro Smartphone de 12+512GB Verde Batería de 6500mAh",
+        "link": "https://www.amazon.es/XIAOMI-X8-Pro-Smartphone-Bater%C3%ADa/dp/B0GHN6K5ZR/ref=sr_1_11?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-11",
+        "imagen": "https://m.media-amazon.com/images/I/61AofQ8Z4gL._AC_UL320_.jpg",
+        "precio": "355,36 €"
+    },
+    {
+        "titulo": "XIAOMI REDMI Note 15 Pro+ 5G - Smartphone de 8+256GB, Pantalla AMOLED 6,83\" 1.5K AMOLED, Snapdragon 7s Gen 4, cámara de 200 MP, Hypercharge 100W, Cargador no Incluido, Negro (Versión ES)",
+        "link": "https://www.amazon.es/XIAOMI-REDMI-15-Pro-5G/dp/B0G3TTPVPS/ref=sr_1_12?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-12",
+        "imagen": "https://m.media-amazon.com/images/I/61wKrFyPlVL._AC_UL320_.jpg",
+        "precio": "406,66 €"
+    },
+    {
+        "titulo": "Samsung Galaxy S26, 256GB, Teléfono Móvil con Galaxy AI, Cámara 50MP, 12GB RAM, Batería 4300mAh, Garantía del Fabricante 3 Años + 1 Año Extra, Color Violeta Cobalto (Versión Española)",
+        "link": "https://www.amazon.es/Samsung-Galaxy-S26-Tel%C3%A9fono-Fabricante/dp/B0G529WCLK/ref=sr_1_13?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-13",
+        "imagen": "https://m.media-amazon.com/images/I/61Qhdb0SM8L._AC_UL320_.jpg",
+        "precio": "660,33 €"
+    },
+    {
+        "titulo": "Samsung Galaxy S26 Ultra, 512GB, Smartphone con Galaxy AI, Cámara 200MP, 12GB RAM, Batería 5000mAh, Garantía del Fabricante 3 Años+1 Año Extra, Color Negro (Versión Española)",
+        "link": "https://www.amazon.es/Samsung-Smartphone-Garant%C3%ADa-Fabricante-Espa%C3%B1ola/dp/B0G4ZNC741/ref=sr_1_14?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-14",
+        "imagen": "https://m.media-amazon.com/images/I/61d9BpWxdyL._AC_UL320_.jpg",
+        "precio": "1.156,20 €"
+    },
+    {
+        "titulo": "OPPO A6x 4G Smartphone Batería 6100mAh 4 GB RAM + 128 GB ROM, Ice Blue",
+        "link": "https://www.amazon.es/OPPO-Smartphone-Bater%C3%ADa-6100mAh-Blue/dp/B0GVJTD27P/ref=sr_1_15?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-15",
+        "imagen": "https://m.media-amazon.com/images/I/61lBFInV8HL._AC_UL320_.jpg",
+        "precio": "114,88 €"
+    },
+    {
+        "titulo": "Samsung Galaxy A37 5G, 256GB, Móvil Fino con IA, 8GB, Gran Angular 50MP, Autonomía 2 Días, Batería 5000 mAh, IP68, Garantía del Fabricante 3 Años + 1 Año Extra, Color Gris (Versión Española)",
+        "link": "https://www.amazon.es/Samsung-5G-Autonom%C3%ADa-Garant%C3%ADa-Fabricante/dp/B0GNNCCQY3/ref=sr_1_16?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-16",
+        "imagen": "https://m.media-amazon.com/images/I/61KeAkKtPdL._AC_UL320_.jpg",
         "precio": "329,75 €"
     },
     {
-        "titulo": "Teléfono económico, Pantalla de 5,0 Pulgadas, 16GB Ampliable hasta 128GB, Doble SIM Desbloqueado, Doble cámara, WiFi/Bluetooth/ID Facial. Teléfono básico (Black)",
-        "link": "https://www.amazon.es/LatsYrs-econ%C3%B3mico-Ampliable-Desbloqueado-Bluetooth/dp/B0GHNRZ8H7/ref=sr_1_8?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-8",
-        "imagen": "https://m.media-amazon.com/images/I/71UZivaeIAL._AC_UL320_.jpg",
-        "precio": "Consultar precio"
+        "titulo": "XIAOMI Redmi 15C - Smartphone de 4+128GB, Cámara Dual con IA de 50 MP, Pantalla inmersiva de 6,9\" 120 Hz, Potente procesador octacore, Carga rápida de 33W, Cargador no Incluido, Naranja (Versión ES)",
+        "link": "https://www.amazon.es/XIAOMI-Redmi-15C-Smartphone-procesador/dp/B0FJM9NFLW/ref=sr_1_17?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-17",
+        "imagen": "https://m.media-amazon.com/images/I/71iJYS9Qq3L._AC_UL320_.jpg",
+        "precio": "129,69 €"
     },
     {
-        "titulo": "Samsung Galaxy S25 FE 512GB, Teléfono Móvil con IA, Marco Ligero 7,5mm, Pantalla FHD+ 6,7\", Cámara 50MP, Exynos 2400, 8GB RAM, Garantía Fabricante 3 Años+1 Año Extra, Negro Intenso (Versión Española)",
-        "link": "https://www.amazon.es/Samsung-Tel%C3%A9fono-Pantalla-Garant%C3%ADa-Fabricante/dp/B0FLDLRG94/ref=sr_1_9?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-9",
-        "imagen": "https://m.media-amazon.com/images/I/61sv4LuA8HL._AC_UL320_.jpg",
-        "precio": "577,69 €"
+        "titulo": "OPPO A6x 5G Smartphone 4+128GB, 6,75\" 120Hz, 6100mAh, D6300, IP64 Ice Blue",
+        "link": "https://www.amazon.es/OPPO-Smartphone-128GB-120Hz-6100mAh/dp/B0GVJK2NVQ/ref=sr_1_18?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-18",
+        "imagen": "https://m.media-amazon.com/images/I/61lBFInV8HL._AC_UL320_.jpg",
+        "precio": "147,93 €"
+    },
+    {
+        "titulo": "XIAOMI 17 Smartphone de 12+512GB Negro Lentes óptica Leica Summilux",
+        "link": "https://www.amazon.es/XIAOMI-17-Smartphone-Summilux-Snapdragon/dp/B0G4BZMPMS/ref=sr_1_19?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-19",
+        "imagen": "https://m.media-amazon.com/images/I/61DuJ6yKGLL._AC_UL320_.jpg",
+        "precio": "661,15 €"
+    },
+    {
+        "titulo": "Samsung Galaxy A27 5G 128GB Teléfono Móvi con IA, Negro, Garantía 3+1 Años",
+        "link": "https://www.amazon.es/Samsung-Galaxy-128GB-Tel%C3%A9fono-Garant%C3%ADa/dp/B0GZHR7553/ref=sr_1_20?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-20",
+        "imagen": "https://m.media-amazon.com/images/I/61veHCKdmiL._AC_UL320_.jpg",
+        "precio": "239,66 €"
     },
     {
         "titulo": "OPPO Smartphone A6k 4GB+256GB, Cámara 50MP, Batería 6100 mAh",
-        "link": "https://www.amazon.es/OPPO-A6k-4G-Smartphone-Pantalla/dp/B0GC5XDX6W/ref=sr_1_10?dib=eyJ2IjoiMSJ9.y1OgTdNE2JlSSjB8dePrRcCJvhlnpbbUSqDWALoKswx65ohoI3D4eOWWpoUNemlMe3RRIHdrUXKSAGOhFx79K0LuiXVv_fuLPuPPvXK7M2ZjYRuWjAV7tBoqksCaI8e0-8uhchKnNscpDrJJ117hBWcyW2W0yI3xjroKgjIkANQuBXFkLYn6uiufyp_OWTmprfRjDYnhsgUvQQ0-CXEgEsNo8ZzOgN0wWRDZT4KlEJud-sgjYtzYY-Rk1fpxga7ROlsWpxShN8lNvoiTM4mcomf3wUKjTiA3cbSfZNy47xY.AZLJw2EMSpckTfU33U5QYlJeAxSlU_3oCxV0eUkpkv8&dib_tag=se&keywords=cell+phone&qid=1790567511&sr=8-10",
+        "link": "https://www.amazon.es/OPPO-A6k-4G-Smartphone-Pantalla/dp/B0GC5XDX6W/ref=sr_1_21?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-21",
         "imagen": "https://m.media-amazon.com/images/I/51OzTiJanUL._AC_UL320_.jpg",
-        "precio": "145,17 €"
+        "precio": "134,99 €"
+    },
+    {
+        "titulo": "realme C71 Smartphone 8GB RAM + 256GB ROM, 6.67\" 120Hz Pantalla, Teléfono Móvil con Batería de 6000mAh y Carga Rápida de 45W, AI 50MP Cámara, Dual SIM, Huellas Lateral, NFC y Next Ai, Verde",
+        "link": "https://www.amazon.es/realme-C71-Smartphone-Pantalla-Tel%C3%A9fono/dp/B0H33R16QD/ref=sr_1_22?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-22",
+        "imagen": "https://m.media-amazon.com/images/I/715eqs5wlsL._AC_UL320_.jpg",
+        "precio": "Consultar precio"
+    },
+    {
+        "titulo": "realme 16 Pro+ 5G Smartphone, 8GB+256GB, Pantalla Curva AMOLED 144Hz 6,8\", Batería 7000mAh, Cámara 200MP OIS, IP69K, Carga Rápida 80W, Dual SIM, Next AI, Oro (con Adaptador)Garanzia standard di 3 anni",
+        "link": "https://www.amazon.es/realme-Smartphone-Pantalla-Bater%C3%ADa-Adaptador/dp/B0G6YWLFQ4/ref=sr_1_23?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-23",
+        "imagen": "https://m.media-amazon.com/images/I/71GzNYxF1qL._AC_UL320_.jpg",
+        "precio": "329,75 €"
+    },
+    {
+        "titulo": "REDMI 17 5G, Smartphone 4+256GB, Azul, batería de 7500mAh, Carga de 45 W",
+        "link": "https://www.amazon.es/17-5G-Smartphone-bater%C3%ADa-7500mAh/dp/B0H711ZWF6/ref=sr_1_24?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-24",
+        "imagen": "https://m.media-amazon.com/images/I/61iSlLVqWrL._AC_UL320_.jpg",
+        "precio": "204,88 €"
+    },
+    {
+        "titulo": "XIAOMI POCO M7 - Smartphone de 6+128GB, Cámara Dual de 50MP con AI, Pantalla inmersiva de 6,9” FHD+, Snapdragon 685, Carga rápida de 33W y Reversible de 18W, Cargador no Incluido, Negro (Versión ES)",
+        "link": "https://www.amazon.es/XIAOMI-POCO-Smartphone-Snapdragon-Reversible/dp/B0FFH3Q13P/ref=sr_1_25?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-25",
+        "imagen": "https://m.media-amazon.com/images/I/51rXhSr+IFL._AC_UL320_.jpg",
+        "precio": "140,41 €"
+    },
+    {
+        "titulo": "XIAOMI 17T Smartphone de 12+256GB Negro Teleobjetivo Leica 5X",
+        "link": "https://www.amazon.es/XIAOMI-17T-Smartphone-256GB-Teleobjetivo/dp/B0GS6C6FP1/ref=sr_1_26?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-26",
+        "imagen": "https://m.media-amazon.com/images/I/71oxjrA4BtL._AC_UL320_.jpg",
+        "precio": "536,36 €"
+    },
+    {
+        "titulo": "Samsung Galaxy A17 LTE 128GB - Teléfono Móvil con IA, Android, con Pantalla Grande, Cámara 50MP, 4GB RAM, Batería 5000mAh, Negro, Garantía del Fabricante 3 Años + 1 Año Extra (Versión Española)",
+        "link": "https://www.amazon.es/Samsung-Galaxy-A17-LTE-128GB/dp/B0FPX8423R/ref=sr_1_27?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-27",
+        "imagen": "https://m.media-amazon.com/images/I/61degN4o6DL._AC_UL320_.jpg",
+        "precio": "197,52 €"
+    },
+    {
+        "titulo": "Blackview Telefono Movil Baratos Buenos Android 16, 16+64GB/2TB TF Celulares, 32MP+13MP, 6.56\", Smartphone Libres Oferta 5000mAh/3.5mm/WiFi 5G/Face ID/3 Ranuras para SIM,3 Años de Garantía",
+        "link": "https://www.amazon.es/Blackview-Telefono-Celulares-Smartphone-Garant%C3%ADa/dp/B0H9M1RB1X/ref=sr_1_28?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-28",
+        "imagen": "https://m.media-amazon.com/images/I/718wB9ysO0L._AC_UL320_.jpg",
+        "precio": "104,41 €"
+    },
+    {
+        "titulo": "Smartphone realme P4X 4G, 4GB+256GB, Pantalla LCD 120Hz 6,8\", Batería Titan 7500mAh, Carga rápida 45W, Carga inversa 6W, Antichoque MIL-STD 810H, IP64, Sistema Next IA, Blanco Rally (Sin Cargador)",
+        "link": "https://www.amazon.es/Smartphone-realme-Pantalla-Antichoque-Cargador/dp/B0GY4JQKDJ/ref=sr_1_29?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-29",
+        "imagen": "https://m.media-amazon.com/images/I/71YSVWP55AL._AC_UL320_.jpg",
+        "precio": "223,13 €"
+    },
+    {
+        "titulo": "Moto g86 5G 24GB (8GB+16GB RAM Boost)/256GB Cosmic Sky, Pantalla ultrabrillante Super HD (1220p) de 6,67” + Dolby Atmos®, cámara Sony LYTIA™ 600 de 50 MP, 5100 mAh y Carga TurboPower™ de 30W",
+        "link": "https://www.amazon.es/Moto-g86-5G-ultrabrillante-TurboPowerTM/dp/B0GLHXFL5N/ref=sr_1_30?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-30",
+        "imagen": "https://m.media-amazon.com/images/I/81Dns0hqMfL._AC_UL320_.jpg",
+        "precio": "230,58 €"
+    },
+    {
+        "titulo": "Nothing Phone (4b), Smartphone Android, Pantalla AMOLED de 6,77\" y 120 Hz",
+        "link": "https://www.amazon.es/Nothing-Smartphone-Android-Pantalla-AMOLED/dp/B0H36MJL1V/ref=sr_1_31?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-31",
+        "imagen": "https://m.media-amazon.com/images/I/71irsQfSUiL._AC_UL320_.jpg",
+        "precio": "271,90 €"
+    },
+    {
+        "titulo": "vivo V70 FE 5G Móvil 8+256GB Cámara 200MP OIS Pantalla 1,5K 5250mAh",
+        "link": "https://www.amazon.es/vivo-M%C3%B3vil-C%C3%A1mara-Pantalla-5250mAh/dp/B0GRHV8WC8/ref=sr_1_32?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-32",
+        "imagen": "https://m.media-amazon.com/images/I/71bOQos1wVL._AC_UL320_.jpg",
+        "precio": "313,22 €"
+    },
+    {
+        "titulo": "XIAOMI POCO F8 Pro Smartphone de 12+256GB Negro Hypercharge 100W",
+        "link": "https://www.amazon.es/XIAOMI-POCO-F8-Pro-Hypercharge/dp/B0FT3XVPX2/ref=sr_1_33?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-33",
+        "imagen": "https://m.media-amazon.com/images/I/61K2CS3nmDL._AC_UL320_.jpg",
+        "precio": "503,31 €"
+    },
+    {
+        "titulo": "Samsung Galaxy A57 5G, 256GB, Móvil Fino con IA, 8GB, Gran Angular 50MP, Autonomía 2 Días, Batería 5000mAh, IP68, Garantía del Fabricante 3 Años + 1 Año Extra, Color Azul Oscuro (Versión Española)",
+        "link": "https://www.amazon.es/Samsung-Autonom%C3%ADa-Garant%C3%ADa-Fabricante-Espa%C3%B1ola/dp/B0GNNTX269/ref=sr_1_34?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-34",
+        "imagen": "https://m.media-amazon.com/images/I/61tQzecadhL._AC_UL320_.jpg",
+        "precio": "503,31 €"
+    },
+    {
+        "titulo": "Moto g56 5G 24GB (8GB+16GB RAM Boost)/256GB Gris, Durabilidad Militar, IP68/69, Corning Gorilla® Glass 7i, Pantalla 6.72\" Full HD+, Cámara 50 MP con Moto ai, Batería 5200 mAh,Carga TurboPower 30W",
+        "link": "https://www.amazon.es/Durabilidad-Militar-Gorilla%C2%AE-Pantalla-TurboPower/dp/B0FRB29D3B/ref=sr_1_35?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-35",
+        "imagen": "https://m.media-amazon.com/images/I/81swGcbn+pL._AC_UL320_.jpg",
+        "precio": "205,79 €"
+    },
+    {
+        "titulo": "Google Pixel 11 Pro – Smartphone Android Libre - Obsidiana, 256GB",
+        "link": "https://www.amazon.es/Google-Pixel-Pro-Smartphone-Obsidiana/dp/B0H62T8RPM/ref=sr_1_36?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-36",
+        "imagen": "https://m.media-amazon.com/images/I/81DYYhy4l5L._AC_UL320_.jpg",
+        "precio": "990,91 €"
+    },
+    {
+        "titulo": "Smartphone Samsung A17 Black 6,7\" 75\" Mediatek Dimensity 6100+ 4 GB RAM 128 GB Nero",
+        "link": "https://www.amazon.es/SAMSUNG-Galaxy-128GB-Black-Android/dp/B0G2RNLXZ1/ref=sr_1_37?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-37",
+        "imagen": "https://m.media-amazon.com/images/I/51-cobzbsAL._AC_UL320_.jpg",
+        "precio": "Consultar precio"
+    },
+    {
+        "titulo": "Motorola Moto g77 Pantone Shade Spruce 8GB RAM 256GB Almacenamiento Sony LYTIA 108MP 6.78\" FHD+ AMOLED 5200mAh Dimensity 6400 5G",
+        "link": "https://www.amazon.es/Motorola-Moto-Pantone-Almacenamiento-Dimensity/dp/B0GSGJBTNT/ref=sr_1_38?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-38",
+        "imagen": "https://m.media-amazon.com/images/I/81DkHzGyGiL._AC_UL320_.jpg",
+        "precio": "205,79 €"
+    },
+    {
+        "titulo": "OPPO A6 Pro 5G Smartphone Libre, 6.57 Pulgadas AMOLED 120Hz, 7000 mAh Batería, 80W SUPERVOOC, 256 GB, 8 GB RAM, 50MP Cámara, IP69 Resistente al Agua, Titanium",
+        "link": "https://www.amazon.es/OPPO-Smartphone-Pulgadas-SUPERVOOC-Resistente/dp/B0GVK3PKW1/ref=sr_1_39?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-39",
+        "imagen": "https://m.media-amazon.com/images/I/615gPc3pAgL._AC_UL320_.jpg",
+        "precio": "247,11 €"
+    },
+    {
+        "titulo": "Smartphone Motorola Moto G86 PB7L0086SE 256 GB 8 GB RAM 16,9 cm (6,67\") 5G Cámara 50 MP OIS Cristales Swarovski Brilla sin límites IP68 MIL-STD- 810h Azul",
+        "link": "https://www.amazon.es/Smartphone-Motorola-PB7L0086SE-Cristales-Swarovski/dp/B0F7RTGCKM/ref=sr_1_40?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-40",
+        "imagen": "https://m.media-amazon.com/images/I/710wPo2UbkL._AC_UL320_.jpg",
+        "precio": "Consultar precio"
+    },
+    {
+        "titulo": "DOOGE E Fire 5 Ultra Android 15 - Teléfono móvil para Exteriores sin Contrato, 32 GB de RAM, 256 GB de ROM (2 TB) 1200 LM Dual, 13000 mAh Mobile Phone 6.6 Pulgadas, 48 MP + 8 MP Outdoor Smartphone",
+        "link": "https://www.amazon.es/DOOGE-Fire-Ultra-Android-Exteriores/dp/B0FPQHMNT3/ref=sr_1_41?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-41",
+        "imagen": "https://m.media-amazon.com/images/I/61pYgS2HSRL._AC_UL320_.jpg",
+        "precio": "124,69 €"
+    },
+    {
+        "titulo": "Sony Xperia 10 VIII | Smartphone Ligero con una Gran autonomía",
+        "link": "https://www.amazon.es/Sony-Xperia-10-VIII-Smartphone/dp/B0HDTPHYF8/ref=sr_1_42?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-42",
+        "imagen": "https://m.media-amazon.com/images/I/61fEPBWVQmL._AC_UL320_.jpg",
+        "precio": "495,04 €"
+    },
+    {
+        "titulo": "ZTE Nubia Neo 5 GT 5G, Smartphone Gaming con IA, 12GB+256GB, Gatillos Laterales, Ventilador físico Incorporado, Pantalla AMOLED 6,8\" 1.5K 144Hz, 6210mAh Doble celda, Android 16, Negro (Phantom Black)",
+        "link": "https://www.amazon.es/Smartphone-Gatillos-Laterales-Ventilador-Incorporado/dp/B0GWZDJ8RZ/ref=sr_1_43?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-43",
+        "imagen": "https://m.media-amazon.com/images/I/81MJmRz1V5L._AC_UL320_.jpg",
+        "precio": "329,75 €"
+    },
+    {
+        "titulo": "realme C100 5G Smartphone, 4GB+128GB, Pantalla LCD 144Hz 6,5\", Batería 6600mAh, Cámara 50MP IA, IP64, Carga Rápida 45W, Dual SIM, AI Boost, Verde (Sin Adaptador) Garanzia Standard di 3 Anni",
+        "link": "https://www.amazon.es/realme-Smartphone-Pantalla-Bater%C3%ADa-Adaptador/dp/B0GN8MMYRZ/ref=sr_1_44?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-44",
+        "imagen": "https://m.media-amazon.com/images/I/71I7LIyZ0xL._AC_UL320_.jpg",
+        "precio": "155,59 €"
+    },
+    {
+        "titulo": "Samsung Galaxy A56 5G 256GB, Teléfono Móvil, 8GB RAM, 50MP Cámara, Negro, Garantía del Fabricante 3 Años + 1 Año Extra",
+        "link": "https://www.amazon.es/Samsung-Galaxy-Tel%C3%A9fono-Garant%C3%ADa-Fabricante/dp/B0DWFZ7JCG/ref=sr_1_45?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-45",
+        "imagen": "https://m.media-amazon.com/images/I/61kUvZHxnDL._AC_UL320_.jpg",
+        "precio": "437,19 €"
+    },
+    {
+        "titulo": "Poco C85 4G Smartphone, 8 GB + 256 GB, Negro, 6.9\" Dot Drop Display, cámara de 50 MP, batería de 6000 mAh, 33 W, procesador MediaTek Helio G81-Ultra Octa-Core, hasta 120 Hz, cargador incluido",
+        "link": "https://www.amazon.es/C85-Smartphone-pulgadas-G81-Ultra-processorOcta-Core/dp/B0FSKC77B8/ref=sr_1_46?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-46",
+        "imagen": "https://m.media-amazon.com/images/I/51lagHmMpjL._AC_UL320_.jpg",
+        "precio": "Consultar precio"
+    },
+    {
+        "titulo": "Samsung Galaxy A27 A276 5G Dual Sim 6GB RAM 128GB - Black (SM-A276BZKBEUE)",
+        "link": "https://www.amazon.es/Samsung-Galaxy-A276-Dual-128GB/dp/B0H7WY5F6F/ref=sr_1_47?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-47",
+        "imagen": "https://m.media-amazon.com/images/I/51mqpbTrw4L._AC_UL320_.jpg",
+        "precio": "263,64 €"
+    },
+    {
+        "titulo": "Samsung Galaxy Z Fold8 Ultra, 256 GB, Teléfono Móvil, Grafito",
+        "link": "https://www.amazon.es/Samsung-Galaxy-Fold8-Ultra-Tel%C3%A9fono/dp/B0H2W1B1M2/ref=sr_1_48?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-48",
+        "imagen": "https://m.media-amazon.com/images/I/61dO1jsKoLL._AC_UL320_.jpg",
+        "precio": "1.590,91 €"
     }
 ]
