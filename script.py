@@ -16,7 +16,7 @@ def obtener_celulares():
 
     for pagina in range(1, PAGINAS_A_RECORRER + 1):
         # Añadimos el parámetro &page= para recorrer varias páginas
-        url = f"https://www.amazon.com/s?k=cell+phones&page={pagina}"
+        url = f"https://www.amazon.es/s?k=smartphones&page={pagina}"
         
         try:
             req = urllib.request.Request(url, headers=headers)
@@ -36,7 +36,7 @@ def obtener_celulares():
                 
                 # Enlace
                 link_elem = item.find('a', class_='a-link-normal')
-                link = "https://www.amazon.com" + link_elem['href'] if link_elem and 'href' in link_elem.attrs else "#"
+                link = "https://www.amazon.es" + link_elem['href'] if link_elem and 'href' in link_elem.attrs else "#"
                 
                 # Imagen
                 img_elem = item.find('img', class_='s-image')
@@ -66,8 +66,8 @@ def obtener_celulares():
     if not productos:
         productos = [{
             "titulo": "Ver todos los celulares en Amazon",
-            "link": "https://www.amazon.com/s?k=cell+phones",
-            "imagen": "https://via.placeholder.com/150",
+            "link": "https://www.amazon.es/s?k=smartphones",
+            "imagen": "https://via.placeholder.es/150",
             "precio": "Ver ofertas"
         }]
 
