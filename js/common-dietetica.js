@@ -5,7 +5,7 @@ const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]
 	
 	
 	
-const textoQuienesSomos = `El Chango de Ale se encarga de ofrecer al público la venta de productos cotidianos, hasta la llegada a su destino, sin moverse de su casa, fundada y gestionada por Alejandro D. Rimoli`;
+const textoQuienesSomos = `El Mercadito del Mundo se encarga de ofrecer al público la venta de productos cotidianos, hasta la llegada a su destino, sin moverse de su casa, fundada y gestionada por Alejandro D. Rimoli`;
 
     // Aplicar como title (tooltip)
     const btnQuienesSomos = document.getElementById("InfoQuienesSomos-Barra");

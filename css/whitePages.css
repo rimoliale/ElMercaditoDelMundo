@@ -11,8 +11,8 @@
   }
   
   .filters a:hover {
-    background: #82441e !important;
-    color: white !important;
+    background: white !important;
+    color: #87CEFF!important;
 }
 
 a, .page-title{
@@ -42,8 +42,8 @@ span.woocommerce-Price-amount.amount{
    background-color:black !important;
   }
   .sub-titulos{
-  background: #f4c183;
-  color: #82441e;
+  background: #87CEFF;
+  color: white;
 }
   
 @media (max-width: 768px) {

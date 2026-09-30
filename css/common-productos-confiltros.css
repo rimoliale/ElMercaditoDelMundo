@@ -22,15 +22,25 @@ body:has(div#secondary) div#primary {
 
 
 
-  .sidebar-head{
+  .sidebar-head-left{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	font-size: small;
   }
+
+   .sidebar-head-right{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	font-size: small;
+  position:relative; 
+  color:black; 
+  justify-content: end;
+  }
+
     input#checkedDeseleccionar{
 	align-items: flex-start !important;
     justify-content: top !important;
-	transform: scale(1.5) !important;
+	transform: scale(1.2) !important;
 	top: 0vh;
   }
   
