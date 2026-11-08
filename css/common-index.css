@@ -42,7 +42,7 @@
 
 .woocommerce ul.products li.product .ast-woo-product-category, .woocommerce-page ul.products li.product .ast-woo-product-category {
     height: 40vh;
-    font-size: 2.1vh;
+    font-size: 1.9vh;
     margin-top: auto;
     display: block;
     /* line-height: 0.3; */
@@ -72,6 +72,10 @@
     align-items: flex-start;
     width: 100%;
   }
+
+  .woocommerce ul.products li.product .astra-shop-summary-wrap, .woocommerce-page ul.products li.product .astra-shop-summary-wrap {
+    height: 27vh;
+}
 
   .woocommerce-page[class*=columns-] ul.products li.product:nth-child(n), .woocommerce[class*=columns-] ul.products li.product:nth-child(n) {
     text-align: center;

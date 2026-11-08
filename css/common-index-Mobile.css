@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
 }
 
 .woocommerce ul.products li.product .astra-shop-thumbnail-wrap, .woocommerce-page ul.products li.product .astra-shop-thumbnail-wrap {
@@ -23,12 +24,10 @@
 }
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
-    float: left;
-    margin: 0vh 1vh 3vh 1vh;
+    margin: 0vh 2vh 10vh 2vh;
     padding: 0;
     position: relative;
     width: 22.05%;
-    margin-left: 0;
 }
 
  .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="buttons"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="navigation"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="sso-options"] li a{
