@@ -39,13 +39,17 @@ span.woocommerce-Price-amount.amount{
 
 .woocommerce.archive ul.products li a.button{
    color: white !important;
-   background-color:black !important;
+   background-color:#87CEFF !important;
   }
   .sub-titulos{
   background: #87CEFF;
   color: white;
 }
-  
+
+.a-ember-1-0-0 body {
+  font-family: "Amazon Ember",Arial,sans-serif;
+}
+
 @media (max-width: 768px) {
 
 #alg_wc_msrp > span.woocommerce-Price-amount.amount >bdi{

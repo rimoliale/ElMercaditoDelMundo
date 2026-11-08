@@ -130,8 +130,6 @@ const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]
     // Aplicar como contenido de <p>
     const parrafoContacto = document.getElementById("contenidoContacto");
     parrafoContacto.innerText = textoContacto;
-
-  
   
 setTimeout(() => {
   const toggle = document.getElementById("menu-toggle");

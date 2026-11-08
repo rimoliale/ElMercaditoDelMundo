@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+#home-slider {
+    overflow: hidden;
+    position: relative;
+    height: 35vh;
+}
+
+.slider-img {
+    justify-self: center;
+    width: auto;
+    height: 35vh !important;
+}
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+#home-slider {
+    overflow: hidden;
+    position: relative;
+    height: 35vh;
+}
+
+.slider-img {
+    justify-self: center;
+    width: auto;
+    height: 35vh !important;
+    display: block !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+}
+
+}

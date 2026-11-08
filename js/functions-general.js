@@ -7,7 +7,6 @@
 
 //.sidebar-main
 
-
 function tryLoadScript(url) {
   fetch(url)
     .then(resp => {
