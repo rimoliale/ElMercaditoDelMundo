@@ -24,7 +24,7 @@
 }
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
-    margin: 0vh 2vh 10vh 2vh;
+    margin: 0vh 1vh 15vh 1vh;
     padding: 0;
     position: relative;
     width: 22.05%;

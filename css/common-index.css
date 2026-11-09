@@ -61,6 +61,11 @@
 }
 
 
+.ast-site-header-cart .cart-container * {
+    transition: all 0s linear;
+    color: #000;
+    height: 4vh;
+}
 
 @media (min-width: 768px) {
       /* 🔥 Forzar el contenedor principal en horizontal */

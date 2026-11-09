@@ -1,13 +1,60 @@
-// document.querySelector('.add_to_cart_button').addEventListener('click', function(e) {
+
   // // lógica de agregar al carrito
-  // $("#CantidadACarrito").text(parseInt($("#CantidadACarrito").text()) + 1);
-  
-  
-// });
+document.querySelector('.add_to_cart_button').addEventListener('click', function(e) {
+		$(".ast-count-text").text(parseInt($(".ast-count-text").text()) + 1);
+});
 
-//.sidebar-main
 
-function tryLoadScript(url) {
+//AGREGAR A CARRITO
+ $('.add_to_cart_button').on('click', function (e) {
+	  // //alert('prueba');
+     e.preventDefault();
+
+     // Contenedor del producto actual
+     var $product = $(this).closest('li');
+
+     // Tomar el variation_id del input oculto
+     var variationId = $product.find('input.variation_id').val();
+
+     // Tomar el precio que está dentro del producto actual
+     var priceActual = $product.find('.price bdi').first().text().replace('$', '').replace('.', '').replace(',', '.');
+
+	
+     //console.log('Producto:', variationId);
+     //console.log('Precio:', price);;
+
+	
+
+	
+	let priceActiualFormated = parseFloat(priceActual);
+	let AccumulatedPriceItems = parseFloat($("#AccumulatedPriceItems").text());
+	let priceActuaaAcumulatedFormated = AccumulatedPriceItems + priceActiualFormated;
+
+
+	$(".ast-count-text").text(parseInt($(".ast-count-text").text()) + 1);
+	
+	if($("#AccumulatedPriceItems").text() == "$")
+	{// let resultFormated = priceFormated.toFixed(1);// $("#AccumulatedPriceItems").text(resultFormated);
+	}
+	else
+	{// let CarritoFormated = parseFloat($("#AccumulatedPriceItems").text());// let result = CarritoFormated + priceFormated;// let resultFormated = result.toFixed(1);// $("#AccumulatedPriceItems").text(resultFormated);
+	}
+	
+	$("#AccumulatedPriceItems").text(priceActuaaAcumulatedFormated);
+	
+	
+	
+    // Acá podrías llamar a tu función para agregar al carrito, ejemplo:
+    //agregarAlCarrito(variationId, price);
+});
+  // // lógica de agregar al carrito
+
+
+
+
+
+
+  function tryLoadScript(url) {
   fetch(url)
     .then(resp => {
       if (resp.ok) {
@@ -31,10 +78,6 @@ function tryLoadStylesheet(url) {
     })
     .catch(() => {}); // Silencia error
 }
-
-
-//woocommerce-result-count
-
 
 
 
@@ -240,61 +283,6 @@ $("#checkedDeseleccionar").on("change", function () {
 
 	$("#search").val('')	
 });
-
-	function soloParaComentar() 
-	{
-
-
-//AGREGAR A CARRITO
-  // $('.add_to_cart_button').on('click', function (e) {
-	  // //alert('prueba');
-    // e.preventDefault();
-
-    // // Contenedor del producto actual
-    // var $product = $(this).closest('li');
-
-    // // Tomar el variation_id del input oculto
-    // var variationId = $product.find('input.variation_id').val();
-
-    // // Tomar el precio que está dentro del producto actual
-    // var price = $product.find('.price bdi').first().text().replace('$', '').replace('.', '').replace(',', '.');
-
-	
-    // //console.log('Producto:', variationId);
-    // //console.log('Precio:', price);;
-
-	
-
-	
-	// let priceFormated = parseFloat(price);
-	
-
-	// $("#CantidadACarrito").text(parseInt($("#CantidadACarrito").text()) + 1);
-	
-	// if($("#AccumulatedPriceItems").text() == "$")
-	// {
-		// let resultFormated = priceFormated.toFixed(1);
-		
-		// $("#AccumulatedPriceItems").text(resultFormated);
-	// }
-	// else
-	// {
-		// let CarritoFormated = parseFloat($("#AccumulatedPriceItems").text());
-		// let result = CarritoFormated + priceFormated;
-		// let resultFormated = result.toFixed(1);
-		
-		// $("#AccumulatedPriceItems").text(resultFormated);
-		
-	// }
-	
-	// //$("#AccumulatedPriceItems").text(numero);
-	
-	
-	
-    // // Acá podrías llamar a tu función para agregar al carrito, ejemplo:
-    // // agregarAlCarrito(variationId, price);
-    // });
-	}
 
 
 function BuscadorProductos(intentos = 0) {
