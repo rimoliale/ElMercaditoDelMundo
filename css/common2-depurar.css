@@ -1977,20 +1977,7 @@ div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
 }
 
 :root{--ag-background-color: rgba(0,0,0,1);--ag-background-image-position: center center;--ag-background-image-opacity: 1;--ag-form-background: rgba(255,255,255,1);--ag-text-color: #000000;--ag-blur: 5px;}
-    .woocommerce-js a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit {
-						font-size: 100%;
-						line-height: 1;
-						text-decoration: none;
-						overflow: visible;
-						padding: 0.5em 0.75em;
-						font-weight: 700;
-						border-radius: 3px;
-					}
-					.woocommerce-js a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit:hover {
-						background-color: #dad8da;
-						background-image: none;
-						color: #515151;
-					}
+
 				
 						.woocommerce ul.products li.product.desktop-align-center .star-rating,
 						.woocommerce-page ul.products li.product.desktop-align-center .star-rating {

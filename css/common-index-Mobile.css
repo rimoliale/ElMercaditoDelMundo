@@ -10,7 +10,7 @@
 .woocommerce-page[class*=columns-] ul.products li.product:nth-child(n), .woocommerce[class*=columns-] ul.products li.product:nth-child(n) {
     flex: 0 0 42%;
     box-sizing: border-box;
-    width: 100% !important;
+    width: 1vw !important;
     padding: 0% !important;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
 img {
     width: 112vh;
     max-width: stretch !important;
-    max-height: stretch !important;
+    max-height: stretch;
     vertical-align: middle;
     border-style: none;
 }
@@ -116,4 +116,17 @@ font-size: 2.2vh;
 .ast-left-sidebar #content>.ast-container {
     display: contents;
 }
+
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+  float: left;
+}
+
+.product-img{
+	max-height: 24vh !important;
+    width: 20vh !important;
+}
+
 }

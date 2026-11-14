@@ -6,9 +6,6 @@
 .site-content{
   background-color: #000000 !important;
 }
-.woocommerce.archive ul.products li a.button{
-  color: #000000 !important;
-}
 
 
 </style>
@@ -468,7 +465,7 @@ function gtag(){}gtag('js', new Date());
     li.innerHTML = `
       <div class="astra-shop-thumbnail-wrap">
         <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-          <img src="${imagen}" alt="${tituloRemasted}">
+          <img class="product-img" src="${imagen}" alt="${tituloRemasted}">
         </a>
       </div>
       <input type="hidden" class="wpmProductId" data-id="10000">

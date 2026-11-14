@@ -1,0 +1,16 @@
+.woocommerce-js a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit{
+   color: white;
+   background-color:#87CEFF;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 50px; 
+   font-weight: bold;
+}
+
+  .woocommerce-js a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit:hover {
+    background-color: #dad8da;
+    background-image: none;
+    color: #87CEFF;
+    font-weight: bold;
+}
