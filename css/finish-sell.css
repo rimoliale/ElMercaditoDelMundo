@@ -1,0 +1,194 @@
+ 
+ .checkout, .woocommerce-checkout{
+    flex-direction: row;
+    display: flex;
+ }
+
+
+ /* PARA CHECKEAR, ESTABA EN INDEX */
+     .price {
+        color: #fff !important;
+    }
+
+    .site-content {
+        background-color: #000000 !important;
+    }
+
+    .woocommerce.archive ul.products li a.button {
+        color: #000000 !important;
+    }
+
+
+        .dgwt-wcas-ico-magnifier,
+        .dgwt-wcas-ico-magnifier-handler {
+            max-width: 20px
+        }
+
+        .dgwt-wcas-search-wrapp {
+            max-width: 600px
+        }
+
+        .wpc-orderby-select {
+            width: 100%
+        }
+
+        .wpc-filters-open-button-container {
+            display: none
+        }
+
+        .wpc-debug-message {
+            padding: 16px;
+            font-size: 14px;
+            border: 1px dashed #ccc;
+            margin-bottom: 20px
+        }
+
+        .wpc-debug-title {
+            visibility: hidden
+        }
+
+        .wpc-button-inner,
+        .wpc-chip-content {
+            display: flex;
+            align-items: center
+        }
+
+        .wpc-icon-html-wrapper {
+            position: relative;
+            margin-right: 10px;
+            top: 2px
+        }
+
+        .wpc-icon-html-wrapper span {
+            display: block;
+            height: 1px;
+            width: 18px;
+            border-radius: 3px;
+            background: #2c2d33;
+            margin-bottom: 4px;
+            position: relative
+        }
+
+        span.wpc-icon-line-1:after,
+        span.wpc-icon-line-2:after,
+        span.wpc-icon-line-3:after {
+            content: "";
+            display: block;
+            width: 3px;
+            height: 3px;
+            border: 1px solid #2c2d33;
+            background-color: #fff;
+            position: absolute;
+            top: -2px;
+            box-sizing: content-box
+        }
+
+        span.wpc-icon-line-3:after {
+            border-radius: 50%;
+            left: 2px
+        }
+
+        span.wpc-icon-line-1:after {
+            border-radius: 50%;
+            left: 5px
+        }
+
+        span.wpc-icon-line-2:after {
+            border-radius: 50%;
+            left: 12px
+        }
+
+        body .wpc-filters-open-button-container a.wpc-filters-open-widget,
+        body .wpc-filters-open-button-container a.wpc-open-close-filters-button {
+            display: inline-block;
+            text-align: left;
+            border: 1px solid #2c2d33;
+            border-radius: 2px;
+            line-height: 1.5;
+            padding: 7px 12px;
+            background-color: transparent;
+            color: #2c2d33;
+            box-sizing: border-box;
+            text-decoration: none !important;
+            font-weight: 400;
+            transition: none;
+            position: relative
+        }
+
+        @media screen and (max-width:768px) {
+
+            .wpc_show_bottom_widget .wpc-filters-open-button-container,
+            .wpc_show_open_close_button .wpc-filters-open-button-container {
+                display: block
+            }
+
+            .wpc_show_bottom_widget .wpc-filters-open-button-container {
+                margin-top: 1em;
+                margin-bottom: 1em
+            }
+        }
+
+        @font-face {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 300 900;
+            font-display: fallback;
+            src: url('https://www.distribuidorapop.com.ar/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: Cardo;
+            font-style: normal;
+            font-weight: 400;
+            font-display: fallback;
+            src: url('https://www.distribuidorapop.com.ar/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
+        }
+
+        div.nsl-container[data-align="left"] {
+            text-align: left;
+        }
+
+
+        @font-face {
+            font-display: swap;
+            font-family: pop;
+            src: url(/wp-content/uploads/elementor/custom-icons/pop/fonts/pop.eot?72gx2t);
+            src: url(/wp-content/uploads/elementor/custom-icons/pop/fonts/pop.eot?72gx2t#iefix) format('embedded-opentype'), url(/wp-content/uploads/elementor/custom-icons/pop/fonts/pop.woff2?72gx2t) format('woff2'), url(/wp-content/uploads/elementor/custom-icons/pop/fonts/pop.ttf?72gx2t) format('truetype'), url(/wp-content/uploads/elementor/custom-icons/pop/fonts/pop.woff?72gx2t) format('woff'), url(/wp-content/uploads/elementor/custom-icons/pop/fonts/pop.svg?72gx2t#pop) format('svg');
+            font-weight: 400;
+            font-style: normal;
+            font-display: block
+        }
+
+        [class^=icon-],
+        [class*=" icon-"] {
+            font-family: pop !important;
+            speak: never;
+            font-style: normal;
+            font-weight: 400;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .icon-instagram:before {
+            content: "\e900"
+        }
+
+        .icon-facebook:before {
+            content: "\e901"
+        }
+
+        .icon-twitter:before {
+            content: "\e902"
+        }
+
+        .icon-youtube:before {
+            content: "\e903"
+        }
+
+        .icon-tiktok:before {
+            content: "\e904"
+        }

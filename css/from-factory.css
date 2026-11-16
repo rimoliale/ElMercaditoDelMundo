@@ -2314,12 +2314,6 @@ h6,
   font-size: 1em
 }
 
-.elementor *,
-.elementor :after,
-.elementor :before {
-  box-sizing: border-box
-}
-
 .elementor a {
   box-shadow: none;
   text-decoration: none

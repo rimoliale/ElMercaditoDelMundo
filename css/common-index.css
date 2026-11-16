@@ -91,6 +91,15 @@
     font-weight: bold;
 }
 
+.elementor *, .elementor :after, .elementor :before {
+    color: black;
+    box-sizing: border-box;
+}
+
+#quantity_6af198938470b{
+  display: block;
+}
+
 @media (min-width: 768px) {
       /* 🔥 Forzar el contenedor principal en horizontal */
   .ast-left-sidebar #content,
