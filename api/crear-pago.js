@@ -1,6 +1,4 @@
-// api/crear-pago.js (Actualizado a Orders API de Mercado Pago)
-import crypto from 'crypto';
-
+// api/crear-pago.js
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -8,45 +6,32 @@ export default async function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(200).end();
 
   try {
-    const { carrito } = req.body;
+    const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {});
+    const carrito = body.carrito;
 
-    // 1. Calculamos el total exacto y armamos los items
-    let totalMonto = 0;
-    const itemsOrden = carrito.map(prod => {
-      const precioUnitario = Number(prod.precio);
-      const cantidad = Number(prod.cantidad);
-      totalMonto += precioUnitario * cantidad;
+    const itemsMercadoPago = carrito.map(prod => ({
+      title: prod.titulo,
+      description: prod.descripcion || 'Compra en El Mercadito de Rimo',
+      picture_url: prod.imagen,
+      quantity: Number(prod.cantidad),
+      unit_price: Number(prod.precio),
+      currency_id: 'ARS'
+    }));
 
-      return {
-        title: prod.titulo,
-        unit_price: precioUnitario.toFixed(2), // Orders API exige string con 2 decimales (ej: "15000.00")
-        quantity: cantidad,
-        picture_url: prod.imagen,
-        description: prod.descripcion || 'Compra en El Mercadito de Rimo'
-      };
-    });
-
-    // 2. Llamada a la nueva Orders API
-    const response = await fetch('https://api.mercadopago.com/v1/orders', {
+    // IMPORTANTE: Volver a /checkout/preferences (no /v1/orders)
+    const response = await fetch('https://api.mercadopago.com/checkout/preferences', {
       method: 'POST',
       headers: {
-        // PEGA TU ACCESS TOKEN REAL DE PRODUCCIÓN AQUÍ:
         'Authorization': 'APP_USR-2932770982304777-111616-4a97bcd87be13a02a60c4447a5493889-3852045672',
-        'Content-Type': 'application/json',
-        // Orders API exige una clave única por cada intento de compra (Idempotency Key)
-        'X-Idempotency-Key': crypto.randomUUID()
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        type: 'online',
-        processing_mode: 'automatic',
-        total_amount: totalMonto.toFixed(2),
-        external_reference: `PEDIDO-${Date.now()}`,
-        items: itemsOrden,
-        config: {
-          online: {
-            callback_url: 'https://rimoliale.github.io/ElMercaditoDelMundo/gracias.html',
-            auto_return: 'approved'
-          }
+        items: itemsMercadoPago,
+        statement_descriptor: 'EL MERCADITO DE RIMO',
+        back_urls: {
+          success: 'https://rimoliale.github.io/ElMercaditoDelMundo/gracias.html',
+          failure: 'https://rimoliale.github.io/ElMercaditoDelMundo/error.html',
+          pending: 'https://rimoliale.github.io/ElMercaditoDelMundo/pendiente.html'
         }
       })
     });
@@ -57,10 +42,7 @@ export default async function handler(req, res) {
       return res.status(response.status).json({ error_mp: data });
     }
 
-    // 3. Extraemos el link de pago generado y se lo devolvemos a tu web
-    const linkGenerado = data.init_point || data.integration_data?.init_point || data.transactions?.payments?.[0]?.payment_method?.ticket_url;
-
-    res.status(200).json({ link_pago: linkGenerado, detalle_orden: data });
+    res.status(200).json({ link_pago: data.init_point });
   } catch (err) {
     res.status(500).json({ error_servidor: err.message });
   }
