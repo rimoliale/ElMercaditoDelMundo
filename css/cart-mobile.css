@@ -1,0 +1,310 @@
+/* ==========================================================================
+   CSS RESPONSIVE SOLO CELULARES - ANCHO COMPLETO REAL Y TEXTOS GRANDES
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+
+  /* 1. Reset total de márgenes y paddings laterales en TODOS los contenedores padre */
+  html,
+  body.woocommerce-page {
+    overflow-x: hidden !important;
+    background-color: #f7f7f7 !important;
+  }
+
+  body.woocommerce-page .site-content,
+  body.woocommerce-page .site-content > .ast-container,
+  body.woocommerce-page #primary,
+  body.woocommerce-page #main,
+  body.woocommerce-page article#post-26,
+  body.woocommerce-page .entry-content,
+  body.woocommerce-page .elementor-26,
+  body.woocommerce-page .elementor-section,
+  body.woocommerce-page .elementor-container,
+  body.woocommerce-page .elementor-column,
+  body.woocommerce-page .elementor-widget-wrap,
+  body.woocommerce-page .elementor-widget-text-editor,
+  body.woocommerce-page .elementor-widget-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #f7f7f7 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Único margen lateral mínimo (4px) para que la tarjeta llene toda la pantalla */
+  body.woocommerce-page .woocommerce {
+    width: calc(100% - 8px) !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 8px 0 20px 0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  }
+
+  /* 2. Banner superior (Reembolso / Monedero) al 100% y letra grande */
+  body.woocommerce-page .woocommerce-info {
+    width: 100% !important;
+    background-color: #f2f2f2 !important;
+    border: none !important;
+    border-top: 3px solid #6d5314 !important;
+    color: #111111 !important;
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+    padding: 14px 12px 14px 36px !important;
+    margin: 0 0 14px 0 !important;
+    position: relative !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+  }
+
+  body.woocommerce-page .woocommerce-info::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 12px !important;
+    top: 17px !important;
+    width: 13px !important;
+    height: 13px !important;
+    border: 2px solid #6d5314 !important;
+    background: transparent !important;
+  }
+
+  body.woocommerce-page .woocommerce-info a {
+    color: #6d5314 !important;
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+  }
+
+  /* 3. Tarjeta de producto de borde a borde */
+  body.woocommerce-page .woocommerce-cart-form {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #ffffff !important;
+    border: 1px solid #dfdfdf !important;
+    margin: 0 0 14px 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents thead {
+    display: none !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents tbody,
+  body.woocommerce-page table.woocommerce-cart-form__contents tr.cart_item {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Cada fila ocupa el 100% con textos bien grandes (15.5px) */
+  body.woocommerce-page table.woocommerce-cart-form__contents tr.cart_item td {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 12px 12px !important;
+    margin: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #ececec !important;
+    background-color: #ffffff !important;
+    font-size: 15.5px !important;
+    line-height: 1.35 !important;
+    color: #111111 !important;
+    box-sizing: border-box !important;
+    text-align: right !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents tr.cart_item td:last-child {
+    border-bottom: none !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents tr.cart_item td[data-title]::before {
+    content: attr(data-title) ":" !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    color: #111111 !important;
+    text-align: left !important;
+    margin-right: 10px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Fila 1: Botón X (Eliminar) */
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-remove {
+    justify-content: flex-end !important;
+    padding: 10px 12px !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-remove::before {
+    display: none !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-remove a.remove {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 28px !important;
+    height: 28px !important;
+    border: 1px solid #c8c8c8 !important;
+    border-radius: 50% !important;
+    color: #888888 !important;
+    text-decoration: none !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-remove a.remove svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  /* Fila 2: Imagen centrada y grande */
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-thumbnail {
+    justify-content: center !important;
+    padding: 16px 12px !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-thumbnail::before {
+    display: none !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-thumbnail img {
+    width: 120px !important;
+    height: 120px !important;
+    max-width: none !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  /* Fila 3: Nombre del producto */
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-name .ast-product-name a {
+    color: #7c5c10 !important;
+    font-weight: 600 !important;
+    font-size: 15.5px !important;
+    text-decoration: none !important;
+  }
+
+  /* Fila 4: Precios */
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-price del {
+    color: #777777 !important;
+    font-size: 14.5px !important;
+    margin-right: 5px !important;
+  }
+
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-price ins {
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    color: #111111 !important;
+  }
+
+  /* Fila 5: Input Cantidad grande */
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-quantity .quantity input.qty {
+    width: 68px !important;
+    height: 40px !important;
+    text-align: center !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 0 !important;
+    background-color: #ffffff !important;
+    color: #111111 !important;
+    font-size: 16px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Fila 6: Subtotal */
+  body.woocommerce-page table.woocommerce-cart-form__contents td.product-subtotal .amount {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #111111 !important;
+  }
+
+  /* 4. Totales del carrito de borde a borde */
+  body.woocommerce-page .cart-collaterals,
+  body.woocommerce-page .cart-collaterals .cart_totals {
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none !important;
+    background-color: #ffffff !important;
+    border: 1px solid #dfdfdf !important;
+    padding: 12px !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  body.woocommerce-page .cart-collaterals .cart_totals h2 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #111111 !important;
+    text-align: center !important;
+    margin: 0 0 10px 0 !important;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #ececec !important;
+  }
+
+  body.woocommerce-page .cart-collaterals .shop_table,
+  body.woocommerce-page .cart-collaterals .shop_table tbody,
+  body.woocommerce-page .cart-collaterals .shop_table tr {
+    display: block !important;
+    width: 100% !important;
+    border: none !important;
+  }
+
+  body.woocommerce-page .cart-collaterals .shop_table tr {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #ececec !important;
+    font-size: 15.5px !important;
+    color: #111111 !important;
+  }
+
+  body.woocommerce-page .cart-collaterals .shop_table tr th {
+    font-weight: 700 !important;
+    text-align: left !important;
+    padding: 0 8px 0 0 !important;
+    border: none !important;
+    background: transparent !important;
+    color: #111111 !important;
+  }
+
+  body.woocommerce-page .cart-collaterals .shop_table tr td {
+    text-align: right !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    color: #111111 !important;
+  }
+
+  /* Botón amarillo píldora ancho completo */
+  body.woocommerce-page .wc-proceed-to-checkout {
+    padding: 12px 0 2px 0 !important;
+  }
+
+  body.woocommerce-page .wc-proceed-to-checkout a.checkout-button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    background-color: #f3c64f !important;
+    color: #111111 !important;
+    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.4px !important;
+    padding: 15px 16px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+  }
+}

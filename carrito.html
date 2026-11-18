@@ -36,9 +36,7 @@
   <link rel="stylesheet" href="css/common2-depurar.css">
   <link rel="stylesheet" href="css/Main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="css/postIndex.css" rel="stylesheet">
-
-
+  <link href="css/cart-mobile.css" rel="stylesheet">
 </head>
 
 <body
@@ -684,6 +682,24 @@
                                       </td>
                                     </tr>
 
+
+
+
+                                    <tr>
+                                      <td colspan="6" class="actions">
+
+                                                    <div class="coupon">
+                                            <label for="coupon_code" class="screen-reader-text">Cupón:</label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="Código de cupón"> <button type="submit" class="button" name="apply_coupon" value="Aplicar cupón">Aplicar cupón</button>
+                                                        </div>
+                                        
+                                        <button type="submit" class="button" name="update_cart" value="Actualizar carrito" disabled="">Actualizar carrito</button>
+
+                                        
+                                        <input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="2f6e7b493c"><input type="hidden" name="_wp_http_referer" value="/carrito/">				</td>
+                                    </tr>
+
+
+
                                   </tbody>
                                 </table>
                               </form>
@@ -705,6 +721,7 @@
                                                 class="woocommerce-Price-currencySymbol"
                                                 translate="no">$</span>9,861</bdi></span></td>
                                       </tr>
+
 
 
 

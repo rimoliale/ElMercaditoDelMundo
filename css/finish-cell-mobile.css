@@ -1,0 +1,349 @@
+/* ==========================================================================
+   CSS RESPONSIVE SOLO CELULARES - FINALIZAR COMPRA (Idéntico a las capturas)
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+
+  /* 1. Reset total de contenedores padre para ocupar el ancho real sin achicarse */
+  html,
+  body.woocommerce-page {
+    overflow-x: hidden !important;
+    background-color: #f4f4f4 !important;
+  }
+
+  body.woocommerce-page .site-content,
+  body.woocommerce-page .site-content > .ast-container,
+  body.woocommerce-page #primary,
+  body.woocommerce-page #main,
+  body.woocommerce-page article#post-27,
+  body.woocommerce-page .entry-content,
+  body.woocommerce-page .elementor-27,
+  body.woocommerce-page .elementor-section,
+  body.woocommerce-page .elementor-container,
+  body.woocommerce-page .elementor-column,
+  body.woocommerce-page .elementor-widget-wrap,
+  body.woocommerce-page .elementor-widget-text-editor,
+  body.woocommerce-page .elementor-widget-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #f4f4f4 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Contenedor blanco principal centrado de borde a borde (con mínimo respiro lateral) */
+  body.woocommerce-page .woocommerce {
+    width: calc(100% - 10px) !important;
+    max-width: none !important;
+    margin: 6px auto 20px auto !important;
+    padding: 14px 12px 22px 12px !important;
+    background-color: #ffffff !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 2. Banners superiores (.woocommerce-info) con línea marrón y cuadradito */
+  body.woocommerce-page .woocommerce-info {
+    width: 100% !important;
+    background-color: #f3f3f3 !important;
+    border: none !important;
+    border-top: 3px solid #6d5314 !important;
+    color: #111111 !important;
+    font-size: 14.5px !important;
+    line-height: 1.45 !important;
+    padding: 14px 12px 14px 36px !important;
+    margin: 0 0 14px 0 !important;
+    position: relative !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+  }
+
+  body.woocommerce-page .woocommerce-info::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 12px !important;
+    top: 17px !important;
+    width: 13px !important;
+    height: 13px !important;
+    border: 2px solid #6d5314 !important;
+    background: transparent !important;
+  }
+
+  body.woocommerce-page .woocommerce-info a {
+    color: #6d5314 !important;
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+  }
+
+  /* 3. Formulario Checkout y columnas Bootstrap a ancho completo */
+  body.woocommerce-page form.woocommerce-checkout,
+  body.woocommerce-page #customer_details,
+  body.woocommerce-page #customer_details > .col-12,
+  body.woocommerce-page #order_review {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Títulos de sección ("Detalles de facturación", "Información adicional") */
+  body.woocommerce-page .woocommerce-billing-fields h3,
+  body.woocommerce-page .woocommerce-additional-fields h3 {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 19px !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+    padding-bottom: 10px !important;
+    margin: 12px 0 16px 0 !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+    text-align: left !important;
+  }
+
+  /* 4. Grilla de campos: 2 columnas iguales en pares, 1 columna completa en anchos */
+  body.woocommerce-page .woocommerce-billing-fields__field-wrapper {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.woocommerce-page .woocommerce-billing-fields__field-wrapper p.form-row {
+    margin: 0 0 14px 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Campos en pares (Nombre/Apellido, Correo/Tel, Situación/CUIL, Ciudad/CP, País/Provincia) */
+  body.woocommerce-page .woocommerce-billing-fields__field-wrapper p.form-row-first,
+  body.woocommerce-page .woocommerce-billing-fields__field-wrapper p.form-row-last {
+    width: calc(50% - 6px) !important;
+    flex: 0 0 calc(50% - 6px) !important;
+  }
+
+  /* Campos de ancho completo (Dirección, etc.) */
+  body.woocommerce-page .woocommerce-billing-fields__field-wrapper p.form-row-wide,
+  body.woocommerce-page .woocommerce-additional-fields p.form-row {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  /* Limpiar clases col-12 internas de los spans para que no agreguen padding */
+  body.woocommerce-page .woocommerce-input-wrapper,
+  body.woocommerce-page .woocommerce-input-wrapper.col-12 {
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Etiquetas (Labels) arriba de cada campo con asterisco rojo */
+  body.woocommerce-page form.woocommerce-checkout label {
+    display: block !important;
+    font-size: 13.5px !important;
+    font-weight: 700 !important;
+    color: #111111 !important;
+    margin-bottom: 5px !important;
+    line-height: 1.3 !important;
+    text-align: left !important;
+  }
+
+  body.woocommerce-page form.woocommerce-checkout label .required,
+  body.woocommerce-page form.woocommerce-checkout label abbr.required {
+    color: #e60000 !important;
+    text-decoration: none !important;
+    border: none !important;
+  }
+
+  /* Inputs, Selects y Select2 (Provincia) uniformes y legibles */
+  body.woocommerce-page form.woocommerce-checkout input.input-text,
+  body.woocommerce-page form.woocommerce-checkout select,
+  body.woocommerce-page form.woocommerce-checkout .select2-container--default .select2-selection--single {
+    display: block !important;
+    width: 100% !important;
+    height: 40px !important;
+    line-height: 38px !important;
+    padding: 0 10px !important;
+    margin: 0 !important;
+    font-size: 14.5px !important;
+    color: #222222 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+  }
+
+  body.woocommerce-page form.woocommerce-checkout .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important;
+    padding-left: 0 !important;
+    color: #222222 !important;
+    font-size: 14.5px !important;
+  }
+
+  body.woocommerce-page form.woocommerce-checkout .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px !important;
+  }
+
+  /* Textarea de Notas del pedido */
+  body.woocommerce-page form.woocommerce-checkout textarea#order_comments {
+    display: block !important;
+    width: 100% !important;
+    min-height: 75px !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+    color: #222222 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 2px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 5. Caja "Tu pedido" (#order_review) igual a la segunda captura */
+  body.woocommerce-page #order_review {
+    margin-top: 18px !important;
+    padding: 16px 14px !important;
+    border: 1px solid #dcdcdc !important;
+    background-color: #ffffff !important;
+  }
+
+  body.woocommerce-page #order_review_heading {
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 19px !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+    margin: 0 0 14px 0 !important;
+    text-align: left !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 0 0 16px 0 !important;
+    border: none !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table th,
+  body.woocommerce-page table.woocommerce-checkout-review-order-table td {
+    padding: 11px 2px !important;
+    border: none !important;
+    border-bottom: 1px solid #ececec !important;
+    font-size: 14.5px !important;
+    color: #111111 !important;
+    background: transparent !important;
+    vertical-align: top !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table thead th {
+    font-weight: 700 !important;
+    color: #111111 !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table th:first-child,
+  body.woocommerce-page table.woocommerce-checkout-review-order-table td:first-child {
+    text-align: left !important;
+    width: 60% !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table th:last-child,
+  body.woocommerce-page table.woocommerce-checkout-review-order-table td:last-child {
+    text-align: right !important;
+    width: 40% !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table tfoot th {
+    font-weight: 700 !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table #shipping_method {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.woocommerce-page table.woocommerce-checkout-review-order-table #shipping_method label {
+    font-weight: 400 !important;
+    font-size: 13.5px !important;
+    text-align: right !important;
+    margin: 0 !important;
+  }
+
+  /* 6. Métodos de pago y botón "Realizar el pedido" */
+  body.woocommerce-page #payment {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #e6e6e6 !important;
+    padding: 12px !important;
+    border-radius: 2px !important;
+  }
+
+  body.woocommerce-page #payment ul.wc_payment_methods {
+    list-style: none !important;
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+  }
+
+  body.woocommerce-page #payment ul.wc_payment_methods li {
+    padding: 8px 0 !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #eeeeee !important;
+  }
+
+  body.woocommerce-page #payment ul.wc_payment_methods li label {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    font-size: 14.5px !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+  }
+
+  body.woocommerce-page #payment ul.wc_payment_methods li label img {
+    max-height: 22px !important;
+    width: auto !important;
+  }
+
+  body.woocommerce-page #payment .payment_box {
+    background-color: #ffffff !important;
+    padding: 10px !important;
+    margin-top: 8px !important;
+    border: 1px solid #e6e6e6 !important;
+    font-size: 13.5px !important;
+  }
+
+  body.woocommerce-page .mp-wallet-container,
+  body.woocommerce-page #btn-pagar-mp {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Botón píldora amarillo "Realizar el pedido" */
+  body.woocommerce-page #place_order {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    background-color: #f3c64f !important;
+    color: #111111 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.4px !important;
+    padding: 14px 16px !important;
+    margin-top: 10px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-sizing: border-box !important;
+  }
+}

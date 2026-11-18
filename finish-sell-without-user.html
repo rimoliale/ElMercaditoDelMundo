@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="css/finish-sell.css" rel="stylesheet">
-
+    <link href="css/finish-sell-mobile.css" rel="stylesheet">    
 
 
 </head>
@@ -572,15 +572,15 @@
 
                                                             <div class="woocommerce-notices-wrapper"></div>
                                                             <form name="checkout" method="post"
-                                                                class="col-12 checkout woocommerce-checkout"
+                                                                class="checkout woocommerce-checkout"
                                                                 action="https://www.distribuidorapop.com.ar/finalizar-compra/"
                                                                 enctype="multipart/form-data"
                                                                 aria-label="Finalizar compra" id="checkout"
                                                                 novalidate="novalidate">
 
-
+<!-- Contenedor de 2 columnas en PC / 1 columna apilada en móvil -->
+    <div class="row g-4 mx-0 checkout-columns-wrapper">
                                                                     <div class="col-12 col-md-6" id="customer_details">
-                                                                        <div class="col-12">
                                                                             <wc-order-attribution-inputs><input
                                                                                     type="hidden"
                                                                                     name="wc_order_attribution_source_type"
@@ -766,7 +766,7 @@
                                                                                             class="required_field">Direccion&nbsp;&nbsp;<abbr
                                                                                                 class="required"
                                                                                                 title="obligatorio">*</abbr></label><span
-                                                                                            class="woocommerce-input-wrapper"><input
+                                                                                            class="col-12 woocommerce-input-wrapper"><input
                                                                                                 type="text"
                                                                                                 class="input-text wooccm-required-field"
                                                                                                 name="billing_address_1"
@@ -784,7 +784,7 @@
                                                                                             class="required_field">Ciudad&nbsp;&nbsp;<abbr
                                                                                                 class="required"
                                                                                                 title="obligatorio">*</abbr></label><span
-                                                                                            class="woocommerce-input-wrapper"><input
+                                                                                            class="col-12 woocommerce-input-wrapper"><input
                                                                                                 type="text"
                                                                                                 class="input-text wooccm-required-field"
                                                                                                 name="billing_city"
@@ -803,7 +803,7 @@
                                                                                             Postal&nbsp;&nbsp;<abbr
                                                                                                 class="required"
                                                                                                 title="obligatorio">*</abbr></label><span
-                                                                                            class="woocommerce-input-wrapper"><input
+                                                                                            class="col-12 woocommerce-input-wrapper"><input
                                                                                                 type="number"
                                                                                                 class="input-text wooccm-required-field"
                                                                                                 name="billing_postcode"
@@ -821,13 +821,13 @@
                                                                                             class="required_field required_field">País&nbsp;<span
                                                                                                 class="required"
                                                                                                 aria-hidden="true">*</span></label><span
-                                                                                            class="woocommerce-input-wrapper"><select
+                                                                                            class="col-12 woocommerce-input-wrapper"><select
                                                                                                 name="billing_country"
                                                                                                 id="billing_country"
                                                                                                 data-required="1"
                                                                                                 aria-required="true"
                                                                                                 autocomplete="country"
-                                                                                                class="country_to_state country_to_state--single wooccm-required-field">
+                                                                                                class="ccountry_to_state country_to_state--single wooccm-required-field">
                                                                                                 <option value="AR"
                                                                                                     selected="">Argentina
                                                                                                 </option>
@@ -840,7 +840,7 @@
                                                                                             class="required_field required_field">Provincia&nbsp;&nbsp;<abbr
                                                                                                 class="required"
                                                                                                 title="obligatorio">*</abbr></label><span
-                                                                                            class="woocommerce-input-wrapper"><select
+                                                                                            class="col-12 woocommerce-input-wrapper"><select
                                                                                                 id="billing_state"
                                                                                                 name="billing_state"
                                                                                                 data-input-classes="wooccm-required-field"
@@ -926,25 +926,22 @@
 
                                                                             </div>
 
-                                                                            <div class="woocommerce-account-fields">
-                                                                            </div>
-
-                                                                            <div class="col-12 woocommerce-additional-fields">
+                                                                            <div class="woocommerce-additional-fields">
                                                                                 <div class="wooccm-additional-fields">
                                                                                     <div class="wooccm-clearfix"></div>
                                                                                 </div>
 
                                                                                 <div
-                                                                                    class="col-12 woocommerce-additional-fields__field-wrapper">
-                                                                                    <p class="col-12 form-row notes"
+                                                                                    class="woocommerce-additional-fields__field-wrapper">
+                                                                                    <p class="form-row notes"
                                                                                         id="order_comments_field"
                                                                                         data-priority=""><label
                                                                                             for="order_comments"
-                                                                                            class="col-12">Notas<span
-                                                                                                class="optional"></span></label><span
+                                                                                            class="">Notas<span
+                                                                                                class="coptional"></span></label><span
                                                                                             class="col-12 woocommerce-input-wrapper"><textarea
                                                                                                 name="order_comments"
-                                                                                                class="input-text "
+                                                                                                class="input-text"
                                                                                                 id="order_comments"
                                                                                                 placeholder="Escribe algo que quieres que sepamos respecto a tu pedido"
                                                                                                 rows="2"
@@ -957,7 +954,7 @@
                                                                                     id="user_id_vendor"
                                                                                     name="user_id_vendor">
                                                                             </div>
-                                                                        </div>
+
 
     <!--                                                                     <div class="col-2">
                                                                         </div> -->
@@ -965,7 +962,7 @@
 
 
 
-                                                                    <div class="col-12 col-md-6 woocommerce-checkout-review-order" id="order_review">
+                                                                    <div class="col-12 col-md-6" id="order_review">
                                                                     <h3 id="order_review_heading">Tu pedido</h3>
                                                                         <table
                                                                             class="shop_table woocommerce-checkout-review-order-table">
@@ -1108,598 +1105,17 @@
                                                                                                     aria-live="polite"></span>
 
 <div class="mp-wallet-container" style="max-width: 377px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-  <div style="margin-bottom: 8px; font-size: 14px; font-weight: 600; color: #333;">
-    Pagá con Mercado Pago
-  </div>
-  
-  <button id="btn-pagar-mp" type="button" style="background-color: #009EE3; border: none; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; height: 48px; width: 100%; padding: 10px 16px; transition: background-color 0.2s;">
-    <img src="https://http2.mlstatic.com/frontend-assets/mp-web-navigation/ui-navigation/6.6.92/mercadopago/logo__large@2x.png" alt="Mercado Pago" style="height: 26px; width: auto; filter: brightness(0) invert(1);">
-  </button>
+
+        <button id="btn-pagar-mp" type="button" style="background: #FFE600; border: 1px solid rgb(171, 147, 0) !important; border-radius: 6px !important; cursor: pointer !important; display: flex !important; flex-direction: row !important; font-size: 14px !important; font-weight: 700 !important; height: 48px !important; justify-content: center !important; line-height: 16px !important; max-width: 377px !important; padding: 10px 12px !important; text-align: center !important; transition: 0.3ms ease-in-out !important; width: 100% !important;" value="">
+        <img src="./images/mp-logo-1.svg" style="width: auto !important;">
+    </button>
 
   <footer style="margin-top: 8px; font-size: 12px; color: #666; text-align: center;">
     Conoce <a href="https://www.mercadopago.com.ar/privacidad" target="_blank" rel="noopener noreferrer" style="color: #009EE3; text-decoration: none;">cómo cuidamos tu privacidad</a>.
   </footer>
 </div>
 
-                                                                                                <div
-                                                                                                    id="mp-custom-checkout-form-container">
-                                                                                                    <div
-                                                                                                        class="mp-checkout-custom-card-form">
-                                                                                                        <div
-                                                                                                            class="mp-checkout-custom-card-row">
-                                                                                                            <input-label
-                                                                                                                isoptinal="false"
-                                                                                                                message="Número de tarjeta"
-                                                                                                                id="mp-card-number-label">
-                                                                                                                <div class="mp-input-label"
-                                                                                                                    data-cy="input-label">
-                                                                                                                    Número
-                                                                                                                    de
-                                                                                                                    tarjeta<b
-                                                                                                                        style="color: red;">*</b>
-                                                                                                                </div>
-                                                                                                            </input-label>
 
-                                                                                                            <div class="mp-checkout-custom-card-input"
-                                                                                                                id="form-checkout__cardNumber-container"
-                                                                                                                aria-labelledby="mp-card-number-label">
-                                                                                                                <iframe
-                                                                                                                    frameborder="0"
-                                                                                                                    allowtransparency="true"
-                                                                                                                    scrolling="no"
-                                                                                                                    height="100%"
-                                                                                                                    width="100%"
-                                                                                                                    name="cardNumber"
-                                                                                                                    style="color-scheme: normal"
-                                                                                                                    data-primary="true"
-                                                                                                                    src="https://secure-fields.mercadopago.com/"></iframe>
-                                                                                                            </div>
-
-                                                                                                            <input-helper
-                                                                                                                isvisible="false"
-                                                                                                                type="error"
-                                                                                                                message="Completa este campo."
-                                                                                                                input-id="mp-card-number-helper">
-                                                                                                                <div class="mp-helper"
-                                                                                                                    id="mp-card-number-helper"
-                                                                                                                    data-cy="helper-container"
-                                                                                                                    role="alert"
-                                                                                                                    style="display: none;">
-                                                                                                                    <div class="mp-helper-icon"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        <svg width="12"
-                                                                                                                            height="12"
-                                                                                                                            viewBox="0 0 12 12"
-                                                                                                                            fill="none"
-                                                                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                                                                            <rect
-                                                                                                                                width="12"
-                                                                                                                                height="12"
-                                                                                                                                rx="6"
-                                                                                                                                fill="#CC1818">
-                                                                                                                            </rect>
-                                                                                                                            <path
-                                                                                                                                d="M6.72725 2.90918H5.27271L5.45452 6.90918H6.54543L6.72725 2.90918Z"
-                                                                                                                                fill="white">
-                                                                                                                            </path>
-                                                                                                                            <path
-                                                                                                                                d="M5.99998 7.63645C6.40164 7.63645 6.72725 7.96206 6.72725 8.36373C6.72725 8.76539 6.40164 9.091 5.99998 9.091C5.59832 9.091 5.27271 8.76539 5.27271 8.36373C5.27271 7.96206 5.59832 7.63645 5.99998 7.63645Z"
-                                                                                                                                fill="white">
-                                                                                                                            </path>
-                                                                                                                        </svg>
-                                                                                                                    </div>
-                                                                                                                    <div class="mp-helper-message error"
-                                                                                                                        data-cy="helper-message"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        Completa
-                                                                                                                        este
-                                                                                                                        campo.
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </input-helper>
-                                                                                                        </div>
-
-                                                                                                        <div class="mp-checkout-custom-card-row"
-                                                                                                            id="mp-card-holder-div">
-                                                                                                            <input-label
-                                                                                                                message="Nombre del titular"
-                                                                                                                isoptinal="false"
-                                                                                                                for="form-checkout__cardholderName">
-                                                                                                                <div class="mp-input-label"
-                                                                                                                    data-cy="input-label">
-                                                                                                                    Nombre
-                                                                                                                    del
-                                                                                                                    titular<b
-                                                                                                                        style="color: red;">*</b>
-                                                                                                                </div>
-                                                                                                            </input-label>
-
-                                                                                                            <input
-                                                                                                                class="mp-checkout-custom-card-input mp-card-holder-name"
-                                                                                                                placeholder="Ej.: María López"
-                                                                                                                id="form-checkout__cardholderName"
-                                                                                                                name="mp-card-holder-name"
-                                                                                                                data-checkout="cardholderName"
-                                                                                                                aria-describedby="mp-card-holder-name-helper-info mp-card-holder-name-example"
-                                                                                                                aria-required="true">
-
-                                                                                                            <span
-                                                                                                                id="mp-card-holder-name-example"
-                                                                                                                class="mp-sr-only">Ej.:
-                                                                                                                María
-                                                                                                                López</span>
-
-                                                                                                            <input-helper
-                                                                                                                isvisible="true"
-                                                                                                                type="info"
-                                                                                                                message="Como aparece en la tarjeta."
-                                                                                                                input-id="mp-card-holder-name-helper-info">
-                                                                                                                <div class="mp-helper"
-                                                                                                                    id="mp-card-holder-name-helper-info"
-                                                                                                                    data-cy="helper-container"
-                                                                                                                    role="alert"
-                                                                                                                    style="display: flex;">
-                                                                                                                    <div class="mp-helper-message info"
-                                                                                                                        data-cy="helper-message"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        Como
-                                                                                                                        aparece
-                                                                                                                        en
-                                                                                                                        la
-                                                                                                                        tarjeta.
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </input-helper>
-                                                                                                            <input-helper
-                                                                                                                isvisible="false"
-                                                                                                                type="error"
-                                                                                                                message="Complétalo como aparece en la tarjeta."
-                                                                                                                input-id="mp-card-holder-name-helper"
-                                                                                                                data-main="mp-card-holder-name">
-                                                                                                                <div class="mp-helper"
-                                                                                                                    id="mp-card-holder-name-helper"
-                                                                                                                    data-cy="helper-container"
-                                                                                                                    role="alert"
-                                                                                                                    style="display: none;">
-                                                                                                                    <div class="mp-helper-icon"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        <svg width="12"
-                                                                                                                            height="12"
-                                                                                                                            viewBox="0 0 12 12"
-                                                                                                                            fill="none"
-                                                                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                                                                            <rect
-                                                                                                                                width="12"
-                                                                                                                                height="12"
-                                                                                                                                rx="6"
-                                                                                                                                fill="#CC1818">
-                                                                                                                            </rect>
-                                                                                                                            <path
-                                                                                                                                d="M6.72725 2.90918H5.27271L5.45452 6.90918H6.54543L6.72725 2.90918Z"
-                                                                                                                                fill="white">
-                                                                                                                            </path>
-                                                                                                                            <path
-                                                                                                                                d="M5.99998 7.63645C6.40164 7.63645 6.72725 7.96206 6.72725 8.36373C6.72725 8.76539 6.40164 9.091 5.99998 9.091C5.59832 9.091 5.27271 8.76539 5.27271 8.36373C5.27271 7.96206 5.59832 7.63645 5.99998 7.63645Z"
-                                                                                                                                fill="white">
-                                                                                                                            </path>
-                                                                                                                        </svg>
-                                                                                                                    </div>
-                                                                                                                    <div class="mp-helper-message error"
-                                                                                                                        data-cy="helper-message"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        Complétalo
-                                                                                                                        como
-                                                                                                                        aparece
-                                                                                                                        en
-                                                                                                                        la
-                                                                                                                        tarjeta.
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </input-helper>
-                                                                                                        </div>
-
-                                                                                                        <div
-                                                                                                            class="mp-checkout-custom-card-row mp-checkout-custom-dual-column-row">
-                                                                                                            <div
-                                                                                                                class="mp-checkout-custom-card-column">
-                                                                                                                <input-label
-                                                                                                                    message="Vencimiento"
-                                                                                                                    isoptinal="false"
-                                                                                                                    id="mp-expiration-date-label">
-                                                                                                                    <div class="mp-input-label"
-                                                                                                                        data-cy="input-label">
-                                                                                                                        Vencimiento<b
-                                                                                                                            style="color: red;">*</b>
-                                                                                                                    </div>
-                                                                                                                </input-label>
-
-                                                                                                                <div id="form-checkout__expirationDate-container"
-                                                                                                                    class="mp-checkout-custom-card-input mp-checkout-custom-left-card-input"
-                                                                                                                    aria-labelledby="mp-expiration-date-label">
-                                                                                                                    <iframe
-                                                                                                                        frameborder="0"
-                                                                                                                        allowtransparency="true"
-                                                                                                                        scrolling="no"
-                                                                                                                        height="100%"
-                                                                                                                        width="100%"
-                                                                                                                        name="expirationDate"
-                                                                                                                        style="color-scheme: normal"
-                                                                                                                        src="https://secure-fields.mercadopago.com/"></iframe>
-                                                                                                                </div>
-
-                                                                                                                <input-helper
-                                                                                                                    isvisible="false"
-                                                                                                                    type="error"
-                                                                                                                    message="Completa este campo."
-                                                                                                                    input-id="mp-expiration-date-helper">
-                                                                                                                    <div class="mp-helper"
-                                                                                                                        id="mp-expiration-date-helper"
-                                                                                                                        data-cy="helper-container"
-                                                                                                                        role="alert"
-                                                                                                                        style="display: none;">
-                                                                                                                        <div class="mp-helper-icon"
-                                                                                                                            tabindex="-1"
-                                                                                                                            aria-hidden="true">
-                                                                                                                            <svg width="12"
-                                                                                                                                height="12"
-                                                                                                                                viewBox="0 0 12 12"
-                                                                                                                                fill="none"
-                                                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                                                <rect
-                                                                                                                                    width="12"
-                                                                                                                                    height="12"
-                                                                                                                                    rx="6"
-                                                                                                                                    fill="#CC1818">
-                                                                                                                                </rect>
-                                                                                                                                <path
-                                                                                                                                    d="M6.72725 2.90918H5.27271L5.45452 6.90918H6.54543L6.72725 2.90918Z"
-                                                                                                                                    fill="white">
-                                                                                                                                </path>
-                                                                                                                                <path
-                                                                                                                                    d="M5.99998 7.63645C6.40164 7.63645 6.72725 7.96206 6.72725 8.36373C6.72725 8.76539 6.40164 9.091 5.99998 9.091C5.59832 9.091 5.27271 8.76539 5.27271 8.36373C5.27271 7.96206 5.59832 7.63645 5.99998 7.63645Z"
-                                                                                                                                    fill="white">
-                                                                                                                                </path>
-                                                                                                                            </svg>
-                                                                                                                        </div>
-                                                                                                                        <div class="mp-helper-message error"
-                                                                                                                            data-cy="helper-message"
-                                                                                                                            tabindex="-1"
-                                                                                                                            aria-hidden="true">
-                                                                                                                            Completa
-                                                                                                                            este
-                                                                                                                            campo.
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </input-helper>
-                                                                                                            </div>
-
-                                                                                                            <div
-                                                                                                                class="mp-checkout-custom-card-column">
-                                                                                                                <input-label
-                                                                                                                    message="Código de seguridad"
-                                                                                                                    isoptinal="false"
-                                                                                                                    id="mp-security-code-label">
-                                                                                                                    <div class="mp-input-label"
-                                                                                                                        data-cy="input-label">
-                                                                                                                        Código
-                                                                                                                        de
-                                                                                                                        seguridad<b
-                                                                                                                            style="color: red;">*</b>
-                                                                                                                    </div>
-                                                                                                                </input-label>
-
-                                                                                                                <div
-                                                                                                                    class="mp-checkout-custom-security-code-container">
-                                                                                                                    <div id="form-checkout__securityCode-container"
-                                                                                                                        class="mp-checkout-custom-security-code-input"
-                                                                                                                        aria-labelledby="mp-security-code-label">
-                                                                                                                        <iframe
-                                                                                                                            frameborder="0"
-                                                                                                                            allowtransparency="true"
-                                                                                                                            scrolling="no"
-                                                                                                                            height="100%"
-                                                                                                                            width="100%"
-                                                                                                                            name="securityCode"
-                                                                                                                            style="color-scheme: normal"
-                                                                                                                            src="https://secure-fields.mercadopago.com/"></iframe>
-                                                                                                                    </div>
-                                                                                                                    <span
-                                                                                                                        id="mp-security-code-info"
-                                                                                                                        tabindex="0"
-                                                                                                                        aria-label="Es un número de 3 dígitos. Lo encuentras al dorso de tu tarjeta o en la app de tu banco o billetera."
-                                                                                                                        class="mp-checkout-custom-security-code-tooltip"
-                                                                                                                        role="tooltip"
-                                                                                                                        data-tooltip="Es un número de 3 dígitos. Lo encuentras al dorso de tu tarjeta o en la app de tu banco o billetera.">?</span>
-                                                                                                                </div>
-
-                                                                                                                <input-helper
-                                                                                                                    isvisible="false"
-                                                                                                                    type="error"
-                                                                                                                    input-id="mp-security-code-helper">
-                                                                                                                    <div class="mp-helper"
-                                                                                                                        id="mp-security-code-helper"
-                                                                                                                        data-cy="helper-container"
-                                                                                                                        role="alert"
-                                                                                                                        style="display: none;">
-                                                                                                                        <div class="mp-helper-icon"
-                                                                                                                            tabindex="-1"
-                                                                                                                            aria-hidden="true">
-                                                                                                                            <svg width="12"
-                                                                                                                                height="12"
-                                                                                                                                viewBox="0 0 12 12"
-                                                                                                                                fill="none"
-                                                                                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                                                                                <rect
-                                                                                                                                    width="12"
-                                                                                                                                    height="12"
-                                                                                                                                    rx="6"
-                                                                                                                                    fill="#CC1818">
-                                                                                                                                </rect>
-                                                                                                                                <path
-                                                                                                                                    d="M6.72725 2.90918H5.27271L5.45452 6.90918H6.54543L6.72725 2.90918Z"
-                                                                                                                                    fill="white">
-                                                                                                                                </path>
-                                                                                                                                <path
-                                                                                                                                    d="M5.99998 7.63645C6.40164 7.63645 6.72725 7.96206 6.72725 8.36373C6.72725 8.76539 6.40164 9.091 5.99998 9.091C5.59832 9.091 5.27271 8.76539 5.27271 8.36373C5.27271 7.96206 5.59832 7.63645 5.99998 7.63645Z"
-                                                                                                                                    fill="white">
-                                                                                                                                </path>
-                                                                                                                            </svg>
-                                                                                                                        </div>
-                                                                                                                        <div class="mp-helper-message error"
-                                                                                                                            data-cy="helper-message"
-                                                                                                                            tabindex="-1"
-                                                                                                                            aria-hidden="true">
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </input-helper>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <div id="mp-doc-div"
-                                                                                                            class="mp-checkout-custom-input-document"
-                                                                                                            style="display: none;"
-                                                                                                            data-mp-doc-label-clear-bound="true">
-                                                                                                            <input-document
-                                                                                                                label-message="Documento del titular"
-                                                                                                                helper-invalid="Ingresa el documento completo."
-                                                                                                                helper-empty="Completa este campo."
-                                                                                                                helper-wrong="Ingresa un documento válido."
-                                                                                                                input-name="identificationNumber"
-                                                                                                                hidden-id="form-checkout__identificationNumber"
-                                                                                                                input-data-checkout="doc_number"
-                                                                                                                select-id="form-checkout__identificationType"
-                                                                                                                select-name="identificationType"
-                                                                                                                select-data-checkout="doc_type"
-                                                                                                                flag-error="docNumberError"
-                                                                                                                site-id="MLA"
-                                                                                                                instruction-range="Ingresa entre {min} y {max} dígitos para tu número de documento."
-                                                                                                                instruction-fixed="Ingresa los {digits} dígitos de tu número de documento.">
-                                                                                                                <div class="mp-input-document"
-                                                                                                                    data-cy="input-document-container">
-                                                                                                                    <input-label
-                                                                                                                        message="Documento del titular"
-                                                                                                                        isoptional="false">
-                                                                                                                        <div class="mp-input-label"
-                                                                                                                            data-cy="input-label">
-                                                                                                                            Documento
-                                                                                                                            del
-                                                                                                                            titular<b
-                                                                                                                                style="color: red;">*</b>
-                                                                                                                        </div>
-                                                                                                                    </input-label>
-                                                                                                                    <div class="mp-input"
-                                                                                                                        id="form-checkout__identificationNumber-container">
-                                                                                                                        <select
-                                                                                                                            class="mp-document-select"
-                                                                                                                            name="identificationType"
-                                                                                                                            id="form-checkout__identificationType"
-                                                                                                                            data-checkout="doc_type"
-                                                                                                                            data-cy="select-document">
-                                                                                                                            <option
-                                                                                                                                value="DNI">
-                                                                                                                                DNI
-                                                                                                                            </option>
-                                                                                                                            <option
-                                                                                                                                value="CI">
-                                                                                                                                Cédula
-                                                                                                                            </option>
-                                                                                                                            <option
-                                                                                                                                value="LC">
-                                                                                                                                L.C.
-                                                                                                                            </option>
-                                                                                                                            <option
-                                                                                                                                value="LE">
-                                                                                                                                L.E.
-                                                                                                                            </option>
-                                                                                                                            <option
-                                                                                                                                value="Otro">
-                                                                                                                                Otro
-                                                                                                                            </option>
-                                                                                                                        </select>
-                                                                                                                        <div
-                                                                                                                            class="mp-vertical-line">
-                                                                                                                        </div>
-                                                                                                                        <input
-                                                                                                                            name="identificationNumber"
-                                                                                                                            data-checkout="doc_number"
-                                                                                                                            data-cy="input-document"
-                                                                                                                            class="mp-document"
-                                                                                                                            type="text"
-                                                                                                                            inputmode="text"
-                                                                                                                            maxlength="20"
-                                                                                                                            placeholder="">
-                                                                                                                    </div>
-                                                                                                                    <input
-                                                                                                                        type="hidden"
-                                                                                                                        id="form-checkout__identificationNumber"
-                                                                                                                        value=""><input-helper
-                                                                                                                        isvisible="false"
-                                                                                                                        type="error"
-                                                                                                                        message="Completa este campo."
-                                                                                                                        input-id="mp-doc-number-helper">
-                                                                                                                        <div class="mp-helper"
-                                                                                                                            id="mp-doc-number-helper"
-                                                                                                                            data-cy="helper-container"
-                                                                                                                            role="alert"
-                                                                                                                            style="display: none;">
-                                                                                                                            <div class="mp-helper-icon"
-                                                                                                                                tabindex="-1"
-                                                                                                                                aria-hidden="true">
-                                                                                                                                <svg width="12"
-                                                                                                                                    height="12"
-                                                                                                                                    viewBox="0 0 12 12"
-                                                                                                                                    fill="none"
-                                                                                                                                    xmlns="http://www.w3.org/2000/svg">
-                                                                                                                                    <rect
-                                                                                                                                        width="12"
-                                                                                                                                        height="12"
-                                                                                                                                        rx="6"
-                                                                                                                                        fill="#CC1818">
-                                                                                                                                    </rect>
-                                                                                                                                    <path
-                                                                                                                                        d="M6.72725 2.90918H5.27271L5.45452 6.90918H6.54543L6.72725 2.90918Z"
-                                                                                                                                        fill="white">
-                                                                                                                                    </path>
-                                                                                                                                    <path
-                                                                                                                                        d="M5.99998 7.63645C6.40164 7.63645 6.72725 7.96206 6.72725 8.36373C6.72725 8.76539 6.40164 9.091 5.99998 9.091C5.59832 9.091 5.27271 8.76539 5.27271 8.36373C5.27271 7.96206 5.59832 7.63645 5.99998 7.63645Z"
-                                                                                                                                        fill="white">
-                                                                                                                                    </path>
-                                                                                                                                </svg>
-                                                                                                                            </div>
-                                                                                                                            <div class="mp-helper-message error"
-                                                                                                                                data-cy="helper-message"
-                                                                                                                                tabindex="-1"
-                                                                                                                                aria-hidden="true">
-                                                                                                                                Completa
-                                                                                                                                este
-                                                                                                                                campo.
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </input-helper>
-                                                                                                                </div>
-                                                                                                            </input-document>
-                                                                                                        </div>
-                                                                                                    </div>
-
-                                                                                                    <div id="mp-checkout-custom-installments-card"
-                                                                                                        class="mp-checkout-custom-installments-display-none">
-                                                                                                        <div id="mp-checkout-custom-issuers-container"
-                                                                                                            class="mp-checkout-custom-issuers-container-display-none">
-                                                                                                            <div
-                                                                                                                class="mp-checkout-custom-card-row">
-                                                                                                                <input-label
-                                                                                                                    isoptinal="false"
-                                                                                                                    message="Banco"
-                                                                                                                    for="form-checkout__issuer">
-                                                                                                                    <div class="mp-input-label"
-                                                                                                                        data-cy="input-label">
-                                                                                                                        Banco<b
-                                                                                                                            style="color: red;">*</b>
-                                                                                                                    </div>
-                                                                                                                </input-label>
-                                                                                                            </div>
-
-                                                                                                            <div
-                                                                                                                class="mp-input-select-input">
-                                                                                                                <select
-                                                                                                                    id="form-checkout__issuer"
-                                                                                                                    class="mp-custom-checkout-select-input"
-                                                                                                                    aria-required="true"
-                                                                                                                    data-name="issuer"
-                                                                                                                    autocomplete="off">
-                                                                                                                    <option
-                                                                                                                        data-placeholder=""
-                                                                                                                        selected=""
-                                                                                                                        disabled="">
-                                                                                                                        Banco
-                                                                                                                    </option>
-                                                                                                                </select>
-                                                                                                            </div>
-                                                                                                        </div>
-
-                                                                                                        <div id="mp-checkout-custom-installments-container"
-                                                                                                            class="mp-checkout-custom-installments-container">
-                                                                                                        </div>
-
-                                                                                                        <div
-                                                                                                            class="mp-checkout-custom-installments-select-container">
-                                                                                                            <label
-                                                                                                                for="form-checkout__installments"
-                                                                                                                class="mp-input-label">
-                                                                                                                <span>Meses<b
-                                                                                                                        style="color: red;">*</b></span>
-                                                                                                            </label>
-                                                                                                            <select
-                                                                                                                data-checkout="installments"
-                                                                                                                name="installments"
-                                                                                                                id="form-checkout__installments"
-                                                                                                                class="mp-custom-checkout-select-input"
-                                                                                                                aria-required="true">
-                                                                                                                <option
-                                                                                                                    data-placeholder=""
-                                                                                                                    selected=""
-                                                                                                                    disabled="">
-                                                                                                                    Selecciona
-                                                                                                                    una
-                                                                                                                    opción
-                                                                                                                </option>
-                                                                                                            </select>
-                                                                                                            <input-helper
-                                                                                                                isvisible="false"
-                                                                                                                type="error"
-                                                                                                                message="Selecciona una opción."
-                                                                                                                input-id="mp-installments-error">
-                                                                                                                <div class="mp-helper"
-                                                                                                                    id="mp-installments-error"
-                                                                                                                    data-cy="helper-container"
-                                                                                                                    role="alert"
-                                                                                                                    style="display: none;">
-                                                                                                                    <div class="mp-helper-icon"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        <svg width="12"
-                                                                                                                            height="12"
-                                                                                                                            viewBox="0 0 12 12"
-                                                                                                                            fill="none"
-                                                                                                                            xmlns="http://www.w3.org/2000/svg">
-                                                                                                                            <rect
-                                                                                                                                width="12"
-                                                                                                                                height="12"
-                                                                                                                                rx="6"
-                                                                                                                                fill="#CC1818">
-                                                                                                                            </rect>
-                                                                                                                            <path
-                                                                                                                                d="M6.72725 2.90918H5.27271L5.45452 6.90918H6.54543L6.72725 2.90918Z"
-                                                                                                                                fill="white">
-                                                                                                                            </path>
-                                                                                                                            <path
-                                                                                                                                d="M5.99998 7.63645C6.40164 7.63645 6.72725 7.96206 6.72725 8.36373C6.72725 8.76539 6.40164 9.091 5.99998 9.091C5.59832 9.091 5.27271 8.76539 5.27271 8.36373C5.27271 7.96206 5.59832 7.63645 5.99998 7.63645Z"
-                                                                                                                                fill="white">
-                                                                                                                            </path>
-                                                                                                                        </svg>
-                                                                                                                    </div>
-                                                                                                                    <div class="mp-helper-message error"
-                                                                                                                        data-cy="helper-message"
-                                                                                                                        tabindex="-1"
-                                                                                                                        aria-hidden="true">
-                                                                                                                        Selecciona
-                                                                                                                        una
-                                                                                                                        opción.
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </input-helper>
-                                                                                                            <div id="mp-installments-tax-info"
-                                                                                                                class="mp-installments-tax-info"
-                                                                                                                style="display: none;">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
                                                                                             </div>
                                                                                         </div>
 
@@ -2436,7 +1852,7 @@
                                                                         </div>
 
                                                                     </div>
-
+ </div>
                                                                 <input type="hidden" id="_mp_flow_id"
                                                                     name="mercadopago_checkout_session[_mp_flow_id]"
                                                                     value="ece32e35-dd17-4450-b4cd-e1ccabf80ff7"
