@@ -42,8 +42,16 @@ document.querySelector('.add_to_cart_button').addEventListener('click', function
 	
 	$("#AccumulatedPriceItems").text(priceActuaaAcumulatedFormated);
 	
+
+	EstadoTienda.agregarProducto({
+  id: 1,           // Ej: "92859" o el título si no tienes ID
+  titulo: 'prueba',   // Ej: "Filtros Libella Slim"
+  precio: 120,   // Ej: 2904 (número limpio, sin "$")
+  imagen: '',        // Ej: "https://..." o ruta relativa
+  cantidad: 1
+});
 	
-	
+
     // Acá podrías llamar a tu función para agregar al carrito, ejemplo:
     //agregarAlCarrito(variationId, price);
 });
