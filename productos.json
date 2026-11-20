@@ -1,290 +1,1244 @@
 [
-    {
-        "titulo": "REDMI Note 17 Pro 5G, Smartphone 12+256GB, Negro, batería de 8340mAh",
-        "link": "https://www.amazon.es/Note-17-Pro-5G-Smartphone/dp/B0H4H7FVVZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-1",
-        "imagen": "https://m.media-amazon.com/images/I/615gMB9zOXL._AC_UL320_.jpg",
-        "precio": "330,51 €"
+  {
+    "asin": "B0DWV55DXH",
+    "titulo": "Motorola Moto G Stylus - 2025 | Desbloqueado | Hecho para US 8/256GB | Cámara de 50MP | Pantone Mar de Gibraltar",
+    "link": "https://www.amazon.com/dp/B0DWV55DXH",
+    "imagen": "https://m.media-amazon.com/images/I/712YWK-GeVL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados",
+      "Selección general",
+      "Los más valorados"
+    ],
+    "badge_amazon": "Selección general",
+    "rating": 4.4,
+    "cantidad_resenas": "(3.6 K)",
+    "marca": "Motorola",
+    "estilo": "Solo Teléfono",
+    "color": "mar de gibraltar",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "Desbloqueado: Compatible con todos los principales operadores de EE. UU., incluidos Verizon, AT&T, T-Mobile y otros operadores importantes.",
+      "Lápiz óptico integrado de alta calidad. Toma notas sin esfuerzo, edita fotos, dibuja obras de arte y navega en el único teléfono de su clase con un lápiz incorporado***",
+      "Diseño llamativo con protección avanzada. Haz una declaración con un diseño ultrafino, colores modernos y un acabado de cuero vegano además de una excelente protección contra el agua y las caídas*.",
+      "Pantalla pOLED Super HD de 6.7\" + Dolby Atmos. Experimenta entretenimiento de calidad cinematográfica con más de mil millones de tonos de color y sonido multidimensional.",
+      "Redes + Bandas - 5G: sub-6, 4G: LTE, 3G: WCDMA, 2G: GSM 2G: banda GSM 2/3/5/8 3G: banda WCDMA 1/2/4/5/8 4G: banda LTE 1/2/3/4/5/7/8/12/13/14/17/18/19/20/25/26/28/29/30/38/39/40/41/42/48/66/71 5G: NR n1/2/3/5/7/12/14/20/25/26/28/29/30/38/40/41/48/66/70/71/77/78",
+      "Carga para el día en 15 minutos**. Obtén energía para el día en solo 15 minutos de carga** y luego trabaja y diviértete con una increíble duración de la batería.",
+      "Almacenamiento de 256 GB y RAM Boost. Mantenga sus inspiraciones diarias junto con fotos, canciones y películas: use almacenamiento adicional para aumentar el rendimiento****.",
+      "*Los estándares MIL-SPEC del Departamento de Defensa de los Estados Unidos establecen métodos para probar productos contra tensiones ambientales bajo condiciones controladas de laboratorio. Los dispositivos se prueban contra condiciones físicas y ambientales peligrosas bajo categorías/procedimientos seleccionados del estándar MIL-STD-810H. Las pruebas no son una garantía de rendimiento futuro en estas condiciones. El dispositivo probado contra 16 categorías + 14 procedimientos MIL-STD-810H. El abuso, como el de las pruebas MIL-STD 810H, no está cubierto por la garantía de Motorola.",
+      "* Resistencia al agua/polvo probada según los estándares IP68 en condiciones de laboratorio controladas. Soporta inmersión en agua dulce hasta 1.5 metros durante un máximo de 30 minutos. Exposición a condiciones más allá de las clasificaciones no cubiertas por la garantía. La resistencia disminuye como resultado del desgaste normal. No está diseñado para funcionar mientras está sumergido bajo el agua. No exponer a líquidos que no sean agua dulce. No cargues un teléfono mojado. Diseñado para proteger contra la entrada de objetos sólidos extraños de tamaño mayor a 1 mm. No es resistente al agua ni al polvo.",
+      "**Requiere cargador Motorola TurboPower de 68 W; se vende por separado. Velocidad máxima de carga TurboPower de 68W en el dispositivo; los cargadores más potentes no aumentarán la capacidad máxima de carga. La batería debe estar sustancialmente agotada; el impulso de carga debe estar \"activado\"; la velocidad de carga disminuye a medida que avanza la carga. Todas las afirmaciones sobre la duración de la batería son aproximadas y se basan en el usuario mediano probado a través de un perfil de uso mixto (que incluye tanto tiempo de uso como de espera) en condiciones de red óptimas. El rendimiento real de la batería varía y depende de muchos factores, incluyendo la intensidad de la señal, la red y la configuración del dispositivo, la temperatura, la condición de la batería y los patrones de uso."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
     },
-    {
-        "titulo": "REDMI Note 17, Smartphone 6+256GB, Morado Celestial, batería de 7700mAh",
-        "link": "https://www.amazon.es/Note-17-Smartphone-Celestial-bater%C3%ADa/dp/B0H4H83XNV/ref=sr_1_2?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-2",
-        "imagen": "https://m.media-amazon.com/images/I/712BUA3Wl1L._AC_UL320_.jpg",
-        "precio": "198,28 €"
-    },
-    {
-        "titulo": "XIAOMI POCO C85 Smartphone de 6+128GB Verde Batería de 6000 mAh",
-        "link": "https://www.amazon.es/XIAOMI-POCO-C85-Smartphone-procesador/dp/B0FHQFFDJ6/ref=sr_1_3?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-3",
-        "imagen": "https://m.media-amazon.com/images/I/61A3J8F5uyL._AC_UL320_.jpg",
-        "precio": "123,88 €"
-    },
-    {
-        "titulo": "XIAOMI POCO M8 5G Smartphone de 8+512GB Negro Pantalla de 6,77\" 120Hz",
-        "link": "https://www.amazon.es/XIAOMI-POCO-M8-5G-Smartphone/dp/B0G269WF6V/ref=sr_1_4?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-4",
-        "imagen": "https://m.media-amazon.com/images/I/71Zks3EGyHL._AC_UL320_.jpg",
-        "precio": "272,90 €"
-    },
-    {
-        "titulo": "Xiaomi REDMI 15C Smartphone de 4+256GB Azul Pantalla de 6,9\" 120 Hz",
-        "link": "https://www.amazon.es/XIAOMI-Redmi-15C-Smartphone-procesador/dp/B0FHBT612T/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-5",
-        "imagen": "https://m.media-amazon.com/images/I/61AlRQbmaZL._AC_UL320_.jpg",
-        "precio": "123,14 €"
-    },
-    {
-        "titulo": "REDMI Note 17 Pro MAX 5G, Smartphone 8+256GB, Negro, batería de 9210mAh",
-        "link": "https://www.amazon.es/Note-17-Pro-5G-Smartphone/dp/B0H4H6P325/ref=sr_1_6?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-6",
-        "imagen": "https://m.media-amazon.com/images/I/61UCSPXM5qL._AC_UL320_.jpg",
-        "precio": "396,63 €"
-    },
-    {
-        "titulo": "XIAOMI REDMI Note 15 Smartphone de 8+256GB Azul Glaciar batería de 6000 mAh",
-        "link": "https://www.amazon.es/XIAOMI-REDMI-Note-15-Smartphone/dp/B0FX9YCJH9/ref=sr_1_7?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-7",
-        "imagen": "https://m.media-amazon.com/images/I/61KJFvDjJDL._AC_UL320_.jpg",
-        "precio": "189,26 €"
-    },
-    {
-        "titulo": "Google Pixel 10a - 7 años de Nuevas actualizaciones y Funciones, más de 30 Horas de batería, Asistente de Cámara, Gemini Live, Seguridad de Pixel - Lavanda, 128GB",
-        "link": "https://www.amazon.es/Google-Pixel-10a-actualizaciones-Funciones/dp/B0GGCBQWG4/ref=sr_1_8?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-8",
-        "imagen": "https://m.media-amazon.com/images/I/61Bl1-FWMvL._AC_UL320_.jpg",
-        "precio": "371,07 €"
-    },
-    {
-        "titulo": "Google Pixel 10a - 7 años de Nuevas actualizaciones y Funciones, más de 30 Horas de batería, Asistente de Cámara, Gemini Live, Seguridad de Pixel - Gris Niebla, 128GB",
-        "link": "https://www.amazon.es/Google-Pixel-10a-actualizaciones-Funciones/dp/B0GGC9FJM7/ref=sr_1_9?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-9",
-        "imagen": "https://m.media-amazon.com/images/I/61MmG8xySYL._AC_UL320_.jpg",
-        "precio": "371,07 €"
-    },
-    {
-        "titulo": "REDMI 17 5G, Smartphone 4+128GB, Negro, batería de 7500mAh, Carga de 45 W",
-        "link": "https://www.amazon.es/17-5G-Smartphone-bater%C3%ADa-7500mAh/dp/B0H7156BS8/ref=sr_1_10?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-10",
-        "imagen": "https://m.media-amazon.com/images/I/613Y69NeryL._AC_UL320_.jpg",
-        "precio": "171,82 €"
-    },
-    {
-        "titulo": "XIAOMI POCO X8 Pro Smartphone de 12+512GB Verde Batería de 6500mAh",
-        "link": "https://www.amazon.es/XIAOMI-X8-Pro-Smartphone-Bater%C3%ADa/dp/B0GHN6K5ZR/ref=sr_1_11?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-11",
-        "imagen": "https://m.media-amazon.com/images/I/61AofQ8Z4gL._AC_UL320_.jpg",
-        "precio": "355,36 €"
-    },
-    {
-        "titulo": "XIAOMI REDMI Note 15 Pro+ 5G - Smartphone de 8+256GB, Pantalla AMOLED 6,83\" 1.5K AMOLED, Snapdragon 7s Gen 4, cámara de 200 MP, Hypercharge 100W, Cargador no Incluido, Negro (Versión ES)",
-        "link": "https://www.amazon.es/XIAOMI-REDMI-15-Pro-5G/dp/B0G3TTPVPS/ref=sr_1_12?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-12",
-        "imagen": "https://m.media-amazon.com/images/I/61wKrFyPlVL._AC_UL320_.jpg",
-        "precio": "406,66 €"
-    },
-    {
-        "titulo": "Samsung Galaxy S26, 256GB, Teléfono Móvil con Galaxy AI, Cámara 50MP, 12GB RAM, Batería 4300mAh, Garantía del Fabricante 3 Años + 1 Año Extra, Color Violeta Cobalto (Versión Española)",
-        "link": "https://www.amazon.es/Samsung-Galaxy-S26-Tel%C3%A9fono-Fabricante/dp/B0G529WCLK/ref=sr_1_13?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-13",
-        "imagen": "https://m.media-amazon.com/images/I/61Qhdb0SM8L._AC_UL320_.jpg",
-        "precio": "660,33 €"
-    },
-    {
-        "titulo": "Samsung Galaxy S26 Ultra, 512GB, Smartphone con Galaxy AI, Cámara 200MP, 12GB RAM, Batería 5000mAh, Garantía del Fabricante 3 Años+1 Año Extra, Color Negro (Versión Española)",
-        "link": "https://www.amazon.es/Samsung-Smartphone-Garant%C3%ADa-Fabricante-Espa%C3%B1ola/dp/B0G4ZNC741/ref=sr_1_14?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-14",
-        "imagen": "https://m.media-amazon.com/images/I/61d9BpWxdyL._AC_UL320_.jpg",
-        "precio": "1.156,20 €"
-    },
-    {
-        "titulo": "OPPO A6x 4G Smartphone Batería 6100mAh 4 GB RAM + 128 GB ROM, Ice Blue",
-        "link": "https://www.amazon.es/OPPO-Smartphone-Bater%C3%ADa-6100mAh-Blue/dp/B0GVJTD27P/ref=sr_1_15?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-15",
-        "imagen": "https://m.media-amazon.com/images/I/61lBFInV8HL._AC_UL320_.jpg",
-        "precio": "114,88 €"
-    },
-    {
-        "titulo": "Samsung Galaxy A37 5G, 256GB, Móvil Fino con IA, 8GB, Gran Angular 50MP, Autonomía 2 Días, Batería 5000 mAh, IP68, Garantía del Fabricante 3 Años + 1 Año Extra, Color Gris (Versión Española)",
-        "link": "https://www.amazon.es/Samsung-5G-Autonom%C3%ADa-Garant%C3%ADa-Fabricante/dp/B0GNNCCQY3/ref=sr_1_16?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-16",
-        "imagen": "https://m.media-amazon.com/images/I/61KeAkKtPdL._AC_UL320_.jpg",
-        "precio": "329,75 €"
-    },
-    {
-        "titulo": "XIAOMI Redmi 15C - Smartphone de 4+128GB, Cámara Dual con IA de 50 MP, Pantalla inmersiva de 6,9\" 120 Hz, Potente procesador octacore, Carga rápida de 33W, Cargador no Incluido, Naranja (Versión ES)",
-        "link": "https://www.amazon.es/XIAOMI-Redmi-15C-Smartphone-procesador/dp/B0FJM9NFLW/ref=sr_1_17?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-17",
-        "imagen": "https://m.media-amazon.com/images/I/71iJYS9Qq3L._AC_UL320_.jpg",
-        "precio": "129,69 €"
-    },
-    {
-        "titulo": "OPPO A6x 5G Smartphone 4+128GB, 6,75\" 120Hz, 6100mAh, D6300, IP64 Ice Blue",
-        "link": "https://www.amazon.es/OPPO-Smartphone-128GB-120Hz-6100mAh/dp/B0GVJK2NVQ/ref=sr_1_18?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-18",
-        "imagen": "https://m.media-amazon.com/images/I/61lBFInV8HL._AC_UL320_.jpg",
-        "precio": "147,93 €"
-    },
-    {
-        "titulo": "XIAOMI 17 Smartphone de 12+512GB Negro Lentes óptica Leica Summilux",
-        "link": "https://www.amazon.es/XIAOMI-17-Smartphone-Summilux-Snapdragon/dp/B0G4BZMPMS/ref=sr_1_19?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-19",
-        "imagen": "https://m.media-amazon.com/images/I/61DuJ6yKGLL._AC_UL320_.jpg",
-        "precio": "661,15 €"
-    },
-    {
-        "titulo": "Samsung Galaxy A27 5G 128GB Teléfono Móvi con IA, Negro, Garantía 3+1 Años",
-        "link": "https://www.amazon.es/Samsung-Galaxy-128GB-Tel%C3%A9fono-Garant%C3%ADa/dp/B0GZHR7553/ref=sr_1_20?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-20",
-        "imagen": "https://m.media-amazon.com/images/I/61veHCKdmiL._AC_UL320_.jpg",
-        "precio": "239,66 €"
-    },
-    {
-        "titulo": "OPPO Smartphone A6k 4GB+256GB, Cámara 50MP, Batería 6100 mAh",
-        "link": "https://www.amazon.es/OPPO-A6k-4G-Smartphone-Pantalla/dp/B0GC5XDX6W/ref=sr_1_21?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-21",
-        "imagen": "https://m.media-amazon.com/images/I/51OzTiJanUL._AC_UL320_.jpg",
-        "precio": "134,99 €"
-    },
-    {
-        "titulo": "realme C71 Smartphone 8GB RAM + 256GB ROM, 6.67\" 120Hz Pantalla, Teléfono Móvil con Batería de 6000mAh y Carga Rápida de 45W, AI 50MP Cámara, Dual SIM, Huellas Lateral, NFC y Next Ai, Verde",
-        "link": "https://www.amazon.es/realme-C71-Smartphone-Pantalla-Tel%C3%A9fono/dp/B0H33R16QD/ref=sr_1_22?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-22",
-        "imagen": "https://m.media-amazon.com/images/I/715eqs5wlsL._AC_UL320_.jpg",
-        "precio": "Consultar precio"
-    },
-    {
-        "titulo": "realme 16 Pro+ 5G Smartphone, 8GB+256GB, Pantalla Curva AMOLED 144Hz 6,8\", Batería 7000mAh, Cámara 200MP OIS, IP69K, Carga Rápida 80W, Dual SIM, Next AI, Oro (con Adaptador)Garanzia standard di 3 anni",
-        "link": "https://www.amazon.es/realme-Smartphone-Pantalla-Bater%C3%ADa-Adaptador/dp/B0G6YWLFQ4/ref=sr_1_23?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-23",
-        "imagen": "https://m.media-amazon.com/images/I/71GzNYxF1qL._AC_UL320_.jpg",
-        "precio": "329,75 €"
-    },
-    {
-        "titulo": "REDMI 17 5G, Smartphone 4+256GB, Azul, batería de 7500mAh, Carga de 45 W",
-        "link": "https://www.amazon.es/17-5G-Smartphone-bater%C3%ADa-7500mAh/dp/B0H711ZWF6/ref=sr_1_24?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-24",
-        "imagen": "https://m.media-amazon.com/images/I/61iSlLVqWrL._AC_UL320_.jpg",
-        "precio": "204,88 €"
-    },
-    {
-        "titulo": "XIAOMI POCO M7 - Smartphone de 6+128GB, Cámara Dual de 50MP con AI, Pantalla inmersiva de 6,9” FHD+, Snapdragon 685, Carga rápida de 33W y Reversible de 18W, Cargador no Incluido, Negro (Versión ES)",
-        "link": "https://www.amazon.es/XIAOMI-POCO-Smartphone-Snapdragon-Reversible/dp/B0FFH3Q13P/ref=sr_1_25?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-25",
-        "imagen": "https://m.media-amazon.com/images/I/51rXhSr+IFL._AC_UL320_.jpg",
-        "precio": "140,41 €"
-    },
-    {
-        "titulo": "XIAOMI 17T Smartphone de 12+256GB Negro Teleobjetivo Leica 5X",
-        "link": "https://www.amazon.es/XIAOMI-17T-Smartphone-256GB-Teleobjetivo/dp/B0GS6C6FP1/ref=sr_1_26?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-26",
-        "imagen": "https://m.media-amazon.com/images/I/71oxjrA4BtL._AC_UL320_.jpg",
-        "precio": "536,36 €"
-    },
-    {
-        "titulo": "Samsung Galaxy A17 LTE 128GB - Teléfono Móvil con IA, Android, con Pantalla Grande, Cámara 50MP, 4GB RAM, Batería 5000mAh, Negro, Garantía del Fabricante 3 Años + 1 Año Extra (Versión Española)",
-        "link": "https://www.amazon.es/Samsung-Galaxy-A17-LTE-128GB/dp/B0FPX8423R/ref=sr_1_27?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-27",
-        "imagen": "https://m.media-amazon.com/images/I/61degN4o6DL._AC_UL320_.jpg",
-        "precio": "197,52 €"
-    },
-    {
-        "titulo": "Blackview Telefono Movil Baratos Buenos Android 16, 16+64GB/2TB TF Celulares, 32MP+13MP, 6.56\", Smartphone Libres Oferta 5000mAh/3.5mm/WiFi 5G/Face ID/3 Ranuras para SIM,3 Años de Garantía",
-        "link": "https://www.amazon.es/Blackview-Telefono-Celulares-Smartphone-Garant%C3%ADa/dp/B0H9M1RB1X/ref=sr_1_28?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-28",
-        "imagen": "https://m.media-amazon.com/images/I/718wB9ysO0L._AC_UL320_.jpg",
-        "precio": "104,41 €"
-    },
-    {
-        "titulo": "Smartphone realme P4X 4G, 4GB+256GB, Pantalla LCD 120Hz 6,8\", Batería Titan 7500mAh, Carga rápida 45W, Carga inversa 6W, Antichoque MIL-STD 810H, IP64, Sistema Next IA, Blanco Rally (Sin Cargador)",
-        "link": "https://www.amazon.es/Smartphone-realme-Pantalla-Antichoque-Cargador/dp/B0GY4JQKDJ/ref=sr_1_29?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-29",
-        "imagen": "https://m.media-amazon.com/images/I/71YSVWP55AL._AC_UL320_.jpg",
-        "precio": "223,13 €"
-    },
-    {
-        "titulo": "Moto g86 5G 24GB (8GB+16GB RAM Boost)/256GB Cosmic Sky, Pantalla ultrabrillante Super HD (1220p) de 6,67” + Dolby Atmos®, cámara Sony LYTIA™ 600 de 50 MP, 5100 mAh y Carga TurboPower™ de 30W",
-        "link": "https://www.amazon.es/Moto-g86-5G-ultrabrillante-TurboPowerTM/dp/B0GLHXFL5N/ref=sr_1_30?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-30",
-        "imagen": "https://m.media-amazon.com/images/I/81Dns0hqMfL._AC_UL320_.jpg",
-        "precio": "230,58 €"
-    },
-    {
-        "titulo": "Nothing Phone (4b), Smartphone Android, Pantalla AMOLED de 6,77\" y 120 Hz",
-        "link": "https://www.amazon.es/Nothing-Smartphone-Android-Pantalla-AMOLED/dp/B0H36MJL1V/ref=sr_1_31?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-31",
-        "imagen": "https://m.media-amazon.com/images/I/71irsQfSUiL._AC_UL320_.jpg",
-        "precio": "271,90 €"
-    },
-    {
-        "titulo": "vivo V70 FE 5G Móvil 8+256GB Cámara 200MP OIS Pantalla 1,5K 5250mAh",
-        "link": "https://www.amazon.es/vivo-M%C3%B3vil-C%C3%A1mara-Pantalla-5250mAh/dp/B0GRHV8WC8/ref=sr_1_32?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-32",
-        "imagen": "https://m.media-amazon.com/images/I/71bOQos1wVL._AC_UL320_.jpg",
-        "precio": "313,22 €"
-    },
-    {
-        "titulo": "XIAOMI POCO F8 Pro Smartphone de 12+256GB Negro Hypercharge 100W",
-        "link": "https://www.amazon.es/XIAOMI-POCO-F8-Pro-Hypercharge/dp/B0FT3XVPX2/ref=sr_1_33?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-33",
-        "imagen": "https://m.media-amazon.com/images/I/61K2CS3nmDL._AC_UL320_.jpg",
-        "precio": "503,31 €"
-    },
-    {
-        "titulo": "Samsung Galaxy A57 5G, 256GB, Móvil Fino con IA, 8GB, Gran Angular 50MP, Autonomía 2 Días, Batería 5000mAh, IP68, Garantía del Fabricante 3 Años + 1 Año Extra, Color Azul Oscuro (Versión Española)",
-        "link": "https://www.amazon.es/Samsung-Autonom%C3%ADa-Garant%C3%ADa-Fabricante-Espa%C3%B1ola/dp/B0GNNTX269/ref=sr_1_34?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-34",
-        "imagen": "https://m.media-amazon.com/images/I/61tQzecadhL._AC_UL320_.jpg",
-        "precio": "503,31 €"
-    },
-    {
-        "titulo": "Moto g56 5G 24GB (8GB+16GB RAM Boost)/256GB Gris, Durabilidad Militar, IP68/69, Corning Gorilla® Glass 7i, Pantalla 6.72\" Full HD+, Cámara 50 MP con Moto ai, Batería 5200 mAh,Carga TurboPower 30W",
-        "link": "https://www.amazon.es/Durabilidad-Militar-Gorilla%C2%AE-Pantalla-TurboPower/dp/B0FRB29D3B/ref=sr_1_35?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-35",
-        "imagen": "https://m.media-amazon.com/images/I/81swGcbn+pL._AC_UL320_.jpg",
-        "precio": "205,79 €"
-    },
-    {
-        "titulo": "Google Pixel 11 Pro – Smartphone Android Libre - Obsidiana, 256GB",
-        "link": "https://www.amazon.es/Google-Pixel-Pro-Smartphone-Obsidiana/dp/B0H62T8RPM/ref=sr_1_36?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-36",
-        "imagen": "https://m.media-amazon.com/images/I/81DYYhy4l5L._AC_UL320_.jpg",
-        "precio": "990,91 €"
-    },
-    {
-        "titulo": "Smartphone Samsung A17 Black 6,7\" 75\" Mediatek Dimensity 6100+ 4 GB RAM 128 GB Nero",
-        "link": "https://www.amazon.es/SAMSUNG-Galaxy-128GB-Black-Android/dp/B0G2RNLXZ1/ref=sr_1_37?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-37",
-        "imagen": "https://m.media-amazon.com/images/I/51-cobzbsAL._AC_UL320_.jpg",
-        "precio": "Consultar precio"
-    },
-    {
-        "titulo": "Motorola Moto g77 Pantone Shade Spruce 8GB RAM 256GB Almacenamiento Sony LYTIA 108MP 6.78\" FHD+ AMOLED 5200mAh Dimensity 6400 5G",
-        "link": "https://www.amazon.es/Motorola-Moto-Pantone-Almacenamiento-Dimensity/dp/B0GSGJBTNT/ref=sr_1_38?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-38",
-        "imagen": "https://m.media-amazon.com/images/I/81DkHzGyGiL._AC_UL320_.jpg",
-        "precio": "205,79 €"
-    },
-    {
-        "titulo": "OPPO A6 Pro 5G Smartphone Libre, 6.57 Pulgadas AMOLED 120Hz, 7000 mAh Batería, 80W SUPERVOOC, 256 GB, 8 GB RAM, 50MP Cámara, IP69 Resistente al Agua, Titanium",
-        "link": "https://www.amazon.es/OPPO-Smartphone-Pulgadas-SUPERVOOC-Resistente/dp/B0GVK3PKW1/ref=sr_1_39?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-39",
-        "imagen": "https://m.media-amazon.com/images/I/615gPc3pAgL._AC_UL320_.jpg",
-        "precio": "247,11 €"
-    },
-    {
-        "titulo": "Smartphone Motorola Moto G86 PB7L0086SE 256 GB 8 GB RAM 16,9 cm (6,67\") 5G Cámara 50 MP OIS Cristales Swarovski Brilla sin límites IP68 MIL-STD- 810h Azul",
-        "link": "https://www.amazon.es/Smartphone-Motorola-PB7L0086SE-Cristales-Swarovski/dp/B0F7RTGCKM/ref=sr_1_40?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-40",
-        "imagen": "https://m.media-amazon.com/images/I/710wPo2UbkL._AC_UL320_.jpg",
-        "precio": "Consultar precio"
-    },
-    {
-        "titulo": "DOOGE E Fire 5 Ultra Android 15 - Teléfono móvil para Exteriores sin Contrato, 32 GB de RAM, 256 GB de ROM (2 TB) 1200 LM Dual, 13000 mAh Mobile Phone 6.6 Pulgadas, 48 MP + 8 MP Outdoor Smartphone",
-        "link": "https://www.amazon.es/DOOGE-Fire-Ultra-Android-Exteriores/dp/B0FPQHMNT3/ref=sr_1_41?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-41",
-        "imagen": "https://m.media-amazon.com/images/I/61pYgS2HSRL._AC_UL320_.jpg",
-        "precio": "124,69 €"
-    },
-    {
-        "titulo": "Sony Xperia 10 VIII | Smartphone Ligero con una Gran autonomía",
-        "link": "https://www.amazon.es/Sony-Xperia-10-VIII-Smartphone/dp/B0HDTPHYF8/ref=sr_1_42?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-42",
-        "imagen": "https://m.media-amazon.com/images/I/61fEPBWVQmL._AC_UL320_.jpg",
-        "precio": "495,04 €"
-    },
-    {
-        "titulo": "ZTE Nubia Neo 5 GT 5G, Smartphone Gaming con IA, 12GB+256GB, Gatillos Laterales, Ventilador físico Incorporado, Pantalla AMOLED 6,8\" 1.5K 144Hz, 6210mAh Doble celda, Android 16, Negro (Phantom Black)",
-        "link": "https://www.amazon.es/Smartphone-Gatillos-Laterales-Ventilador-Incorporado/dp/B0GWZDJ8RZ/ref=sr_1_43?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-43",
-        "imagen": "https://m.media-amazon.com/images/I/81MJmRz1V5L._AC_UL320_.jpg",
-        "precio": "329,75 €"
-    },
-    {
-        "titulo": "realme C100 5G Smartphone, 4GB+128GB, Pantalla LCD 144Hz 6,5\", Batería 6600mAh, Cámara 50MP IA, IP64, Carga Rápida 45W, Dual SIM, AI Boost, Verde (Sin Adaptador) Garanzia Standard di 3 Anni",
-        "link": "https://www.amazon.es/realme-Smartphone-Pantalla-Bater%C3%ADa-Adaptador/dp/B0GN8MMYRZ/ref=sr_1_44?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-44",
-        "imagen": "https://m.media-amazon.com/images/I/71I7LIyZ0xL._AC_UL320_.jpg",
-        "precio": "155,59 €"
-    },
-    {
-        "titulo": "Samsung Galaxy A56 5G 256GB, Teléfono Móvil, 8GB RAM, 50MP Cámara, Negro, Garantía del Fabricante 3 Años + 1 Año Extra",
-        "link": "https://www.amazon.es/Samsung-Galaxy-Tel%C3%A9fono-Garant%C3%ADa-Fabricante/dp/B0DWFZ7JCG/ref=sr_1_45?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-45",
-        "imagen": "https://m.media-amazon.com/images/I/61kUvZHxnDL._AC_UL320_.jpg",
-        "precio": "437,19 €"
-    },
-    {
-        "titulo": "Poco C85 4G Smartphone, 8 GB + 256 GB, Negro, 6.9\" Dot Drop Display, cámara de 50 MP, batería de 6000 mAh, 33 W, procesador MediaTek Helio G81-Ultra Octa-Core, hasta 120 Hz, cargador incluido",
-        "link": "https://www.amazon.es/C85-Smartphone-pulgadas-G81-Ultra-processorOcta-Core/dp/B0FSKC77B8/ref=sr_1_46?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-46",
-        "imagen": "https://m.media-amazon.com/images/I/51lagHmMpjL._AC_UL320_.jpg",
-        "precio": "Consultar precio"
-    },
-    {
-        "titulo": "Samsung Galaxy A27 A276 5G Dual Sim 6GB RAM 128GB - Black (SM-A276BZKBEUE)",
-        "link": "https://www.amazon.es/Samsung-Galaxy-A276-Dual-128GB/dp/B0H7WY5F6F/ref=sr_1_47?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-47",
-        "imagen": "https://m.media-amazon.com/images/I/51mqpbTrw4L._AC_UL320_.jpg",
-        "precio": "263,64 €"
-    },
-    {
-        "titulo": "Samsung Galaxy Z Fold8 Ultra, 256 GB, Teléfono Móvil, Grafito",
-        "link": "https://www.amazon.es/Samsung-Galaxy-Fold8-Ultra-Tel%C3%A9fono/dp/B0H2W1B1M2/ref=sr_1_48?dib=eyJ2IjoiMSJ9.6SBxoHl95tcv5Zbqg3B0TLrSDq2ud9gL8eCJoNAf0ezLVvZDp-jp7h8Ho576IL6eW2RojsCXUR6pBQPa0FZYsIwFsSUDdptxWvj2L8-iR7pjUKlqbpEBXVXhYlfazO4v2Lz-EmamOOohEF31uoe3Qav2wzIxE6tt3XUDg3lwCFqVIg6yZQSXTeKykYq-_tFrhW5SixKumpNuuuzVkkGSo6RUIHe1pjkcAHLjogYNOhl1EMuZwQtasklEL18zmVzPPhBLsOM4R4HWMATp70KkIoNURbJmmmSmA3vQ6KIVg3A.THQ3UF_lcWaxLFpdNW62JZbUDgE_cmxmAEUfOFCOzT4&dib_tag=se&keywords=smartphones&qid=1790731720&sr=8-48",
-        "imagen": "https://m.media-amazon.com/images/I/61dO1jsKoLL._AC_UL320_.jpg",
-        "precio": "1.590,91 €"
+    "precio": "US$ 199.99",
+    "precio_mas_caro": "US$ 399.99",
+    "precio_numerico": 199.99,
+    "precio_mas_caro_numerico": 399.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "6.7 pulgadas"
     }
+  },
+  {
+    "asin": "B0CP6DDN1H",
+    "titulo": "Motorola Moto G Play LTE | Desbloqueado | Hecho para US 4/64GB | Cámara de 50MP | Azul zafiro",
+    "link": "https://www.amazon.com/dp/B0CP6DDN1H",
+    "imagen": "https://m.media-amazon.com/images/I/61xk4XNRktL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(2 K)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Sapphire Blue",
+    "tamano": "2.95 x 0.33 x 6.45 pulgadas",
+    "acerca_de_este_producto": [
+      "Rendimiento ultrarrápido de Qualcomm. Obtén la velocidad que necesitas para un gran entretenimiento con un procesador Snapdragon 680 y 4GB**** de RAM.",
+      "Pantalla fluida + sonido estéreo inmersivo. Dale vida a tu entretenimiento con una pantalla HD+ ultra ancha de 6.5\" 90Hz* más altavoces estéreo, Dolby Atmos y Audio de Alta Resolución**.",
+      "Cámara de 50MP*** Quad Pixel. Captura fotos más nítidas y vibrantes día o noche con 4 veces la sensibilidad a la luz.",
+      "Almacenamiento integrado de 64 GB****. Obtén mucho espacio para fotos, películas, canciones y aplicaciones, y agrega hasta 1 TB más con una tarjeta microSD*****.",
+      "Increíble duración de la batería. Trabaja y juega sin parar con una batería de 5000 mAh de larga duración. *****",
+      "Diseño moderno y elegante. Elaborado cuidadosamente con materiales de primera calidad, presenta un aspecto estilizado, acabado mate duradero y protección contra salpicaduras******.",
+      "* El modo automático tiene una frecuencia de actualización mínima del dispositivo de 60Hz y una frecuencia de actualización máxima de 90Hz; la frecuencia de actualización real puede ser menor y variará según las limitaciones y requisitos de la aplicación/contenido, la configuración del modo del dispositivo y otros factores. **Puede usarse solo con auriculares con cable y aplicaciones compatibles con Hi-Res. Verifique los dispositivos y aplicaciones aplicables para determinar la compatibilidad.",
+      "***El sensor de 50MP combina 4 píxeles en 1, para una resolución de foto efectiva de 12.5MP.",
+      "****El almacenamiento de usuario disponible y la memoria interna son menores debido al sistema operativo, software y otras funciones que utilizan parte de esta capacidad. La capacidad disponible puede cambiar con las actualizaciones de software.",
+      "*****Las declaraciones de duración de la batería son aproximadas y se basan en condiciones óptimas de red. El rendimiento real de la batería variará y depende de muchos factores, incluyendo la intensidad de la señal, la red y la configuración del dispositivo, la temperatura, la condición de la batería y los patrones de uso. ******El diseño repelente al agua crea una barrera para ayudar a proteger contra la exposición moderada al agua como derrames accidentales, salpicaduras o lluvia ligera. No está diseñado para sumergirse en agua, o exponerse a agua presurizada u otros líquidos; puede disminuir con el tiempo. No es impermeable."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 99.99",
+    "precio_mas_caro": "US$ 149.99",
+    "precio_numerico": 99.99,
+    "precio_mas_caro_numerico": 149.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "64 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 13.0",
+      "tamano_pantalla": "2.95 x 0.33 x 6.45 pulgadas"
+    }
+  },
+  {
+    "asin": "B0FNS5XW5W",
+    "titulo": "Motorola Moto G Stylus 5G | 2024 | Desbloqueado | Hecho para Estados Unidos 8/128 GB | Cámara de 50 MP | Caramelo con Leche",
+    "link": "https://www.amazon.com/dp/B0FNS5XW5W",
+    "imagen": "https://m.media-amazon.com/images/I/61LE9-6KxdL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados",
+      "Los más valorados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.4,
+    "cantidad_resenas": "(3.6 K)",
+    "marca": "Motorola",
+    "estilo": "Solo Teléfono",
+    "color": "Caramel Latte",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "Nuevo lápiz óptico incorporado. Anota notas, edita fotos, dibuja obras de arte y navega sin esfuerzo con un lápiz capacitivo mejorado y software actualizado.",
+      "Pantalla pOLED de 6.7\" y Dolby Atmos. Experimenta entretenimiento de calidad cinematográfica con más de mil millones de tonos de color y sonido multidimensional*.",
+      "Cámara Ultra Pixel de 50 MP + OIS. Captura fotos más nítidas con poca luz y videos más suaves con un sistema de cámara inquebrantable que cuenta con estabilización óptica de imágenes.",
+      "Carga TurboPower de 30 W + batería de más de un día. Obtén horas de energía en solo minutos de carga, luego trabaja y juega con una increíble duración de la batería**.",
+      "Diseño destacado. Haz una declaración con su aspecto impresionante, color moderno y acabado suave de cuero vegano.",
+      "128 GB de almacenamiento + RAM Boost. Mantenga sus inspiraciones diarias junto con fotos, canciones y películas, incluso puede usar almacenamiento adicional para aumentar el rendimiento***.",
+      "*Dolby, Dolby Atmos y el símbolo de doble D son marcas registradas de Dolby Laboratories Licensing Corporation. Fabricado bajo licencia de Dolby Laboratories.",
+      "**Los usuarios medianos pueden obtener hasta 30 horas de duración de la batería. La batería debe agotarse sustancialmente; la velocidad de carga se ralentiza a medida que avanza la carga. Todas las afirmaciones sobre la duración de la batería son aproximadas y se basan en el usuario mediano probado en un perfil de uso mixto (que incluye tanto tiempo de uso como de espera) en condiciones óptimas de red. El rendimiento real de la batería variará y depende de muchos factores, incluyendo la intensidad de la señal, la red y la configuración del dispositivo, la temperatura, la condición de la batería y los patrones de uso.",
+      "***El almacenamiento disponible del usuario es menor debido a muchos factores, incluyendo el sistema operativo, el software y las funciones que utilizan parte de esta capacidad; puede cambiar con las actualizaciones de software. El RAM Boost de RAM extendida requiere el uso del almacenamiento interno del teléfono como memoria virtual, disminuyendo la capacidad de almacenamiento; el almacenamiento disponible para el usuario es menor mientras está en uso. La RAM disponible es menor debido al sistema operativo, software y otras funciones; puede cambiar con las actualizaciones de software. Las características varían según el mercado."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 169.99",
+    "precio_mas_caro": "US$ 169.99",
+    "precio_numerico": 169.99,
+    "precio_mas_caro_numerico": 169.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "8 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 14",
+      "tamano_pantalla": "6.7 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DM1S54MZ",
+    "titulo": "Samsung Galaxy A16 4G LTE (128 GB + 4 GB) Modelo internacional SM-A165F/DS desbloqueado de fábrica, 6.7\", doble SIM, cámara triple de 50 MP (paquete con funda), negro",
+    "link": "https://www.amazon.com/dp/B0DM1S54MZ",
+    "imagen": "https://m.media-amazon.com/images/I/61Lp1UcxeLL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(6.4 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Negro",
+    "tamano": "3.07 x 0.31 x 6.47 pulgadas",
+    "acerca_de_este_producto": [
+      "Tenga en cuenta que este dispositivo no es compatible con E-SIM; Este modelo 4G es compatible con todas las redes GSM en todo el mundo fuera de los EE. UU. En los Estados Unidos, SOLO compatible con T-Mobile y sus MVNO (Metro y Standup). No funcionará con otros operadores CDMA, y tampoco es compatible con su MVNO (Visible, Xfinity Mobile, US Mobile, Cricket Wireless, etc.).",
+      "La compatibilidad con ciertos dispositivos de terceros y accesorios de accesibilidad, incluidos algunos audífonos, puede variar según el soporte del fabricante, los protocolos Bluetooth, la compatibilidad del software y las limitaciones de firmware regionales. Para obtener información adicional sobre compatibilidad de audífonos, consulte la documentación de soporte oficial de Samsung.",
+      "Cámara: 50 MP, f/1.8, (ancho), 1/2.76\", 0.64µm, AF | 50 MP, f/1.8, (ancho), 1/2.76\", 0.64µm, AF | 2 MP, f/2.4, (macro). Batería: 5000 mAh, no extraíble | Un adaptador de corriente no está incluido."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 149.50",
+    "precio_mas_caro": "US$ 163.89",
+    "precio_numerico": 149.5,
+    "precio_mas_caro_numerico": 163.89,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "3.07 x 0.31 x 6.47 pulgadas"
+    }
+  },
+  {
+    "asin": "B0C4Q796XC",
+    "titulo": "Samsung Galaxy S23+ Plus 5G, US Version, 256GB, Phantom Black - Unlocked (Renewed)",
+    "link": "https://www.amazon.com/dp/B0C4Q796XC",
+    "imagen": "https://m.media-amazon.com/images/I/51yz4TrDNdL._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.1,
+    "cantidad_resenas": "(2.5 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Negro fantasma",
+    "tamano": "256 GB",
+    "acerca_de_este_producto": [
+      "Ofrece una pantalla AMOLED 2X dinámica de 6.6 pulgadas con frecuencia de actualización adaptable de 48-120 Hz más brillo máximo de hasta ~ 1750 nits y \"Vision Booster\", lo que significa que la pantalla se mantiene brillante y visible incluso bajo la luz solar fuerte, ideal si usa mucho su teléfono al aire libre."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "Consultar precio",
+    "precio_mas_caro": "",
+    "precio_numerico": 0,
+    "precio_mas_caro_numerico": 0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.6 pulgadas"
+    }
+  },
+  {
+    "asin": "B0BN72FYFG",
+    "titulo": "Apple iPhone 14, 128GB, Midnight - Unlocked (Renewed)",
+    "link": "https://www.amazon.com/dp/B0BN72FYFG",
+    "imagen": "https://m.media-amazon.com/images/I/61WUSYIQdKL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.0,
+    "cantidad_resenas": "(14.5 K)",
+    "marca": "Apple",
+    "estilo": "",
+    "color": "Medianoche",
+    "tamano": "5.78 x 2.82 x 0.31 pulgadas",
+    "acerca_de_este_producto": [
+      "Este teléfono está desbloqueado y es compatible con cualquier operador de su elección en redes GSM y CDMA (p. ej. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc. ).",
+      "Consulta con tu operador para verificar la compatibilidad.",
+      "El dispositivo no viene con auriculares ni tarjeta SIM. Incluye un cable de carga genérico (certificado MFI).",
+      "Probado para el estado de la batería y garantizado para tener una capacidad mínima de la batería del 80%."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "Consultar precio",
+    "precio_mas_caro": "",
+    "precio_numerico": 0,
+    "precio_mas_caro_numerico": 0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "iOS 16",
+      "tamano_pantalla": "5.78 x 2.82 x 0.31 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DXM9HDZJ",
+    "titulo": "Motorola Moto G Stylus - 2025 | Desbloqueado | Hecho para Estados Unidos 8/256 GB | Cámara de 50 MP | Pantone Surf The Web",
+    "link": "https://www.amazon.com/dp/B0DXM9HDZJ",
+    "imagen": "https://m.media-amazon.com/images/I/71IhMD9Q0qL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados",
+      "Los más valorados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.4,
+    "cantidad_resenas": "(3.6 K)",
+    "marca": "Motorola",
+    "estilo": "Solo Teléfono",
+    "color": "Surf the Web",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "Desbloqueado: Compatible con todos los principales operadores de EE. UU., incluidos Verizon, AT&T, T-Mobile y otros operadores importantes.",
+      "Lápiz óptico integrado de alta calidad. Toma notas sin esfuerzo, edita fotos, dibuja obras de arte y navega en el único teléfono de su clase con un lápiz incorporado***.",
+      "Diseño llamativo con protección avanzada. Haz una declaración con un diseño ultrafino, colores modernos y un acabado de cuero vegano además de una excelente protección contra el agua y las caídas*.",
+      "Pantalla pOLED Super HD de 6.7\" + Dolby Atmos. Experimenta entretenimiento de calidad cinematográfica con más de mil millones de tonos de color y sonido multidimensional.",
+      "Sony - Cámara LYTIA con OIS. Captura fotos más brillantes y vibrantes en la noche con la cámara de 50MP con estabilización óptica de imagen y moto ai.",
+      "Carga para todo el día en 15 minutos**. Obtén energía para el día en solo 15 minutos de carga** y luego trabaja y diviértete con una increíble duración de la batería.",
+      "Almacenamiento de 256 GB y mejora de RAM. Mantenga sus inspiraciones diarias junto con fotos, canciones y películas: use almacenamiento adicional para aumentar el rendimiento****.",
+      "*Los estándares MIL-SPEC del Departamento de Defensa de los Estados Unidos establecen métodos para probar productos contra tensiones ambientales bajo condiciones controladas de laboratorio. Los dispositivos se prueban contra condiciones físicas y ambientales peligrosas bajo categorías/procedimientos selectos del estándar MIL-STD-810H. Las pruebas no son una garantía de rendimiento futuro en estas condiciones. El dispositivo probado contra 16 categorías + 14 procedimientos MIL-STD-810H. El abuso, como el de las pruebas MIL-STD 810H, no está cubierto por la garantía de Motorola.",
+      "* Resistencia al agua/polvo probada según los estándares IP68 en condiciones de laboratorio controladas. Soporta inmersión hasta 1.5m de agua dulce durante hasta 30 minutos. La exposición a condiciones más allá de las clasificaciones no está cubierta por la garantía. La resistencia disminuye como resultado del desgaste normal. No está diseñado para funcionar mientras está sumergido bajo el agua. No exponer a líquidos que no sean agua dulce. No cargues un teléfono mojado. Diseñado para proteger contra la entrada de objetos sólidos extraños de tamaño mayor a 1 mm. No es resistente al agua ni al polvo.",
+      "**Requiere cargador Motorola TurboPower de 68 W; se vende por separado. Velocidad máxima de carga TurboPower de 68W en el dispositivo; los cargadores más potentes no aumentarán la capacidad máxima de carga. La batería debe estar sustancialmente agotada; el impulso de carga debe estar \"activado\"; la velocidad de carga disminuye a medida que avanza la carga. Todas las afirmaciones sobre la duración de la batería son aproximadas y se basan en el usuario mediano probado en un perfil de uso mixto (que incluye tanto tiempo de uso como de espera) en condiciones óptimas de red. El rendimiento real de la batería variará y depende de muchos factores, incluyendo la intensidad de la señal, la red y la configuración del dispositivo, la temperatura, el estado de la batería y los patrones de uso."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 199.99",
+    "precio_mas_caro": "US$ 399.99",
+    "precio_numerico": 199.99,
+    "precio_mas_caro_numerico": 399.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "6.7 pulgadas"
+    }
+  },
+  {
+    "asin": "B0FWV8G59C",
+    "titulo": "Motorola Moto g - 2026 | Desbloqueado | Hecho para US 4/128GB | Cámara de 50MP | Pantone Cattleya Orchid",
+    "link": "https://www.amazon.com/dp/B0FWV8G59C",
+    "imagen": "https://m.media-amazon.com/images/I/61vcwXKe4cL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.1,
+    "cantidad_resenas": "(292)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Pantone Cattleya Orquídea",
+    "tamano": "0.33 x 3.01 x 6.58 pulgadas",
+    "acerca_de_este_producto": [
+      "Universal desbloqueado. Compatible con todos los principales operadores estadounidenses, incluidos Verizon, AT&T, T-Mobile y otros operadores prepagos.",
+      "Pantalla súper brillante y súper suave de 6.7 pulgadas. Vea su pantalla claramente incluso al aire libre bajo la luz del sol y disfrute de vistas perfectas con una pantalla de 120 Hz de rápida actualización. *",
+      "Sistema de cámara alimentado por IA. Toma fotos impresionantes con cualquier luz con la cámara de 50MP**, luce lo mejor posible con una cámara selfie de 32 MP***** y captura primeros planos extremos.",
+      "Rendimiento 5G superrápido. Da rienda suelta a tu entretenimiento a velocidad 5G*** con el chipset MediaTek Dimensity 6300 y hasta 12 GB de RAM con RAM Boost****.",
+      "Batería de larga duración + carga TurboPower. Funciona día tras día con una batería de 5200 mAh, luego obtén horas de energía en solo minutos. ****",
+      "Audio multidimensional con altavoces estéreo. Siente el sonido envolvente por todas partes gracias a los altavoces estéreo, Dolby Atmos y Audio Hi-Res.",
+      "Descargo de responsabilidad: *Una frecuencia de actualización mínima del dispositivo de 60Hz y una frecuencia de actualización máxima de 120Hz; la frecuencia de actualización real puede ser menor y variará según las limitaciones y requisitos de la aplicación/contenido, la configuración del modo del dispositivo y otros factores. **El sensor de 50MP combina 4 píxeles en 1, para una resolución de foto efectiva de 12.5MP. ***Servicio 5G disponible con plan 5G. Se requiere cobertura de red 5G; disponible solo en áreas seleccionadas. Póngase en contacto con su proveedor de servicios para",
+      "****Todas las reclamaciones de duración de la batería son aproximadas y se basan en la mediana del usuario probado en un perfil de uso mixto (que incluye tanto el uso como el tiempo de espera) en condiciones óptimas de red. El rendimiento real de la batería variará y dependerá de muchos factores, incluida la intensidad de la señal, la configuración de la red y el dispositivo, la temperatura, el estado de la batería y los patrones de ****El cargador se puede vender por separado. Velocidad máxima de carga TurboPower de 30 W en el dispositivo; requiere cargador Motorola TurboPower de 30 W o superior; los cargadores más altos no aumentarán la capacidad de carga máxima. El cargador en caja varía según el mercado. Consulte con su transportista o minorista para conocer la disponibilidad.",
+      "****RAM ampliada RAM Boost requiere el uso del almacenamiento interno del teléfono como memoria virtual, disminuyendo la capacidad de almacenamiento; el almacenamiento de usuario disponible es menor mientras está en uso; función activada de forma predeterminada a menos que esté apagada. ****La capacidad típica es de 5200 mAh. El valor típico es la capacidad promedio estimada de un lote de baterías basada en pruebas internas, que representa el rendimiento esperado en condiciones normales. La capacidad nominal es de 5100 mAh. La capacidad nominal es la capacidad mínima garantizada de una batería en condiciones controladas.",
+      "*****El sensor de 32MP combina 4 píxeles en 1, para una resolución de fotos efectiva de 8MP."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 229.99",
+    "precio_mas_caro": "US$ 299.99",
+    "precio_numerico": 229.99,
+    "precio_mas_caro_numerico": 299.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "4 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 16",
+      "tamano_pantalla": "0.33 x 3.01 x 6.58 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DT4T8D65",
+    "titulo": "Samsung A16 4G Internacional Desbloqueado 4+128GB Gris DualSIM",
+    "link": "https://www.amazon.com/dp/B0DT4T8D65",
+    "imagen": "https://m.media-amazon.com/images/I/51Rn-9C6xQL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(6.4 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Gris",
+    "tamano": "3.07 x 0.31 x 6.47 pulgadas",
+    "acerca_de_este_producto": [
+      "Tenga en cuenta que este dispositivo no es compatible con E-SIM; Este modelo 4G es compatible con todas las redes GSM en todo el mundo fuera de los EE. UU. En los Estados Unidos, SOLO compatible con T-Mobile y sus MVNO (Metro y Standup). No funcionará con Verizon, Spectrum, AT&T, Total Wireless, otros operadores CDMA, tampoco es compatible con sus MVNO (Visible, Xfinity Mobile, US Mobile, Cricket Wireless, etc.).",
+      "La compatibilidad con ciertos dispositivos de terceros y accesorios de accesibilidad, incluidos algunos audífonos, puede variar según el soporte del fabricante, los protocolos Bluetooth, la compatibilidad del software y las limitaciones de firmware regionales. Para obtener información adicional sobre compatibilidad de audífonos, consulte la documentación de soporte oficial de Samsung.",
+      "Bandas 4G LTE: B1/B3/B5/B7/B8/B20/B28/B38/B40/B41",
+      "Pantalla: Super AMOLED, 90Hz, 800 nits (HBM) | 6.7 pulgadas, 17.1 in² (~86.0% relación pantalla-cuerpo) | 1080 x 2340 píxeles, relación 19.5:9 (~385 densidad de ppi)",
+      "Cámara: 50 MP, f/1.8, (ancho), 1/2.76\", 0.64µm, AF | 50 MP, f/1.8, (ancho), 1/2.76\", 0.64µm, AF | 2 MP, f/2.4, (macro)",
+      "Batería: 5000 mAh, no extraíble | Un adaptador de corriente NO está incluido"
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 156.31",
+    "precio_mas_caro": "US$ 166.49",
+    "precio_numerico": 156.31,
+    "precio_mas_caro_numerico": 166.49,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "3.07 x 0.31 x 6.47 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DP5H8Y82",
+    "titulo": "Motorola Moto G Power - 2025 | Desbloqueado | Hecho para EE. UU. 8/128 GB | Cámara de 50 MP | Verde Hoja",
+    "link": "https://www.amazon.com/dp/B0DP5H8Y82",
+    "imagen": "https://m.media-amazon.com/images/I/81Yyjp4jGOL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(835)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Verde hoja",
+    "tamano": "0.34 x 3.04 x 6.56 pulgadas",
+    "acerca_de_este_producto": [
+      "Desbloqueado: Compatible con todos los principales operadores de EE. UU., incluidos Verizon, AT&T, T-Mobile y otros operadores importantes.",
+      "Pantalla súper brillante de 6.8\" + Refuerzo de graves. Disfruta de entretenimiento ilimitado en una pantalla masiva de 120Hz y altavoces estéreo con graves 1.7 veces más potentes***.",
+      "Batería de larga duración + carga TurboPower. Pasa un día con una sola carga con una batería de 5000 mAh y una carga ultrarrápida, incluso carga de forma inalámbrica. *",
+      "Sistema de cámara de 50MP** con OIS. Captura fotos más nítidas con poca luz y videos más suaves con un sistema de cámara inquebrantable que cuenta con estabilización óptica de imágenes.",
+      "Diseño elegante pero duradero. Disfruta del aspecto y tacto premium del cuero vegano con Corning Gorilla Glass y protección bajo el agua.",
+      "Rendimiento 5G superrápido. Libera tu entretenimiento a velocidad 5G**** con el chipset MediaTek Dimensity 6300 y hasta 24 GB de RAM con RAM Boost. *****",
+      "Toneladas de almacenamiento ultrarrápido integrado. Obtén un montón de espacio para fotos, películas, canciones y aplicaciones, y añade hasta 1 TB con una tarjeta microSD. ******",
+      "Aviso: *Basado en un perfil de uso mixto promedio, la vida útil real de la batería variará. La batería debe agotarse sustancialmente; la velocidad de carga se ralentiza a medida que avanza la carga. Basado en el usuario mediano probado en un perfil de uso mixto (incluye tiempo de uso y en espera) en condiciones óptimas de red. El rendimiento real de la batería variará. Velocidad máxima de carga TurboPower de 30 W en el dispositivo; requiere un cargador Motorola TurboPower de 30 W o superior (se vende por separado); los cargadores más potentes no aumentarán la capacidad máxima de carga. **El sensor de 50MP combina 4 píxeles en 1, para una resolución de foto efectiva de 12.5MP.",
+      "Aviso: ***Una frecuencia de actualización mínima del dispositivo de 60Hz y una frecuencia de actualización máxima de 120Hz; la frecuencia de actualización real puede ser menor y variará según las limitaciones y requisitos de la aplicación/contenido, la configuración del modo del dispositivo y otros factores. Basado en una comparación interna del poder de graves del altavoz entre moto g power - 2025 y su predecesor, moto g power - 2024. ****Servicio 5G disponible con plan 5G. Se requiere cobertura de red 5G; disponible solo en áreas seleccionadas; dispositivo no compatible con todas las redes 5G. Contacta a tu proveedor de servicios para obtener más detalles.",
+      "Aviso: *****RAM Boost RAM extendida requiere el uso del almacenamiento interno del teléfono como memoria virtual, lo que disminuye la capacidad de almacenamiento; el almacenamiento disponible para el usuario es menor mientras se usa; la función está activada por defecto a menos que se desactive. 8 GB de RAM física + hasta 16 GB de RAM Boost (4 GB por defecto | 16 GB máximo). La RAM disponible es menor debido al sistema operativo, software y otras funciones; puede cambiar con las actualizaciones de software. ******Admite tarjetas microSD de hasta 1 TB, tarjetas microSD que se venden por separado. El contenido con restricciones DRM puede no poderse mover a la tarjeta."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 199.99",
+    "precio_mas_caro": "US$ 299.99",
+    "precio_numerico": 199.99,
+    "precio_mas_caro_numerico": 299.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "0.34 x 3.04 x 6.56 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DXR5FH9C",
+    "titulo": "SAMSUNG Galaxy A56 5G Desbloqueado 8+256GB, Dual SIM International Grafito",
+    "link": "https://www.amazon.com/dp/B0DXR5FH9C",
+    "imagen": "https://m.media-amazon.com/images/I/51xoyKNLBvL._AC_SL1080_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.3,
+    "cantidad_resenas": "(614)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Impresionante grafito",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "6.7\" FHD+ Super AMOLED, 120Hz, HDR10+, 1080x2340px, huella dactilar (debajo de la pantalla, óptica), resistencia al polvo y al agua IP67.",
+      "8 GB de RAM, 256 GB de almacenamiento, sin ranura para tarjeta SD, Exynos 1580 (4 nm), Octa-core, Xclipse 540 GPU, Android 15, hasta 6 actualizaciones principales de Android, una interfaz de usuario 7",
+      "Cámara trasera: 50MP f/1.8 + 12MP f/2.2 + 5MP f/2.4; cámara frontal: 12MP f/2.2; batería de 5000mAh; Bluetooth 5.3",
+      "Conectividad de red: bandas 4G LTE B1/2/3/4/5/7/8/12/13/17/20/25/26/28/38/40/41/66; bandas 5G n1/3/5/7/8/20/28/38/40/41/66/77/78; Soporte de doble SIM.",
+      "Modelo internacional: La disponibilidad de la red, los requisitos de activación y los servicios compatibles varían según el proveedor y la ubicación. Ponte en contacto con el vendedor para obtener más información sobre la compatibilidad del transportista."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS entre el 30 de noviembre - 4 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS entre el 30"
+    },
+    "precio": "US$ 3.40",
+    "precio_mas_caro": "US$ 381.70",
+    "precio_numerico": 3.4,
+    "precio_mas_caro_numerico": 381.7,
+    "especificaciones": {
+      "capacidad_almacenamiento": "8 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "6.7 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DNRFGBQ4",
+    "titulo": "SAMSUNG Galaxy A16 4G Dual SIM (128 GB, 2025) 6.7\" 90Hz AMOLED, resistente a salpicaduras, 8 núcleos, cámara de 50 MP (modelo internacional desbloqueado de fábrica para GSM, global) A165M/DS (paquete",
+    "link": "https://www.amazon.com/dp/B0DNRFGBQ4",
+    "imagen": "https://m.media-amazon.com/images/I/51p3yeDd6RL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(1.6 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Negro",
+    "tamano": "6.47 x 3.15 x 0.31 pulgadas",
+    "acerca_de_este_producto": [
+      "Tenga en cuenta que este dispositivo no es compatible con E-SIM; Este modelo 4G es compatible con todas las redes GSM en todo el mundo fuera de los EE. UU. En los EE.UU., SOLO compatible con T-Mobile y sus MVNO (Metro y Standup, pero es necesario grabar el IMEI). No funcionará con Verizon, Spectrum, AT&T, Total Wireless, otros operadores CDMA, tampoco es compatible con sus MVNO (Visible, Xfinity Mobile, US Mobile, Cricket Wireless, etc.). Ponte en contacto con el vendedor para obtener más información sobre la compatibilidad del transportista.",
+      "La compatibilidad con ciertos dispositivos de terceros y accesorios de accesibilidad, incluidos algunos audífonos, puede variar según el soporte del fabricante, los protocolos Bluetooth, la compatibilidad del software y las limitaciones de firmware regionales. Para obtener información adicional sobre compatibilidad de audífonos, consulte la documentación de soporte oficial de Samsung.",
+      "Bandas 4G LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B26(850), B28(700). 00), B6 36(AWS-3)",
+      "Pantalla: Super AMOLED, 90Hz, 800 nits (HBM) | 6.7 pulgadas, 17.1 in² (~86.0% relación pantalla-cuerpo) | 1080 x 2340 píxeles, relación 19.5:9 (~385 densidad de ppi)",
+      "Cámara: 50 MP, f/1.8, (ancho), 1/2.76\", 0.64µm, AF | 50 MP, f/1.8, (ancho), 1/2.76\", 0.64µm, AF | 2 MP, f/2.4, (macro)| Batería: 5000 mAh, no extraíble"
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 155.99",
+    "precio_mas_caro": "US$ 164.29",
+    "precio_numerico": 155.99,
+    "precio_mas_caro_numerico": 164.29,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.47 x 3.15 x 0.31 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DNRGQRB4",
+    "titulo": "Samsung A16 4G Internacional Desbloqueado 4+128GB Gris DualSIM",
+    "link": "https://www.amazon.com/dp/B0DNRGQRB4",
+    "imagen": "https://m.media-amazon.com/images/I/51lHQpai-9L._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(1.6 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Gris",
+    "tamano": "6.47 x 3.15 x 0.31 pulgadas",
+    "acerca_de_este_producto": [
+      "Tenga en cuenta que este dispositivo no es compatible con E-SIM; Este modelo 4G es compatible con todas las redes GSM en todo el mundo fuera de los EE. UU. En los EE.UU., SOLO compatible con T-Mobile y sus MVNO (Metro y Standup, pero es necesario grabar el IMEI). No funcionará con Verizon, Spectrum, AT&T, Total Wireless, otros operadores CDMA, tampoco es compatible con sus MVNO (Visible, Xfinity Mobile, US Mobile, Cricket Wireless, etc.). Ponte en contacto con el vendedor para obtener más información sobre la compatibilidad del transportista.",
+      "La compatibilidad con ciertos dispositivos de terceros y accesorios de accesibilidad, incluidos algunos audífonos, puede variar según el soporte del fabricante, los protocolos Bluetooth, la compatibilidad del software y las limitaciones de firmware regionales. Para obtener información adicional sobre compatibilidad de audífonos, consulte la documentación de soporte oficial de Samsung.",
+      "Bandas 4G LTE: B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B17(700), B26(850), B28(700). 00), B6 6(AWS-3) Pantalla: Super AMOLED, 90Hz, 800 nits (HBM) | 6.7 pulgadas, 17.1 in² (~86.0% relación pantalla-cuerpo) | 1080 x 2340 píxeles, relación 19.5:9 (~385 ppi densidad)",
+      "Captura cada momento en detalle: el sistema de triple cámara de 50 MP (ancha, ultraancha, macro) y la cámara frontal de 13 MP ofrecen fotos y videos de alta calidad con HDR, panorámica y flash LED.",
+      "Batería para todo el día y carga rápida: una batería masiva de 5000 mAh te mantiene encendido, y la carga rápida de 25 W te permite volver al 100% en poco tiempo. El cargador no está incluido"
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 149.45",
+    "precio_mas_caro": "US$ 164.29",
+    "precio_numerico": 149.45,
+    "precio_mas_caro_numerico": 164.29,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.47 x 3.15 x 0.31 pulgadas"
+    }
+  },
+  {
+    "asin": "B0F29YZ3MF",
+    "titulo": "SAMSUNG Galaxy A26 5G 2025 con IA | 256GB, 8GB, Dual SIM | 6.7 pulgadas 120Hz AMOLED, IP67 resistente al agua, Android 15 | Modelo internacional desbloqueado de fábrica para T-Mobile, Global | Paquete",
+    "link": "https://www.amazon.com/dp/B0F29YZ3MF",
+    "imagen": "https://m.media-amazon.com/images/I/51UYNd0mx4L._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(1.3 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Negro",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "Modelo internacional – Conectividad global – Plug & Play con una SIM activa en AT&T, Verizon, T-Mobile y la mayoría de los operadores estadounidenses. Las nuevas activaciones solo son compatibles con T-Mobile en los Estados Unidos, ya que la mayoría de los operadores pueden no reconocer que los IMEI internacionales son compatibles. (Sin garantía del fabricante en EE. UU.; Se aplica la política de devolución del vendedor.)",
+      "256 GB, 8 GB de RAM, microSDXC (utiliza ranura SIM compartida), Exynos 1280 (5 nm), Octa-Core, GPU Mali-G68",
+      "Cámara trasera: 50 MP, f/1.8 (gran angular) + 8 MP, f/2.2 (ultra gran angular) + 2 MP, f/2.4 (macro), flash LED, panorama, HDR; Cámara frontal: 13 MP, f/2.2, 4K a 30 fps",
+      "2G: 850/900/1800/1900, 3G: HSDPA 850/900/1700(AWS)/1900/2100; 4G LTE: 1/2/3/4/5/7/8/12/17/20/26/28/38/40/41/66, 5G: N1/3/5/7/8/20/28/38/40/41/66/71/77/78 SA/NSA/Sub6 - Dual SIM",
+      "El cargador rápido de 25 W incluido es un accesorio genérico y no es un cargador de marca Samsung, pantalla Super AMOLED FHD+ de 6.7\", tasa de actualización de 120 Hz, 1080x2340 píxeles, batería de 5000 mAh, Android 15, hasta 6 actualizaciones principales de Android, One UI 7"
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida entre el 24 - 27 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 325.00",
+    "precio_mas_caro": "US$ 325.00",
+    "precio_numerico": 325.0,
+    "precio_mas_caro_numerico": 325.0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.7 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DLHNWHRF",
+    "titulo": "Samsung Galaxy A16 5G Serie A, teléfono inteligente Android desbloqueado, pantalla AMOLED grande, diseño duradero, carga súper rápida, almacenamiento expandible, conectividad 5G, versión",
+    "link": "https://www.amazon.com/dp/B0DLHNWHRF",
+    "imagen": "https://m.media-amazon.com/images/I/71KGkQ+KOKL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(3.9 K)",
+    "marca": "Samsung",
+    "estilo": "A16 Sólo",
+    "color": "Azul Negro",
+    "tamano": "6.47 x 3.07 x 0.31 pulgadas",
+    "acerca_de_este_producto": [
+      "Detalles nítidos. Posibilidades vívidas: la pantalla ultra clara de 6.7\"¹ del Galaxy A16 5G ayuda a dar vida a tu contenido, ya sea que estés revisando correos electrónicos o leyendo blogs y recetas en línea.",
+      "RECUERDOS HECHOS PERFECTOS: Captura cada ángulo con una claridad impresionante, desde grandes tomas grupales hasta primeros planos, con la cámara de triple lente del Galaxy A16 5G.",
+      "MÁS DURADERO QUE NUNCA: Afronta tu día con confianza, gracias a la increíble durabilidad del Galaxy A16 5G con una clasificación IP54 mejorada.²",
+      "CONOCIMIENTOS SOBRE LA SALUD SIMPLIFICADOS: Mantente conectado a tu salud con Galaxy A16 5G y Fit3. Haz un seguimiento de tus pasos, sueño y frecuencia cardíaca³ y luego ve todo en un solo lugar con la aplicación Samsung Health.",
+      "Impresionante experiencia. IMPRESIONANTE VALOR: Galaxy A16 5G ofrece características esenciales y prácticos extras diseñados para mejorar tu vida cotidiana, todo a un precio que te encantará.",
+      "PAGANDO ES MUY FÁCIL: Paga con solo un toque, además guarda tus tarjetas e identificación todo en una sola aplicación con Samsung Wallet.⁴, ⁵",
+      "SEIS AÑOS DE ACTUALIZACIONES. EXCELENTE SEGURIDAD: Seis años de actualizaciones de sistema operativo y de seguridad significan que puedes mantener tu Galaxy A16 5G por más tiempo, convirtiéndolo en un gran valor para los años venideros.",
+      "VIVE RÁPIDO. CARGA MÁS RÁPIDA: Concéntrate más en el momento y menos en el porcentaje de batería con el Galaxy A16 5G. La carga súper rápida⁶ carga tu batería a la velocidad del rayo para que puedas volver a la vida más pronto.",
+      "ALMACENA MÁS Y PREOCÚPATE MENOS: Con almacenamiento interno mejorado de hasta 128 GB y hasta 1,5 TB⁷ de almacenamiento expandible, Galaxy A16 5G hace que sea fácil mantener fotos preciadas, videos y archivos importantes fácilmente accesibles cuando los necesites."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 2.97",
+    "precio_mas_caro": "US$ 8.07",
+    "precio_numerico": 2.97,
+    "precio_mas_caro_numerico": 8.07,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 14, una interfaz de usuario",
+      "tamano_pantalla": "6.47 x 3.07 x 0.31 pulgadas"
+    }
+  },
+  {
+    "asin": "B0BN71VW28",
+    "titulo": "Apple iPhone 14 128 GB - Color morado, desbloqueado (reacondicionado)",
+    "link": "https://www.amazon.com/dp/B0BN71VW28",
+    "imagen": "https://m.media-amazon.com/images/I/61KXZ+vfu3L._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.0,
+    "cantidad_resenas": "(14.5 K)",
+    "marca": "Apple",
+    "estilo": "",
+    "color": "Púrpura",
+    "tamano": "6.1 pulgadas",
+    "acerca_de_este_producto": [
+      "Vibrante pantalla Super Retina XDR de 6.1 pulgadas con tecnología OLED. Modo acción para videos fluidos y estables tomados a mano."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "US$ 1.00",
+    "precio_mas_caro": "US$ 6.40",
+    "precio_numerico": 1.0,
+    "precio_mas_caro_numerico": 6.4,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "iOS 16",
+      "tamano_pantalla": "6.1 pulgadas"
+    }
+  },
+  {
+    "asin": "B08VLMQ3KS",
+    "titulo": "Samsung Galaxy S21 5G, Versión EE.UU., 128GB, color Phantom Gray (gris fantasma) - Desbloqueado (renovado)",
+    "link": "https://www.amazon.com/dp/B08VLMQ3KS",
+    "imagen": "https://m.media-amazon.com/images/I/61XyNdmvr6L._AC_SL1220_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.0,
+    "cantidad_resenas": "(15.7 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Gris fantasma",
+    "tamano": "6.2 pulgadas",
+    "acerca_de_este_producto": [
+      "Pantalla: Pantalla AMOLED de 6.2\" con tasa de actualización de 120Hz y brillo de 1300 nits para visuales vívidos y desplazamiento suave.",
+      "Cámara: Sistema de cámara dual trasera con lente principal de 64 MP y lente ultra gran angular de 12 MP para fotos y videos impresionantes.",
+      "Memoria: 128 GB de almacenamiento interno y 8 GB de RAM para un montón de aplicaciones y archivos.",
+      "Conectividad: Capaz de 5G con soporte para redes GSM, CDMA y Wi-Fi.",
+      "Batería: la batería de 4000mAh proporciona energía durante todo el día para sus necesidades diarias."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "Consultar precio",
+    "precio_mas_caro": "",
+    "precio_numerico": 0,
+    "precio_mas_caro_numerico": 0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.2 pulgadas"
+    }
+  },
+  {
+    "asin": "B0FCJMPV9X",
+    "titulo": "Samsung Teléfono celular Galaxy A16 5G de 128 GB, teléfono inteligente Android desbloqueado, pantalla AMOLED grande, diseño duradero, carga súper rápida, almacenamiento expandible, versión estadounidense, 2025, azul negro (renovado)",
+    "link": "https://www.amazon.com/dp/B0FCJMPV9X",
+    "imagen": "https://m.media-amazon.com/images/I/71KGkQ+KOKL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 3.7,
+    "cantidad_resenas": "(1 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Azul Negro",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "Cargador no incluido, 6.7\" Super AMOLED FHD+, frecuencia de actualización de 90Hz, 385 ppi, 800 nits (HBM), 1080x2340px, batería de 5000mAh",
+      "128 GB, 4 GB de RAM, microSDXC, Exynos 1330 (5 nm), Octa-Core, Mali-G68 MP2 o GPU Mali-G57 MC2",
+      "Cámara trasera: 50MP, f/1.8 (ancho) + 5MP, f/2.2 (ultrawide) + 2MP, f/2.4 (macro), flash LED, panorama, HDR; Cámara frontal: 13MP, f/2.0, Android 14, hasta 6 actualizaciones principales de Android, una interfaz de usuario 6.1",
+      "3G: HSDPA 850/900/1700 (AWS)/1900/2100; 4G LTE: 1/2/3/4/5/7/12/13/14/20/25/26/28/29/30/38/39/40/41/48/66/71/48/66/711/, 5G: 2/2 5/25/41/66/71/77/78 SA/NSA/Sub6/mmWave - Nano-SIM + eSIM",
+      "Modelo estadounidense – Conectividad global – Compatible con la mayoría de operadores GSM como T-Mobile, AT&T, MetroPCS, etc. También funcionará con operadores CDMA como Verizon, Straight Talk."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "US$ 2.85",
+    "precio_mas_caro": "US$ 10.50",
+    "precio_numerico": 2.85,
+    "precio_mas_caro_numerico": 10.5,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.7 pulgadas"
+    }
+  },
+  {
+    "asin": "B08PP5MSVB",
+    "titulo": "Apple iPhone 12, 64GB, Negro - Desbloqueado (Renovado)",
+    "link": "https://www.amazon.com/dp/B08PP5MSVB",
+    "imagen": "https://m.media-amazon.com/images/I/51fYXSnSu9L._AC_SL1359_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.0,
+    "cantidad_resenas": "(36.9 K)",
+    "marca": "Apple",
+    "estilo": "",
+    "color": "Negro",
+    "tamano": "6.1 pulgadas",
+    "acerca_de_este_producto": [
+      "Totalmente desbloqueado y compatible con cualquier transportista de elección (p. ej. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc. ).",
+      "Inspeccionado y garantizado que tiene un daño cosmético mínimo, que no se nota cuando el dispositivo se mantiene a la distancia del brazo.",
+      "Pasó con éxito una prueba de diagnóstico completa que garantiza una funcionalidad como nueva y la eliminación de cualquier información personal del usuario anterior.",
+      "El dispositivo no viene con auriculares ni tarjeta SIM. Incluye un cable de carga que puede ser genérico.",
+      "Probado para el estado de la batería y garantizado para tener una capacidad mínima de la batería del 80%."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "Consultar precio",
+    "precio_mas_caro": "",
+    "precio_numerico": 0,
+    "precio_mas_caro_numerico": 0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "64 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "iOS 16",
+      "tamano_pantalla": "6.1 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DHJ896RY",
+    "titulo": "Apple iPhone 16 Pro Max, 256 GB, Negro Titanio - Desbloqueado (Renovado)",
+    "link": "https://www.amazon.com/dp/B0DHJ896RY",
+    "imagen": "https://m.media-amazon.com/images/I/51Vs7ZwpSpL._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.1,
+    "cantidad_resenas": "(4.3 K)",
+    "marca": "Apple",
+    "estilo": "",
+    "color": "Titanio negro",
+    "tamano": "6.42 x 3.06 x 0.33 pulgadas",
+    "acerca_de_este_producto": [
+      "La gran pantalla de 6.9 pulgadas combina la tecnología ProMotion 120Hz con calibración de color avanzada, dando a películas, juegos y aplicaciones de productividad una experiencia visual espaciosa, nítida y fluida que es ideal para la multitarea o el consumo inmersivo de contenido multimedia."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "US$ 1.65",
+    "precio_mas_caro": "US$ 10.00",
+    "precio_numerico": 1.65,
+    "precio_mas_caro_numerico": 10.0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "iOS 18",
+      "tamano_pantalla": "6.42 x 3.06 x 0.33 pulgadas"
+    }
+  },
+  {
+    "asin": "B0D362HGNP",
+    "titulo": "Samsung Galaxy S24 Ultra 5G, US Version, 256GB, Titanium Black - Unlocked (Renewed)",
+    "link": "https://www.amazon.com/dp/B0D362HGNP",
+    "imagen": "https://m.media-amazon.com/images/I/51A-Q4eMBxL._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.1,
+    "cantidad_resenas": "(2.5 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Titanium black",
+    "tamano": "6.39 x 3.11 x 0.34 pulgadas",
+    "acerca_de_este_producto": [
+      "Pantalla dinámica AMOLED 2X QHD+ de 6.8″ con una frecuencia de actualización adaptativa de 1 a 120 Hz y un brillo máximo de hasta ~ 2600 nits, que ofrece una pantalla brillante y nítida con desplazamiento suave y gran visibilidad al aire libre."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "US$ 13.00",
+    "precio_mas_caro": "US$ 13.00",
+    "precio_numerico": 13.0,
+    "precio_mas_caro_numerico": 13.0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "12 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.39 x 3.11 x 0.34 pulgadas"
+    }
+  },
+  {
+    "asin": "B0GH2N9S35",
+    "titulo": "BLU Bold K12 | 2025 | Desbloqueado | Pantalla Infinity HD+ de 6.8” 120Hz | Cámara principal de 50MP + cámara selfie de 8MP | Almacenamiento interno de 128GB | Versión de EE. UU. | Garantía de EE. UU",
+    "link": "https://www.amazon.com/dp/B0GH2N9S35",
+    "imagen": "https://m.media-amazon.com/images/I/81JrCHzrZlL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 3.9,
+    "cantidad_resenas": "(143)",
+    "marca": "BLU",
+    "estilo": "",
+    "color": "Oro champán",
+    "tamano": "6.8 pulgadas",
+    "acerca_de_este_producto": [
+      "GSM Desbloqueado: Disfruta de una conectividad sin problemas con tu operador GSM preferido. Compatible con T-Mobile, Metro, Mint Mobile, AT&T, Cricket y otras redes GSM. Tarjeta SIM no incluida. Para conocer la compatibilidad de la red, consulte con su operador. Nota: No es compatible con Verizon Network.",
+      "Diseño audaz, vista más amplia: Experimente el contenido cotidiano en una gran pantalla HD+ de 6.8\" con 120Hz. Desde streaming y navegación hasta redes sociales, disfruta de imágenes claras en un diseño inmersivo y moderno.",
+      "Potencia que dura: Manténgase conectado todo el día con una potente batería de 5,000 mAh que se mantiene al día con su rutina diaria sin necesidad de recarga.",
+      "Captura tus momentos: Toma fotos impresionantes con la cámara principal dual de 50 MP con flash y disfruta de selfies y videollamadas claras con la cámara frontal de 8 MP, perfecta para recuerdos cotidianos.",
+      "Rendimiento fluido, uso diario: Diseñado para un rendimiento diario confiable, el BOLD K12 maneja múltiples tareas, entretenimiento y navegación con facilidad para una experiencia suave y responsiva.",
+      "Acceso seguro y sencillo: desbloquee su teléfono de forma rápida y segura con el sensor de huellas dactilares montado en el lateral, manteniendo su información privada y accesible.",
+      "Contenido de la caja: BOLD K12, estuche resistente, protector de pantalla de vidrio, cargador, cable tipo C, guía rápida, auriculares, llave SIM y pegatina."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 13.00",
+    "precio_mas_caro": "US$ 104.99",
+    "precio_numerico": 13.0,
+    "precio_mas_caro_numerico": 104.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "6.8 pulgadas",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "6.8 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DNRK51QQ",
+    "titulo": "Moto G - 2025 | Desbloqueado | Hecho para US 4/128GB | Cámara de 50 MP | Gris bosque",
+    "link": "https://www.amazon.com/dp/B0DNRK51QQ",
+    "imagen": "https://m.media-amazon.com/images/I/8160OiLlJEL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(1.4 K)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Color gris bosque.",
+    "tamano": "6.7 pulgadas",
+    "acerca_de_este_producto": [
+      "Desbloqueado: Compatible con todos los principales operadores de EE. UU., incluidos Verizon, AT&T, T-Mobile y otros operadores importantes.",
+      "Pantalla superbrillante de 6.7 pulgadas + refuerzo de graves: lleva tu entretenimiento al siguiente nivel con una pantalla de 120 Hz de rápida renovación* y sonido estéreo con graves más potentes****.",
+      "Sistema de cámara Quad Pixel de 50MP: Captura fotos más nítidas día o noche con 4 veces la sensibilidad a la luz y comparte hermosas selfies con una cámara frontal de 16 MP.",
+      "Rendimiento 5G superrápido*****: Da rienda suelta a tu entretenimiento a velocidad 5G con el chipset MediaTek Dimensity 6300 y hasta 12 GB de RAM con RAM Boost. ******",
+      "Batería de larga duración + carga TurboPower***: trabaja y juega todo el día con una batería de 5000 mAh, luego obtén horas de energía en solo minutos.",
+      "Diseño elegante pero duradero: disfruta del aspecto y la sensación premium del cuero vegano en un diseño repelente al agua******* con Corning Gorilla Glass 3.",
+      "Toneladas de almacenamiento ultrarrápido integrado. Obtén mucho espacio para fotos, películas, canciones y aplicaciones, y añade hasta 1 TB con una tarjeta microSD.",
+      "*Una frecuencia de actualización mínima del dispositivo de 60Hz y una frecuencia de actualización máxima de 120Hz; la frecuencia de actualización real puede ser menor y variará según las limitaciones y requisitos de la aplicación/contenido, la configuración del modo del dispositivo y otros factores. **El sensor de 50MP combina 4 píxeles en 1, para una resolución de foto efectiva de 12.5MP.",
+      "***Basado en un perfil medio de uso mixto, la duración real de la batería variará. La batería debe agotarse sustancialmente; la velocidad de carga se ralentiza a medida que avanza la carga. Basado en la mediana de usuario probado en un perfil de uso mixto (incluye el uso y el tiempo de espera) en condiciones óptimas de red. El rendimiento real de la batería variará. Velocidad máxima de carga TurboPower de 30 W en el dispositivo; requiere cargador Motorola TurboPower de 30 W o superior (se vende por separado); los cargadores más altos no aumentarán la capacidad de carga máxima. ****Basado en una comparación interna de la potencia de los graves del altavoz entre moto g - 2025 y su predecesor, moto g - 2024.",
+      "*****Se requiere cobertura de red 5G. ******RAM ampliada RAM Boost requiere el uso del almacenamiento interno del teléfono como memoria virtual, disminuyendo la capacidad de almacenamiento; el almacenamiento de usuario disponible es menor mientras está en uso; función activada de forma predeterminada a menos que esté apagada. 4 GB de RAM física + hasta 8 GB de RAM Boost (2 GB predeterminado, 8 GB máximo). La RAM disponible es menor debido al sistema operativo, software y otras funciones; puede cambiar con las actualizaciones de software. *******El diseño repelente al agua crea una barrera para ayudar a proteger contra la exposición moderada al agua dulce como derrames, salpicaduras o lluvia ligera. No está diseñado para sumergirse en agua, o exponerse a agua presurizada u otros líquidos; puede disminuir con el tiempo. No es impermeable."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega entre el 7 - 18 de diciembre a Argentina O entrega más rápida entre el 3 - 10 de diciembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega entre el 7 - 18 de diciembre"
+    },
+    "precio": "Consultar precio",
+    "precio_mas_caro": "",
+    "precio_numerico": 0,
+    "precio_mas_caro_numerico": 0,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "6.7 pulgadas"
+    }
+  },
+  {
+    "asin": "B09SHJGLNN",
+    "titulo": "Samsung Galaxy S21 FE 5G, US Version, 128GB, Gray - Unlocked (Renewed)",
+    "link": "https://www.amazon.com/dp/B09SHJGLNN",
+    "imagen": "https://m.media-amazon.com/images/I/616kK0b+d+L._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 3.7,
+    "cantidad_resenas": "(3.6 K)",
+    "marca": "Samsung",
+    "estilo": "",
+    "color": "Gris",
+    "tamano": "128 GB",
+    "acerca_de_este_producto": [
+      "El Galaxy S21 FE tiene una elegante parte trasera de policarbonato con un acabado mate premium que resiste las huellas dactilares y se siente suave en la mano, lo que le da un diseño elegante pero práctico."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": ""
+    },
+    "precio": "US$ 8.07",
+    "precio_mas_caro": "US$ 8.07",
+    "precio_numerico": 8.07,
+    "precio_mas_caro_numerico": 8.07,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "6 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android",
+      "tamano_pantalla": "6.13 x 2.93 x 0.31 pulgadas"
+    }
+  },
+  {
+    "asin": "B0FTZZ7LS1",
+    "titulo": "Motorola Moto G Play - 2026 | Unlocked | Made for US 4/64GB | 32MP Camera | Pantone Tapestry",
+    "link": "https://www.amazon.com/dp/B0FTZZ7LS1",
+    "imagen": "https://m.media-amazon.com/images/I/614FeHkxPtL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 3.9,
+    "cantidad_resenas": "(134)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Tapiz Pantone",
+    "tamano": "0.33 x 3.01 x 6.58 pulgadas",
+    "acerca_de_este_producto": [
+      "Desbloqueado: Compatible con todos los principales operadores de EE. UU., incluidos Verizon, AT&T, T-Mobile y otros operadores importantes.",
+      "Pantalla súper brillante y súper suave de 6.7 pulgadas. Vea su pantalla claramente incluso al aire libre bajo la luz del sol y disfrute de vistas perfectas con una pantalla de 120 Hz de rápida actualización*.",
+      "Rendimiento 5G superrápido**. Da rienda suelta a tu entretenimiento a velocidades 5G** con el chipset MediaTek Dimensity 6300 y hasta 12 GB de RAM con RAM Boost***.",
+      "Sistema de cámara alimentado por IA. Toma fotos impresionantes con cualquier luz gracias a una cámara Quad Pixel de 32 MP con una sensibilidad 4 veces mejor a la luz baja y un sensor de luz ambiental.",
+      "Batería de larga duración + carga TurboPower*****. Funciona día tras día con una batería de 5200 mAh, luego obtén horas de energía en solo minutos*****.",
+      "Audio multidimensional con altavoces estéreo. Siente el sonido envolvente por todas partes gracias a los altavoces estéreo, Dolby Atmos y Audio Hi-Res.",
+      "Diseño elegante pero duradero. Disfruta del aspecto y tacto premium del cuero vegano en un diseño repelente al agua******, con Corning Gorilla Glass 3 resistente a los arañazos.",
+      "Descargo de responsabilidad: *Una frecuencia de actualización mínima del dispositivo de 60Hz y una frecuencia de actualización máxima de 120Hz; la frecuencia de actualización real puede ser menor y variará según las limitaciones y requisitos de la aplicación/contenido, la configuración del modo del dispositivo y otros factores. **Servicio 5G disponible con plan 5G. Se requiere cobertura de red 5G; disponible solo en áreas seleccionadas. Póngase en contacto con su proveedor de servicios para ***RAM ampliada RAM Boost requiere el uso del almacenamiento interno del teléfono como memoria virtual, disminuyendo la capacidad de almacenamiento; el almacenamiento de usuario disponible es menor mientras está en uso; función activada de forma predeterminada a menos que esté apagada. ****El sensor de 32MP combina 4 píxeles en 1, para una resolución de fotos efectiva de 8MP.",
+      "*****Todas las reclamaciones de duración de la batería son aproximadas + basadas en la mediana probada por el usuario en perfiles de uso mixto (incluye uso + tiempo de espera) en condiciones óptimas de red. El rendimiento real varía, depende de factores que incluyen la intensidad de la señal, la red, la configuración del dispositivo, la temperatura, el estado de la batería, los patrones de uso. El cargador se vende por separado. Velocidad máxima de carga TurboPower de 18 W en el dispositivo; requiere cargador Motorola TurboPower de 18 W o superior; los cargadores más altos no aumentarán la capacidad de carga máxima. El cargador en caja varía según el mercado. Consulte con su transportista la disponibilidad.",
+      "*****La capacidad típica es de 5200 mAh. El valor típico es la capacidad promedio estimada de un lote de baterías basada en pruebas internas, que representa el rendimiento esperado en condiciones normales. La capacidad nominal es de 5100 mAh, la capacidad mínima garantizada de una batería en condiciones controladas. ******El diseño repelente al agua crea una barrera para ayudar a proteger contra la exposición moderada al agua como derrames accidentales, salpicaduras, sudor o lluvia ligera. No está diseñado para sumergirse en agua, o exponerse a agua presurizada u otros líquidos; no es impermeable."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 4.50",
+    "precio_mas_caro": "US$ 249.99",
+    "precio_numerico": 4.5,
+    "precio_mas_caro_numerico": 249.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "4 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 16",
+      "tamano_pantalla": "0.33 x 3.01 x 6.58 pulgadas"
+    }
+  },
+  {
+    "asin": "B0FWT2YZV7",
+    "titulo": "Motorola Moto g - 2026 | Desbloqueado | Hecho para US 4/128GB | Cámara de 50MP | Pantone Slipstream, teléfono celular",
+    "link": "https://www.amazon.com/dp/B0FWT2YZV7",
+    "imagen": "https://m.media-amazon.com/images/I/61tdTfBYahL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.1,
+    "cantidad_resenas": "(292)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Pantone Slipstream",
+    "tamano": "0.33 x 3.01 x 6.58 pulgadas",
+    "acerca_de_este_producto": [
+      "Universal desbloqueado. Compatible con todos los principales operadores estadounidenses, incluidos Verizon, AT&T, T-Mobile y otros operadores prepagos.",
+      "Pantalla súper brillante y súper suave de 6.7 pulgadas. Vea su pantalla claramente incluso al aire libre bajo la luz del sol y disfrute de vistas perfectas con una pantalla de 120 Hz de rápida actualización. *",
+      "Sistema de cámara alimentado por IA. Toma fotos impresionantes con cualquier luz con la cámara de 50MP**, luce lo mejor posible con una cámara selfie de 32 MP***** y captura primeros planos extremos.",
+      "Rendimiento 5G superrápido. Da rienda suelta a tu entretenimiento a velocidad 5G*** con el chipset MediaTek Dimensity 6300 y hasta 12 GB de RAM con RAM Boost****.",
+      "Batería de larga duración + carga TurboPower. Funciona día tras día con una batería de 5200 mAh, luego obtén horas de energía en solo minutos. ****",
+      "Audio multidimensional con altavoces estéreo. Siente el sonido envolvente por todas partes gracias a los altavoces estéreo, Dolby Atmos y Audio Hi-Res.",
+      "Descargo de responsabilidad: *Una frecuencia de actualización mínima del dispositivo de 60Hz y una frecuencia de actualización máxima de 120Hz; la frecuencia de actualización real puede ser menor y variará según las limitaciones y requisitos de la aplicación/contenido, la configuración del modo del dispositivo y otros factores. **El sensor de 50MP combina 4 píxeles en 1, para una resolución de foto efectiva de 12.5MP. ***Servicio 5G disponible con plan 5G. Se requiere cobertura de red 5G; disponible solo en áreas seleccionadas. Póngase en contacto con su proveedor de servicios para",
+      "****Todas las reclamaciones de duración de la batería son aproximadas y se basan en la mediana del usuario probado en un perfil de uso mixto (que incluye tanto el uso como el tiempo de espera) en condiciones óptimas de red. El rendimiento real de la batería variará y dependerá de muchos factores, incluida la intensidad de la señal, la configuración de la red y el dispositivo, la temperatura, el estado de la batería y los patrones de ****El cargador se puede vender por separado. Velocidad máxima de carga TurboPower de 30 W en el dispositivo; requiere cargador Motorola TurboPower de 30 W o superior; los cargadores más altos no aumentarán la capacidad de carga máxima. El cargador en caja varía según el mercado. Consulte con su transportista o minorista para conocer la disponibilidad.",
+      "****RAM ampliada RAM Boost requiere el uso del almacenamiento interno del teléfono como memoria virtual, disminuyendo la capacidad de almacenamiento; el almacenamiento de usuario disponible es menor mientras está en uso; función activada de forma predeterminada a menos que esté apagada. ****La capacidad típica es de 5200 mAh. El valor típico es la capacidad promedio estimada de un lote de baterías basada en pruebas internas, que representa el rendimiento esperado en condiciones normales. La capacidad nominal es de 5100 mAh. La capacidad nominal es la capacidad mínima garantizada de una batería en condiciones controladas.",
+      "*****El sensor de 32MP combina 4 píxeles en 1, para una resolución de fotos efectiva de 8MP."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 2.66",
+    "precio_mas_caro": "US$ 299.99",
+    "precio_numerico": 2.66,
+    "precio_mas_caro_numerico": 299.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 16",
+      "tamano_pantalla": "0.33 x 3.01 x 6.58 pulgadas"
+    }
+  },
+  {
+    "asin": "B0DLHNSJKJ",
+    "titulo": "LUNAR Eclipse L1 5G teléfono desbloqueado, 6.79 pulgadas, 5000 mAh, 128 GB",
+    "link": "https://www.amazon.com/dp/B0DLHNSJKJ",
+    "imagen": "https://m.media-amazon.com/images/I/71IPfI-G9uL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 3.9,
+    "cantidad_resenas": "(117)",
+    "marca": "LUNAR",
+    "estilo": "",
+    "color": "Aura azul",
+    "tamano": "6.65 x 3 x 0.36 pulgadas",
+    "acerca_de_este_producto": [
+      "Teléfono Android 5G desbloqueado con procesador Octa-Core: experimenta un rendimiento 5G rápido con el procesador MediaTek MT6835 / D6100+ de 8 núcleos. Este teléfono Android 5G desbloqueado L1 admite descargas de alta velocidad y multitarea más fluida para aplicaciones cotidianas, streaming y trabajo.",
+      "Larga duración con batería de 5000 mAh: una enorme batería de 5000 mAh con carga rápida de 18 W mantiene este teléfono celular desbloqueado L1 alimentado durante jornadas laborales completas, largos viajes, actividades al aire libre y horas de navegación GPS.",
+      "Cámara trasera de 50 MP + 5 MP + 2 MP: El sistema de cámara trasera de 50 MP + 5 MP + 2 MP ofrece fotos más claras con optimización de escena mejorada por IA. Una cámara frontal de 16 MP garantiza videollamadas nítidas, ideal para usuarios que buscan un teléfono Android desbloqueado económico con un sólido rendimiento de cámara.",
+      "Teléfono celular multifuncional Android: Incluye desbloqueo de huellas dactilares, desbloqueo facial AI, GPS, OTG y una entrada de auriculares de 3.5mm para audio y aplicaciones de música por cable. El modo infantil proporciona un entorno más seguro y con aplicaciones limitadas, lo que hace que este teléfono inteligente desbloqueado sea flexible tanto para uso personal como familiar.",
+      "Gran pantalla FHD+ de 6.79” con diseño duradero: Disfruta de una experiencia de visualización más grande y clara en una pantalla FHD+ de 6.79 pulgadas. La protección IP52 y una funda de teléfono incluida añaden durabilidad para el trabajo, la escuela y el uso al aire libre.",
+      "Procesador Octa-Core de alta eficiencia + Almacenamiento de 128 GB: Este teléfono Android desbloqueado, impulsado por un eficiente chipset Octa-Core y 4 GB de RAM, funciona sin problemas durante las tareas diarias. Almacena más con 128 GB de almacenamiento interno, ampliable a 1 TB para fotos, videos y archivos de trabajo.",
+      "Android 14 puro, sin bloatware: Obtén la verdadera experiencia de Android 14 sin anuncios. Incluye 12 meses de soporte del fabricante estadounidense.",
+      "Compatibilidad amplia: Este teléfono celular desbloqueado Lunar Eclipse L1 está autorizado para su uso en AT&T, Cricket, T-Mobile, Mint Mobile, Boost Mobile, Tello, Ultramobile, PureTalk, Lyca Mobile y otros MVNO (No es compatible con Verizon y el MVNO de Verizon).",
+      "Para Mint y Consumer Cellular, agregue el APN manualmente.",
+      "Nota: Si el servicio inicial no está disponible, es posible que su operador deba actualizar el IMEI registrado de la SIM. Para un rendimiento óptimo de las llamadas, asegúrese de que su dispositivo esté actualizado a la última versión de software. Si necesita ayuda, estamos aquí para apoyarlo."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 99.99",
+    "precio_mas_caro": "US$ 99.99",
+    "precio_numerico": 99.99,
+    "precio_mas_caro_numerico": 99.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "128 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 14",
+      "tamano_pantalla": "6.65 x 3 x 0.36 pulgadas"
+    }
+  },
+  {
+    "asin": "B0HDCJCVPB",
+    "titulo": "Teléfono inteligente 4G desbloqueado, pantalla HD Punch de 6.6\", 4GB+32GB (256GB expandible), batería de larga duración 2A carga rápida, cámara de 13MP+21MP, Android 12, desbloqueo facial",
+    "link": "https://www.amazon.com/dp/B0HDCJCVPB",
+    "imagen": "https://m.media-amazon.com/images/I/71kwG36I+HL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.1,
+    "cantidad_resenas": "(39)",
+    "marca": "TalkCeLL",
+    "estilo": "",
+    "color": "Dorado",
+    "tamano": "6.6 pulgadas",
+    "acerca_de_este_producto": [
+      "Cuenta con una pantalla HD perforada de 6.6 pulgadas con resolución de 750 x 1520, que ofrece efectos visuales claros y delicados, amplio ángulo de visión y experiencia táctil cómoda, brindando un disfrute inmersivo para ver videos diarios, juegos y navegación web. Equipado con un procesador estable MT6739 de cuatro núcleos y una combinación de almacenamiento de 4 GB de RAM+32 GB de ROM, el teléfono funciona sin problemas para aplicaciones sociales, de oficina y entretenimiento diarias, y admite una expansión máxima de tarjeta de memoria de 256 GB para almacenar fotos, videos y archivos masivos sin presión de almacenamiento.",
+      "Incorpora una cámara selfie frontal de 13 MP y una cámara principal trasera de alta definición de 21 MP, satisfaciendo perfectamente las necesidades diarias de fotografía. La cámara frontal admite autorretratos claros y videollamadas con restauración natural y delicada del tono de la piel, mientras que la cámara trasera captura paisajes de alta claridad, retratos y fotos de cerca con ricos detalles y reproducción de colores verdaderos, permitiéndote grabar fácilmente cada momento maravilloso de la vida.",
+      "Batería incorporada de alta capacidad combinada con tecnología de carga rápida de 2 A, que resuelve eficazmente el problema de la duración insuficiente de la batería de los teléfonos celulares. Proporciona soporte de batería de larga duración durante todo el día para llamadas diarias, mensajería, reproducción de video y uso al aire libre, reduciendo en gran medida la frecuencia de carga. El diseño eficiente de carga rápida ahorra tiempo de espera, lo que brinda una experiencia de uso diario conveniente y que ahorra energía.",
+      "Soporta cobertura de red 2G/3G/4G de banda completa y bandas de frecuencia globales principales, incluyendo bandas 4G FDD y TDD, logrando una conexión de red estable y fluida para uso global transfronterizo. Adopta un diseño práctico de ranura para 3 tarjetas, que puede instalar simultáneamente 2 tarjetas Nano SIM y 1 tarjeta de memoria, logrando la espera dual de tarjeta y la expansión de almacenamiento al mismo tiempo. Equipado con la conveniente función de desbloqueo facial para un desbloqueo rápido en un segundo, y soporte de carga inversa OTG y transmisión de datos para expandir más escenarios de uso.",
+      "Viene con accesorios originales completos para un uso integral, sin necesidad de comprar accesorios adicionales por separado. El paquete completo incluye teléfono móvil, cargador, cable de datos tipo C, auriculares con cable, protector de pantalla, funda protectora, pin de expulsión SIM y manual de usuario en inglés, así como adaptador OTG. Protege eficazmente el teléfono móvil de arañazos y caídas, y satisface las necesidades diarias de carga, audio y transmisión de datos, perfecto para el uso diario y para regalar."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina en pedidos elegibles de más de $99 O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "$99",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 79.99",
+    "precio_mas_caro": "US$ 79.99",
+    "precio_numerico": 79.99,
+    "precio_mas_caro_numerico": 79.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 12.0",
+      "tamano_pantalla": "6.6 pulgadas"
+    }
+  },
+  {
+    "asin": "B0F2GQTBQF",
+    "titulo": "Teléfono celular Motorola Edge 2025 | Desbloqueado | Hecho para los Estados Unidos | 8/256 GB | Cámara de 50 MP | Pantone Bosque Profundo",
+    "link": "https://www.amazon.com/dp/B0F2GQTBQF",
+    "imagen": "https://m.media-amazon.com/images/I/61TE0qpbLQL._AC_SL1000_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.2,
+    "cantidad_resenas": "(220)",
+    "marca": "Motorola",
+    "estilo": "",
+    "color": "Bosque profundo Pantone",
+    "tamano": "0.31 x 2.88 x 6.35 pulgadas",
+    "acerca_de_este_producto": [
+      "Universal desbloqueado: Compatible con todos los principales operadores de Estados Unidos, incluyendo Verizon, AT&T, T-Mobile y otras operadoras prepagas.",
+      "Diseño cuadricurvado hermosamente duradero: Cuenta con un acabado de tacto suave y bordes delgados, además de protección de grado militar* y vidrio Corning Gorilla 2 veces más resistente***.",
+      "Sistema de cámara inteligente de grado profesional: captura fotos impresionantes sin esfuerzo con cuatro cámaras de grado profesional y la potencia de moto ai.",
+      "Un asistente más inteligente y personal: experimente la asistencia impulsada por IA con moto ai, Google Circle to Search***** y Gemini Live, todos trabajando su magia para ayudar con las acciones cotidianas.",
+      "Pantalla Super HD de 6.7\" (1220p) vívida. Experimenta espectáculos y películas con contraste infinito, detalles increíbles y colores vibrantes, respaldados por sonido Dolby Atmos.",
+      "Alimentación durante el día, cargada en 6 minutos: manténgase alimentado durante más tiempo con una batería de 5200 mAh******, y cargue rápidamente con la carga TurboPower de 68W.",
+      "Rendimiento súper rápido y ultra eficiente: desata el rendimiento de la IA, multitarea sin esfuerzo y eficiencia mejorada con un chipset MediaTek Dimensity 7400.",
+      "*Los estándares MIL-SPEC del Departamento de Defensa de los Estados Unidos establecen metodologías para probar productos contra tensiones bajo condiciones de laboratorio controladas. Motorola prueba dispositivos contra condiciones bajo procedimientos seleccionados de la norma MIL-STD-810H para determinar la durabilidad. Tales pruebas no son una garantía de rendimiento futuro bajo estas condiciones de prueba. **La resistencia al agua/polvo se probó según los estándares IP68/IP69 en condiciones de laboratorio controladas. Soporta inmersión en agua dulce de hasta 1.5m durante 30 minutos; está protegido contra chorros de agua a alta temperatura durante hasta 30 segundos. Exposición a condiciones más allá de las clasificaciones no cubiertas por la garantía. La resistencia disminuye con el desgaste normal. No está diseñado para funcionar mientras está sumergido bajo el agua.",
+      "**No expongas a líquidos que no sean agua dulce. No intentes cargar el teléfono mojado. Diseñado para proporcionar protección contra la entrada de objetos extraños sólidos de cualquier tamaño. No es impermeable. ***El rendimiento de Gorilla Glass 7i se basa en pruebas de laboratorio en condiciones controladas. El rendimiento real puede variar según el uso específico, las condiciones ambientales y otros factores. Si bien Gorilla Glass 7i está diseñado para mejorar la durabilidad y proporcionar una mejor resistencia a caídas y arañazos en comparación con el vidrio de aluminosilicato de litio de la competencia, no es indestructible y aún puede sufrir daños en ciertas condiciones. Los usuarios deben tener precaución y evitar someter sus dispositivos a riesgos innecesarios.",
+      "****Todas las afirmaciones sobre la duración de la batería son aproximadas y se basan en el usuario promedio probado a través de un perfil de uso mixto (que incluye tanto el tiempo de uso como el tiempo en espera) bajo condiciones óptimas de red. El rendimiento real de la batería variará y depende de muchos factores, incluyendo la intensidad de la señal, la red y la configuración del dispositivo, la temperatura, la condición de la batería y los patrones de uso. Requiere un cargador TurboPower de 68 W; se vende por separado. Los usuarios medios pueden obtener hasta 12 horas de duración de la batería con 6 minutos de carga. La batería debe estar sustancialmente agotada; el impulso de carga debe estar \"activado\"; la velocidad de carga disminuye a medida que avanza la carga."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS el jueves, 3 de diciembre a Argentina O entrega más rápida el jueves, 26 de noviembre",
+      "costo_envio": "Sin envío directo / Consultar",
+      "dias_estimados_argentina": "Entrega GRATIS el jueves, 3 de diciembre"
+    },
+    "precio": "US$ 299.99",
+    "precio_mas_caro": "US$ 379.99",
+    "precio_numerico": 299.99,
+    "precio_mas_caro_numerico": 379.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "8 GB",
+      "anio": "8 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 15",
+      "tamano_pantalla": "0.31 x 2.88 x 6.35 pulgadas"
+    }
+  },
+  {
+    "asin": "B0HBV432MJ",
+    "titulo": "Teléfono inteligente 4G desbloqueado, pantalla InCell HD de 6.6 pulgadas, 4 GB de RAM + 32 GB de ROM expandible a 256 GB, cámara de 16 MP+13 MP, Android 12, doble SIM + ranura MicroSD",
+    "link": "https://www.amazon.com/dp/B0HBV432MJ",
+    "imagen": "https://m.media-amazon.com/images/I/71QiQJZEzuL._AC_SL1500_.jpg",
+    "secciones": [
+      "Resultados"
+    ],
+    "badge_amazon": "",
+    "rating": 4.0,
+    "cantidad_resenas": "(32)",
+    "marca": "LatsYrs",
+    "estilo": "",
+    "color": "Rosa",
+    "tamano": "5.8 x 2.9 x 6.1 pulgadas",
+    "acerca_de_este_producto": [
+      "- Pantalla Incell HD de 6.6 pulgadas y rendimiento fluido - Con una pantalla Incell de alta definición de 6.6 pulgadas, este teléfono inteligente 4G desbloqueado ofrece colores brillantes y vívidos y efectos visuales nítidos, brindando una experiencia de visualización inmersiva para ver videos, juegos y navegación diaria. Alimentado por un procesador MTK6739 de ocho núcleos y equipado con 4 GB de RAM + 32 GB de almacenamiento integrado, asegura un funcionamiento fluido de las aplicaciones diarias, multitarea y juegos casuales, satisfaciendo sin esfuerzo las necesidades de entretenimiento y oficina diarias.",
+      "- Almacenamiento expandible de 256 GB y diseño de ranura para 3 tarjetas: el teléfono móvil admite la expansión de almacenamiento de hasta 256 GB a través de tarjeta de memoria TF, lo que le permite almacenar una gran cantidad de fotos, videos, música y archivos de aplicaciones sin presión de almacenamiento. Adoptando un diseño práctico de bandeja de 3 tarjetas, puede contener simultáneamente 2 tarjetas Nano-SIM y 1 tarjeta de memoria, permitiéndole usar dos números de teléfono para el trabajo y la vida por separado mientras expande el almacenamiento libremente, mejorando enormemente la flexibilidad de uso.",
+      "- Batería de alta capacidad de 5000 mAh y práctica función OTG - La batería integrada de gran capacidad de 5000 mAh proporciona una larga duración de batería para soportar el uso diario durante todo el día, viajes y operación intensiva. Equipado con un puerto de carga universal tipo C para una carga rápida y estable. La función OTG incorporada admite la conexión con dispositivos externos como unidades flash USB y ratones, logrando una transmisión de datos conveniente y control de dispositivos externos, ampliando más funciones prácticas para el uso diario.",
+      "- Cámara dual HD y desbloqueo facial rápido - Viene con una cámara frontal de 13MP y una cámara principal trasera de 16MP. La cámara frontal HD captura selfies claros y naturales y admite videollamadas fluidas, mientras que la cámara trasera de alta definición restaura colores verdaderos y detalles ricos para tomar paisajes, retratos y registros diarios. Soporta desbloqueo rápido por reconocimiento facial, que puede activar y desbloquear el teléfono en un instante, abandonando contraseñas y patrones engorrosos, y equilibrando seguridad de privacidad y conveniencia de operación.",
+      "- Sistema Android 12.0 original y accesorios completos - Funciona con el sistema operativo Android 12.0 estable y fluido, con interfaz optimizada, seguridad y compatibilidad del sistema mejoradas, admite varias aplicaciones cotidianas y brinda una experiencia de usuario segura y fluida. El paquete completo incluye accesorios 100% completos: teléfono móvil, adaptador de carga, cable de datos tipo C, auriculares con cable, protector de pantalla, estuche protector para el teléfono, pin para expulsión de SIM, manual de usuario en inglés y adaptador OTG, listo para uso inmediato después de recibir el paquete sin necesidad de comprar accesorios adicionales."
+    ],
+    "entrega": {
+      "codigo_postal": "1828",
+      "detalle_completo": "Entrega GRATIS entre el 4 - 14 de diciembre a Argentina en pedidos elegibles de más de $99 O entrega más rápida entre el 3 - 9 de diciembre",
+      "costo_envio": "$99",
+      "dias_estimados_argentina": "Entrega GRATIS entre el 4 - 14 de diciembre"
+    },
+    "precio": "US$ 77.99",
+    "precio_mas_caro": "US$ 77.99",
+    "precio_numerico": 77.99,
+    "precio_mas_caro_numerico": 77.99,
+    "especificaciones": {
+      "capacidad_almacenamiento": "256 GB",
+      "anio": "4 GB",
+      "estado": "Nuevo",
+      "sistema_operativo": "Android 12.0",
+      "tamano_pantalla": "5.8 x 2.9 x 6.1 pulgadas"
+    }
+  }
 ]
