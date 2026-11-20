@@ -7,52 +7,55 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
 from curl_cffi import requests
 
-# ==============================================================================
-# CONFIGURACIÓN GENERAL
-# ==============================================================================
 ARCHIVO_JSON = "productos.json"
 CODIGO_POSTAL_AR = "1828"
 PAIS_DESTINO = "AR"
-PAGINAS_BUSQUEDA = 4          # Páginas de búsqueda general a recorrer
-MAX_NUEVOS_POR_CORRIDA = 40   # Cantidad máxima de celulares nuevos por ejecución
-HILOS_PARALELOS = 3           # Descargas simultáneas (rápido y seguro)
+PAGINAS_BUSQUEDA = 3
+MAX_NUEVOS_POR_CORRIDA = 30
+HILOS_PARALELOS = 2
 
-URLS_SECCIONES = [
-    ("Resultados", "https://www.amazon.com/s?k=unlocked+cell+phones&page={page}"),
-    ("Los más vendidos", "https://www.amazon.com/Best-Sellers-Unlocked-Cell-Phones/zgbs/wireless/2407749011"),
-    ("Los más valorados", "https://www.amazon.com/s?k=unlocked+cell+phones&s=review-rank&page=1"),
+# Varios navegadores para rotar huella TLS y reducir bloqueos de Amazon en GitHub Actions
+PERFILES_TLS = ["chrome124", "chrome120", "safari17_0"]
+
+URLS_BUSQUEDA = [
+    "https://www.amazon.com/s?k=unlocked+cell+phones&page={page}",
+    "https://www.amazon.com/s?k=smartphone+unlocked&page={page}",
 ]
 
-session = requests.Session(impersonate="chrome124")
-session.headers.update({
-    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-})
-session.cookies.set("i18n-prefs", "USD", domain=".amazon.com")
-session.cookies.set("lc-main", "es_US", domain=".amazon.com")
+
+def crear_sesion():
+    s = requests.Session(impersonate=random.choice(PERFILES_TLS))
+    s.headers.update({
+        "Accept-Language": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Upgrade-Insecure-Requests": "1",
+    })
+    s.cookies.set("i18n-prefs", "USD", domain=".amazon.com")
+    s.cookies.set("lc-main", "es_US", domain=".amazon.com")
+    return s
 
 
-# ==============================================================================
-# 1. MEMORIA INCREMENTAL (SALTEA ASIN YA GUARDADOS)
-# ==============================================================================
+session = crear_sesion()
+
+
 def cargar_productos_existentes():
     if not os.path.exists(ARCHIVO_JSON):
         return [], set()
     try:
         with open(ARCHIVO_JSON, "r", encoding="utf-8") as f:
-            data = json.load(f)
+            contenido = f.read().strip()
+            if not contenido:
+                return [], set()
+            data = json.loads(contenido)
             if not isinstance(data, list):
                 return [], set()
             asins_vistos = {p.get("asin") for p in data if p.get("asin")}
             return data, asins_vistos
     except Exception as e:
-        print(f"Aviso leyendo {ARCHIVO_JSON}: {e}")
+        print(f"Aviso leyendo {ARCHIVO_JSON} (se reinicia como lista vacía): {e}")
         return [], set()
 
 
-# ==============================================================================
-# 2. CONFIGURACIÓN DE ENVÍO A ARGENTINA (CP 1828)
-# ==============================================================================
 def configurar_destino_argentina(cp="1828"):
     try:
         resp_home = session.get("https://www.amazon.com/", timeout=20)
@@ -88,9 +91,6 @@ def configurar_destino_argentina(cp="1828"):
         print(f"Aviso al configurar CP {cp}: {e}")
 
 
-# ==============================================================================
-# HELPERS DE LIMPIEZA Y ESPECIFICACIONES
-# ==============================================================================
 def limpiar_texto(texto):
     if not texto:
         return ""
@@ -111,27 +111,21 @@ def extraer_precio_numero(precio_str):
 
 def parsear_tabla_especificaciones(soup):
     specs = {}
-
     for tr in soup.select("#productOverview_feature_div tr"):
         cols = tr.find_all(["td", "th"])
         if len(cols) >= 2:
-            k = limpiar_texto(cols[0].text).lower()
-            v = limpiar_texto(cols[1].text)
-            specs[k] = v
+            specs[limpiar_texto(cols[0].text).lower()] = limpiar_texto(cols[1].text)
 
     for tr in soup.select("table.prodDetTable tr, #detailBullets_feature_div li"):
         th = tr.find("th")
         td = tr.find("td")
         if th and td:
-            k = limpiar_texto(th.text).lower()
-            v = limpiar_texto(td.text)
-            specs[k] = v
+            specs[limpiar_texto(th.text).lower()] = limpiar_texto(td.text)
         else:
             txt = limpiar_texto(tr.text)
             if ":" in txt:
                 partes = txt.split(":", 1)
                 specs[partes[0].lower().strip()] = partes[1].strip()
-
     return specs
 
 
@@ -143,131 +137,93 @@ def buscar_spec(specs, palabras_clave):
     return ""
 
 
-# ==============================================================================
-# 3. RECOLECCIÓN POR SECCIONES (RESULTADOS, MÁS VENDIDOS, MÁS VALORADOS, BLACK FRIDAY)
-# ==============================================================================
 def recolectar_por_secciones(asins_existentes):
+    global session
     catalogo_nuevo = {}
-    salteados = 0
 
-    def registrar_item(asin, seccion_origen, badge_texto="", rating=0.0, resenas="", titulo="", imagen="", precios=None):
-        nonlocal salteados
-        if not asin:
-            return
-        if asin in asins_existentes:
-            salteados += 1
-            return
-
-        if asin not in catalogo_nuevo:
-            catalogo_nuevo[asin] = {
-                "asin": asin,
-                "titulo_lista": titulo,
-                "imagen_lista": imagen,
-                "precios_detectados": precios or [],
-                "secciones": [],
-                "badge_amazon": badge_texto,
-                "rating": rating,
-                "cantidad_resenas": resenas,
-                "link": f"https://www.amazon.com/dp/{asin}"
-            }
-
-        entry = catalogo_nuevo[asin]
-        if seccion_origen and seccion_origen not in entry["secciones"]:
-            entry["secciones"].append(seccion_origen)
-        if badge_texto:
-            if not entry["badge_amazon"]:
-                entry["badge_amazon"] = badge_texto
-            if badge_texto not in entry["secciones"]:
-                entry["secciones"].append(badge_texto)
-        if rating and not entry["rating"]:
-            entry["rating"] = rating
-        if resenas and not entry["cantidad_resenas"]:
-            entry["cantidad_resenas"] = resenas
-
-    # Paso A: Resultados generales + detección de Black Friday / Más vendido
-    for pagina in range(1, PAGINAS_BUSQUEDA + 1):
+    for url_template in URLS_BUSQUEDA:
         if len(catalogo_nuevo) >= MAX_NUEVOS_POR_CORRIDA:
             break
-        url = f"https://www.amazon.com/s?k=unlocked+cell+phones&page={pagina}"
-        try:
-            resp = session.get(url, timeout=20)
-            soup = BeautifulSoup(resp.text, "html.parser")
-            items = soup.find_all("div", {"data-component-type": "s-search-result"})
 
-            for item in items:
-                asin = item.get("data-asin", "").strip()
-                titulo_el = item.find("h2")
-                img_el = item.find("img", class_="s-image")
+        for pagina in range(1, PAGINAS_BUSQUEDA + 1):
+            if len(catalogo_nuevo) >= MAX_NUEVOS_POR_CORRIDA:
+                break
 
-                badge_el = item.select_one("span.a-badge-text")
-                badge_texto = limpiar_texto(badge_el.text) if badge_el else ""
+            url = url_template.format(page=pagina)
+            try:
+                resp = session.get(url, timeout=20)
+                soup = BeautifulSoup(resp.text, "html.parser")
+                titulo_pagina = limpiar_texto(soup.title.text) if soup.title else "Sin título"
+                items = soup.find_all("div", {"data-component-type": "s-search-result"})
 
-                rating_el = item.select_one("span.a-icon-alt")
-                rating_num = 0.0
-                if rating_el:
-                    m_rat = re.search(r"(\d+[.,]\d+)", rating_el.text)
-                    if m_rat:
-                        rating_num = float(m_rat.group(1).replace(",", "."))
+                print(f"   -> URL pág {pagina} | HTTP {resp.status_code} | Items: {len(items)} | Title: {titulo_pagina[:45]}")
 
-                resenas_el = item.select_one("span.s-underline-text")
-                resenas = limpiar_texto(resenas_el.text) if resenas_el else ""
+                # Si Amazon devolvió CAPTCHA/bloqueo (0 items), rotamos sesión TLS y reintentamos una vez
+                if len(items) == 0:
+                    time.sleep(random.uniform(2.5, 4.0))
+                    session = crear_sesion()
+                    configurar_destino_argentina(CODIGO_POSTAL_AR)
+                    resp = session.get(url, timeout=20)
+                    soup = BeautifulSoup(resp.text, "html.parser")
+                    items = soup.find_all("div", {"data-component-type": "s-search-result"})
+                    print(f"   -> Reintento pág {pagina} | Items encontrados: {len(items)}")
 
-                precios_spans = item.select("span.a-price span.a-offscreen")
-                precios_nums = [
-                    extraer_precio_numero(p.text)
-                    for p in precios_spans
-                    if extraer_precio_numero(p.text) is not None
-                ]
+                for item in items:
+                    asin = item.get("data-asin", "").strip()
+                    if not asin or asin in asins_existentes or asin in catalogo_nuevo:
+                        continue
 
-                registrar_item(
-                    asin=asin,
-                    seccion_origen="Resultados",
-                    badge_texto=badge_texto,
-                    rating=rating_num,
-                    resenas=resenas,
-                    titulo=limpiar_texto(titulo_el.text) if titulo_el else "",
-                    imagen=img_el["src"] if img_el and img_el.get("src") else "",
-                    precios=precios_nums
-                )
+                    titulo_el = item.find("h2")
+                    img_el = item.find("img", class_="s-image")
+                    badge_el = item.select_one("span.a-badge-text")
+                    badge_texto = limpiar_texto(badge_el.text) if badge_el else ""
 
-            time.sleep(random.uniform(1.0, 1.8))
-        except Exception as e:
-            print(f"Error en Resultados pág {pagina}: {e}")
+                    rating_el = item.select_one("span.a-icon-alt")
+                    rating_num = 0.0
+                    if rating_el:
+                        m_rat = re.search(r"(\d+[.,]\d+)", rating_el.text)
+                        if m_rat:
+                            rating_num = float(m_rat.group(1).replace(",", "."))
 
-    # Paso B: Secciones "Los más vendidos" y "Los más valorados"
-    for nombre_seccion, url_sec in URLS_SECCIONES[1:]:
-        if len(catalogo_nuevo) >= MAX_NUEVOS_POR_CORRIDA:
-            break
-        try:
-            resp = session.get(url_sec, timeout=20)
-            soup = BeautifulSoup(resp.text, "html.parser")
+                    resenas_el = item.select_one("span.s-underline-text")
+                    resenas = limpiar_texto(resenas_el.text) if resenas_el else ""
 
-            for nodo in soup.select("[data-asin]"):
-                asin = nodo.get("data-asin", "").strip()
-                if len(asin) == 10:
-                    img_el = nodo.find("img")
-                    registrar_item(
-                        asin=asin,
-                        seccion_origen=nombre_seccion,
-                        badge_texto=nombre_seccion,
-                        titulo=limpiar_texto(img_el.get("alt", "")) if img_el else "",
-                        imagen=img_el.get("src", "") if img_el else ""
-                    )
-            time.sleep(random.uniform(1.0, 1.8))
-        except Exception as e:
-            print(f"Error en sección {nombre_seccion}: {e}")
+                    precios_spans = item.select("span.a-price span.a-offscreen")
+                    precios_nums = [
+                        extraer_precio_numero(p.text)
+                        for p in precios_spans
+                        if extraer_precio_numero(p.text) is not None
+                    ]
 
-    print(f"   (Se omitieron {salteados} ocurrencias de ASIN ya guardados)")
+                    secciones = ["Resultados"]
+                    if badge_texto:
+                        secciones.append(badge_texto)
+                    if rating_num >= 4.4:
+                        secciones.append("Los más valorados")
+
+                    catalogo_nuevo[asin] = {
+                        "asin": asin,
+                        "titulo_lista": limpiar_texto(titulo_el.text) if titulo_el else "",
+                        "imagen_lista": img_el["src"] if img_el and img_el.get("src") else "",
+                        "precios_detectados": precios_nums,
+                        "secciones": secciones,
+                        "badge_amazon": badge_texto,
+                        "rating": rating_num,
+                        "cantidad_resenas": resenas,
+                        "link": f"https://www.amazon.com/dp/{asin}"
+                    }
+
+                time.sleep(random.uniform(1.5, 2.8))
+            except Exception as e:
+                print(f"Error en búsqueda pág {pagina}: {e}")
+
     return list(catalogo_nuevo.values())[:MAX_NUEVOS_POR_CORRIDA]
 
 
-# ==============================================================================
-# 4. EXTRACCIÓN COMPLETA DE CADA FICHA (/dp/ASIN)
-# ==============================================================================
 def obtener_detalle_producto(item_base):
     asin = item_base["asin"]
     url = item_base["link"]
-    time.sleep(random.uniform(0.5, 1.4))
+    time.sleep(random.uniform(0.8, 1.8))
 
     try:
         resp = session.get(url, timeout=25)
@@ -275,6 +231,10 @@ def obtener_detalle_producto(item_base):
 
         titulo_el = soup.select_one("#productTitle")
         titulo = limpiar_texto(titulo_el.text) if titulo_el else item_base["titulo_lista"]
+
+        # Si Amazon bloqueó la ficha individual, usamos los datos base de la lista para no perder el producto
+        if not titulo:
+            return None
 
         img_el = soup.select_one("#landingImage, #imgBlkFront")
         imagen = (
@@ -285,7 +245,6 @@ def obtener_detalle_producto(item_base):
             else item_base["imagen_lista"]
         )
 
-        # Precios (actual vs más caro / tachado)
         precios_ficha = []
         for sel in [
             "#corePriceDisplay_desktop_feature_div span.a-offscreen",
@@ -302,7 +261,6 @@ def obtener_detalle_producto(item_base):
         precio_actual = min(todos_precios) if todos_precios else None
         precio_mas_caro = max(todos_precios) if todos_precios else None
 
-        # Variantes exactas del ASIN: Color, Estilo, Tamaño
         color = limpiar_texto(
             (soup.select_one("#variation_color_name .selection") or soup.select_one("#inline-twister-expanded-dimension-text-color_name") or BeautifulSoup("", "html.parser")).text
         )
@@ -313,14 +271,12 @@ def obtener_detalle_producto(item_base):
             (soup.select_one("#variation_size_name .selection") or soup.select_one("#inline-twister-expanded-dimension-text-size_name") or BeautifulSoup("", "html.parser")).text
         )
 
-        # Acerca de este producto
         bullets = [
             limpiar_texto(li.text)
             for li in soup.select("#feature-bullets ul li span.a-list-item")
             if limpiar_texto(li.text) and "ver más" not in li.text.lower()
         ]
 
-        # Envío / Entrega a Argentina (CP 1828)
         entrega_el = soup.select_one(
             "#mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE, #deliveryBlockMessage"
         )
@@ -336,9 +292,7 @@ def obtener_detalle_producto(item_base):
         )
         dias_entrega = match_fecha.group(0) if match_fecha else texto_entrega
 
-        # Especificaciones técnicas
         specs = parsear_tabla_especificaciones(soup)
-
         marca = buscar_spec(specs, ["marca", "brand"]) or (titulo.split()[0] if titulo else "")
         almacenamiento = (
             buscar_spec(specs, ["capacidad de almacenamiento", "memory storage capacity", "almacenamiento"])
@@ -353,50 +307,30 @@ def obtener_detalle_producto(item_base):
         sistema_operativo = buscar_spec(specs, ["sistema operativo", "operating system"])
         tamano_pantalla = buscar_spec(specs, ["tamaño de la pantalla", "screen size", "dimensiones"])
 
-        # Completar rating/reseñas si vino desde Best Sellers sin esos datos
-        rating_final = item_base["rating"]
-        if not rating_final:
-            r_el = soup.select_one("#acrPopover span.a-icon-alt")
-            if r_el:
-                m_r = re.search(r"(\d+[.,]\d+)", r_el.text)
-                if m_r:
-                    rating_final = float(m_r.group(1).replace(",", "."))
-
-        resenas_final = item_base["cantidad_resenas"]
-        if not resenas_final:
-            rev_el = soup.select_one("#acrCustomerReviewText")
-            if rev_el:
-                resenas_final = limpiar_texto(rev_el.text)
-
         return {
             "asin": asin,
             "titulo": titulo,
             "link": url,
             "imagen": imagen,
-            # Secciones y reputación estilo Amazon
             "secciones": item_base["secciones"],
             "badge_amazon": item_base["badge_amazon"],
-            "rating": rating_final,
-            "cantidad_resenas": resenas_final,
-            # Variantes y datos principales
+            "rating": item_base["rating"],
+            "cantidad_resenas": item_base["cantidad_resenas"],
             "marca": marca,
             "estilo": estilo,
             "color": color or buscar_spec(specs, ["color"]),
             "tamano": tamano_var or tamano_pantalla,
             "acerca_de_este_producto": bullets,
-            # Entrega a Argentina CP 1828
             "entrega": {
                 "codigo_postal": CODIGO_POSTAL_AR,
                 "detalle_completo": texto_entrega,
                 "costo_envio": costo_envio,
                 "dias_estimados_argentina": dias_entrega,
             },
-            # Precios
             "precio": f"US$ {precio_actual:,.2f}" if precio_actual else "Consultar precio",
             "precio_mas_caro": f"US$ {precio_mas_caro:,.2f}" if precio_mas_caro else "",
             "precio_numerico": precio_actual or 0,
             "precio_mas_caro_numerico": precio_mas_caro or 0,
-            # Especificaciones técnicas adicionales
             "especificaciones": {
                 "capacidad_almacenamiento": almacenamiento,
                 "anio": anio,
@@ -405,47 +339,41 @@ def obtener_detalle_producto(item_base):
                 "tamano_pantalla": tamano_pantalla,
             },
         }
-
     except Exception as e:
         print(f"Error procesando ASIN {asin}: {e}")
         return None
 
 
-# ==============================================================================
-# EJECUCIÓN PRINCIPAL
-# ==============================================================================
 def main():
     productos_guardados, asins_existentes = cargar_productos_existentes()
-    print(f"0. Ya hay {len(productos_guardados)} celulares guardados en {ARCHIVO_JSON}.")
+    print(f"0. Celulares previos en {ARCHIVO_JSON}: {len(productos_guardados)}")
 
-    print(f"1. Configurando destino Argentina (CP {CODIGO_POSTAL_AR})...")
     configurar_destino_argentina(CODIGO_POSTAL_AR)
-
-    print("2. Buscando ASINs nuevos por secciones...")
     lista_nuevos = recolectar_por_secciones(asins_existentes)
-    print(f"   Se encontraron {len(lista_nuevos)} celulares NUEVOS para detallar.")
+    print(f"2. Celulares NUEVOS detectados en lista: {len(lista_nuevos)}")
 
     if not lista_nuevos:
-        print("No hay celulares nuevos para agregar. No se modifica productos.json.")
+        # Si el archivo estaba vacío/inválido, al menos lo dejamos como [] válido
+        if not productos_guardados:
+            with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
+                json.dump([], f)
+        print("No se obtuvieron items nuevos en esta ejecución.")
         return
 
     nuevos_detallados = []
-    print(f"3. Extrayendo fichas técnicas en paralelo ({HILOS_PARALELOS} hilos)...")
     with ThreadPoolExecutor(max_workers=HILOS_PARALELOS) as executor:
         futuros = {executor.submit(obtener_detalle_producto, item): item for item in lista_nuevos}
         for futuro in as_completed(futuros):
             data = futuro.result()
             if data and data["titulo"]:
                 nuevos_detallados.append(data)
-                print(f"   [NUEVO] {data['asin']} | {data['marca']} ({data['color']}) -> {data['titulo'][:35]}...")
+                print(f"   [OK] {data['asin']} | {data['titulo'][:45]}...")
 
-    # Agrega los nuevos arriba y conserva intactos todos los anteriores
-    total_final = nuevos_detallados + productos_guardados
-
+    total_final =  productos_guardados + nuevos_detallados
     with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
         json.dump(total_final, f, ensure_ascii=False, indent=2)
 
-    print(f"Listo: +{len(nuevos_detallados)} celulares nuevos. Total acumulado: {len(total_final)}.")
+    print(f"Listo: +{len(nuevos_detallados)} agregados. Total: {len(total_final)}")
 
 
 if __name__ == "__main__":

@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Descarga todo el historial de Git
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -22,19 +20,23 @@ jobs:
       - name: Instalar librerías
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4
-      
-      - name: Instalar librerías 2
-        run: |
-          python -m pip install --upgrade pip
           pip install beautifulsoup4 curl_cffi
 
       - name: Ejecutar script de Scraping
         run: python script.py
 
       - name: Guardar y subir cambios automáticamente
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Automático: actualización de productos.json"
-          file_pattern: 'productos.json'
-          push_options: '--force'  # Fuerza la actualización si la rama remota avanzó
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add productos.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Automático: actualización de productos.json"
+            git fetch origin master
+            git reset --soft origin/master
+            git add productos.json
+            git commit -m "Automático: actualización de productos.json"
+            git push origin master
+          else
+            echo "Sin cambios en productos.json"
+          fi
