@@ -431,14 +431,13 @@ function gtag(){}gtag('js', new Date());
     const precio = formatearPrecio(prod.precio);
     const imagen = (prod.imagen);
 
-    const regex = /^.*?(?=\s*(?:smartphone|,))/si;
+    const regex = /^.*?(?=\s*(?:smartphone|,|-))/si;
     tituloRemasted = prod.titulo.match(regex);
 
     li.innerHTML = `
       <div class="astra-shop-thumbnail-wrap">
-        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-          <img class="product-img" src="${imagen}" alt="${tituloRemasted}">
-        </a>
+          <img class="product-img" src="${imagen}" alt="${tituloRemasted}"
+           onclick="window.location.href='product-detail.html'">
       </div>
       <input type="hidden" class="wpmProductId" data-id="10000">
       <div class="astra-shop-summary-wrap">
