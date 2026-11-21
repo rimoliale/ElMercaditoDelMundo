@@ -10,28 +10,28 @@ from curl_cffi import requests
 ARCHIVO_JSON = "productos.json"
 CODIGO_POSTAL_AR = "1828"
 PAIS_DESTINO = "AR"
-DOMINIO_AMAZON = "https://www.amazon.es"
 PAGINAS_BUSQUEDA = 3
 MAX_NUEVOS_POR_CORRIDA = 30
 HILOS_PARALELOS = 2
 
+# Varios navegadores para rotar huella TLS y reducir bloqueos de Amazon en GitHub Actions
 PERFILES_TLS = ["chrome124", "chrome120", "safari17_0"]
 
 URLS_BUSQUEDA = [
-    f"{DOMINIO_AMAZON}/s?k=moviles+libres&page={{page}}",
-    f"{DOMINIO_AMAZON}/s?k=smartphone+libre&page={{page}}",
+    "https://www.amazon.com/s?k=unlocked+cell+phones&page={page}",
+    "https://www.amazon.com/s?k=smartphone+unlocked&page={page}",
 ]
 
 
 def crear_sesion():
     s = requests.Session(impersonate=random.choice(PERFILES_TLS))
     s.headers.update({
-        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+        "Accept-Language": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Upgrade-Insecure-Requests": "1",
     })
-    s.cookies.set("i18n-prefs", "EUR", domain=".amazon.es")
-    s.cookies.set("lc-main", "es_ES", domain=".amazon.es")
+    s.cookies.set("i18n-prefs", "USD", domain=".amazon.com")
+    s.cookies.set("lc-main", "es_US", domain=".amazon.com")
     return s
 
 
@@ -58,7 +58,7 @@ def cargar_productos_existentes():
 
 def configurar_destino_argentina(cp="1828"):
     try:
-        resp_home = session.get(f"{DOMINIO_AMAZON}/", timeout=20)
+        resp_home = session.get("https://www.amazon.com/", timeout=20)
         match_csrf = re.search(r'name="anti-csrftoken-a2z"\s+value="([^"]+)"', resp_home.text)
         csrf_token = match_csrf.group(1) if match_csrf else ""
 
@@ -66,7 +66,7 @@ def configurar_destino_argentina(cp="1828"):
             "Accept": "application/json, text/javascript, */*; q=0.01",
             "Content-Type": "application/json",
             "X-Requested-With": "XMLHttpRequest",
-            "Referer": f"{DOMINIO_AMAZON}/",
+            "Referer": "https://www.amazon.com/",
         }
         if csrf_token:
             headers_glow["anti-csrftoken-a2z"] = csrf_token
@@ -81,12 +81,12 @@ def configurar_destino_argentina(cp="1828"):
             "actionSource": "glow"
         }
         resp_loc = session.post(
-            f"{DOMINIO_AMAZON}/portal-migration/hz/glow/address-change?actionSource=glow",
+            "https://www.amazon.com/portal-migration/hz/glow/address-change?actionSource=glow",
             json=payload,
             headers=headers_glow,
             timeout=15
         )
-        print(f"Ubicación configurada en amazon.es -> País: {PAIS_DESTINO}, CP: {cp} (HTTP {resp_loc.status_code})")
+        print(f"Ubicación configurada -> País: {PAIS_DESTINO}, CP: {cp} (HTTP {resp_loc.status_code})")
     except Exception as e:
         print(f"Aviso al configurar CP {cp}: {e}")
 
@@ -98,28 +98,15 @@ def limpiar_texto(texto):
 
 
 def extraer_precio_numero(precio_str):
-    """Soporta formato europeo de amazon.es (ej: '1.299,99 €' -> 1299.99)."""
     if not precio_str:
         return None
-    nums = re.findall(r"[\d.,]+", precio_str)
+    nums = re.findall(r"[\d,.]+", precio_str)
     if not nums:
         return None
-    val = nums[0]
-    if "," in val and "." in val:
-        val = val.replace(".", "").replace(",", ".")
-    elif "," in val:
-        val = val.replace(",", ".")
     try:
-        return float(val)
+        return float(nums[0].replace(",", ""))
     except ValueError:
         return None
-
-
-def formatear_euro(valor):
-    if not valor:
-        return ""
-    texto = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-    return f"€ {texto}"
 
 
 def parsear_tabla_especificaciones(soup):
@@ -171,6 +158,7 @@ def recolectar_por_secciones(asins_existentes):
 
                 print(f"   -> URL pág {pagina} | HTTP {resp.status_code} | Items: {len(items)} | Title: {titulo_pagina[:45]}")
 
+                # Si Amazon devolvió CAPTCHA/bloqueo (0 items), rotamos sesión TLS y reintentamos una vez
                 if len(items) == 0:
                     time.sleep(random.uniform(2.5, 4.0))
                     session = crear_sesion()
@@ -222,7 +210,7 @@ def recolectar_por_secciones(asins_existentes):
                         "badge_amazon": badge_texto,
                         "rating": rating_num,
                         "cantidad_resenas": resenas,
-                        "link": f"{DOMINIO_AMAZON}/dp/{asin}"
+                        "link": f"https://www.amazon.com/dp/{asin}"
                     }
 
                 time.sleep(random.uniform(1.5, 2.8))
@@ -244,6 +232,7 @@ def obtener_detalle_producto(item_base):
         titulo_el = soup.select_one("#productTitle")
         titulo = limpiar_texto(titulo_el.text) if titulo_el else item_base["titulo_lista"]
 
+        # Si Amazon bloqueó la ficha individual, usamos los datos base de la lista para no perder el producto
         if not titulo:
             return None
 
@@ -293,30 +282,30 @@ def obtener_detalle_producto(item_base):
         )
         texto_entrega = limpiar_texto(entrega_el.text) if entrega_el else ""
 
-        match_envio = re.search(r"[\d.,]+\s*€|€\s*[\d.,]+", texto_entrega)
+        match_envio = re.search(r"(?:US\$|\$)\s*[\d,.]+", texto_entrega)
         costo_envio = match_envio.group(0) if match_envio else "Sin envío directo / Consultar"
 
         match_fecha = re.search(
-            r"(?:entrega|llega).*?(?:\d+\s*de\s*\w+)(?:\s*-\s*(?:\d+\s*de\s*\w+))?",
+            r"(?:entrega|delivery|llega).*?(?:\d+\s*de\s*\w+|\w+\s*\d+)(?:\s*-\s*(?:\d+\s*de\s*\w+|\w+\s*\d+))?",
             texto_entrega,
             re.IGNORECASE,
         )
         dias_entrega = match_fecha.group(0) if match_fecha else texto_entrega
 
         specs = parsear_tabla_especificaciones(soup)
-        marca = buscar_spec(specs, ["marca", "brand", "fabricante"]) or (titulo.split()[0] if titulo else "")
+        marca = buscar_spec(specs, ["marca", "brand"]) or (titulo.split()[0] if titulo else "")
         almacenamiento = (
-            buscar_spec(specs, ["capacidad de almacenamiento", "capacidad de la memoria", "almacenamiento"])
+            buscar_spec(specs, ["capacidad de almacenamiento", "memory storage capacity", "almacenamiento"])
             or tamano_var
         )
-        anio = buscar_spec(specs, ["año del modelo", "año"])
+        anio = buscar_spec(specs, ["año del modelo", "model year", "año"])
         estado = (
             limpiar_texto((soup.select_one("#condition-statement, #renewedProgramDescriptionAtf") or BeautifulSoup("", "html.parser")).text)
-            or buscar_spec(specs, ["condición", "estado"])
+            or buscar_spec(specs, ["condición", "condition", "estado"])
             or "Nuevo"
         )
-        sistema_operativo = buscar_spec(specs, ["sistema operativo"])
-        tamano_pantalla = buscar_spec(specs, ["tamaño de la pantalla", "tamaño de pantalla", "dimensiones"])
+        sistema_operativo = buscar_spec(specs, ["sistema operativo", "operating system"])
+        tamano_pantalla = buscar_spec(specs, ["tamaño de la pantalla", "screen size", "dimensiones"])
 
         return {
             "asin": asin,
@@ -338,8 +327,8 @@ def obtener_detalle_producto(item_base):
                 "costo_envio": costo_envio,
                 "dias_estimados_argentina": dias_entrega,
             },
-            "precio": formatear_euro(precio_actual) if precio_actual else "Consultar precio",
-            "precio_mas_caro": formatear_euro(precio_mas_caro) if precio_mas_caro else "",
+            "precio": f"US$ {precio_actual:,.2f}" if precio_actual else "Consultar precio",
+            "precio_mas_caro": f"US$ {precio_mas_caro:,.2f}" if precio_mas_caro else "",
             "precio_numerico": precio_actual or 0,
             "precio_mas_caro_numerico": precio_mas_caro or 0,
             "especificaciones": {
@@ -361,9 +350,10 @@ def main():
 
     configurar_destino_argentina(CODIGO_POSTAL_AR)
     lista_nuevos = recolectar_por_secciones(asins_existentes)
-    print(f"2. Celulares NUEVOS detectados en amazon.es: {len(lista_nuevos)}")
+    print(f"2. Celulares NUEVOS detectados en lista: {len(lista_nuevos)}")
 
     if not lista_nuevos:
+        # Si el archivo estaba vacío/inválido, al menos lo dejamos como [] válido
         if not productos_guardados:
             with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
                 json.dump([], f)
@@ -377,9 +367,9 @@ def main():
             data = futuro.result()
             if data and data["titulo"]:
                 nuevos_detallados.append(data)
-                print(f"   [OK] {data['asin']} | {data['precio']} | {data['titulo'][:40]}...")
+                print(f"   [OK] {data['asin']} | {data['titulo'][:45]}...")
 
-    total_final = productos_guardados + nuevos_detallados
+    total_final =  productos_guardados + nuevos_detallados
     with open(ARCHIVO_JSON, "w", encoding="utf-8") as f:
         json.dump(total_final, f, ensure_ascii=False, indent=2)
 
