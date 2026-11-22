@@ -189,15 +189,7 @@ document.querySelector('.add_to_cart_button').addEventListener('click', function
 	}
 	
 	$("#AccumulatedPriceItems").text(priceActuaaAcumulatedFormated);
-	
 
-	EstadoTienda.agregarProducto({
-  id: 1,           // Ej: "92859" o el título si no tienes ID
-  titulo: 'prueba',   // Ej: "Filtros Libella Slim"
-  precio: 120,   // Ej: 2904 (número limpio, sin "$")
-  imagen: '',        // Ej: "https://..." o ruta relativa
-  cantidad: 1
-});
 	
 
     // Acá podrías llamar a tu función para agregar al carrito, ejemplo:
@@ -274,17 +266,10 @@ function  DOMContentLoadedPOSTA() {
 
 
 
-		document.querySelectorAll('.wpc-term-item-content-wrapper a').forEach(function(link) {
-		  link.addEventListener('click', function(e) {
-			e.preventDefault(); // evita la navegación
-		  });
-		});
+
 		
 		document.querySelectorAll('.wpc-term-item-content-wrapper a').forEach(function(link) {
-		  // Remover href para que no se muestre en la barra de estado
-		  link.removeAttribute('href');
-		  // Opcional: cambiar el cursor para que no parezca un link
-		  link.style.cursor = 'default';
+
 		  
 		  link.addEventListener('click', function(e) {
 			e.preventDefault();
@@ -399,20 +384,6 @@ function  DOMContentLoadedPOSTA() {
 				amounts[1].remove();
 			}
 		}); */
-
-		
-		document.querySelectorAll('ul.products li.product .astra-shop-thumbnail-wrap a').forEach(function (link) {
-			var parent = link.parentNode;
-			while (link.firstChild) {
-				parent.insertBefore(link.firstChild, link);
-			}
-			parent.removeChild(link);
-		});	
-
-
-
-
-
 
 
   

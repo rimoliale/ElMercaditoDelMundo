@@ -439,8 +439,10 @@ function gtag(){}gtag('js', new Date());
 
     li.innerHTML = `
       <div id="${prod.asin}" class="astra-shop-thumbnail-wrap">
+        <a href="product-detail.html?product=${prod.asin}">
           <img class="product-img" src="${imagen}" alt="${tituloRemasted}"
-           onclick="window.location.href='product-detail.html'">
+            >
+        </a>
       </div>
       <input type="hidden" class="wpmProductId" data-id="10000">
       <div class="astra-shop-summary-wrap">
