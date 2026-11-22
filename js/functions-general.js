@@ -49,12 +49,6 @@ const textoQuienesSomos = `El Mercadito del Mundo se encarga de ofrecer al públ
     parrafoEnvio.innerText = textoEnvio;
 	
 	
-	
-	
-	
-	
-	
-	
 	const textoFormasPago = `- Mercado Pago<br>- Efectivo<br>- Transferencia Bancaria`;
 
 	// Aplicar como contenido del tooltip con HTML
@@ -152,15 +146,6 @@ $(document).on('click', '#SubirInicio', function () {
 });
 
 
-
-
-
-
- 
- 
- 
- 
- 
  
  // // lógica de agregar al carrito
 document.querySelector('.add_to_cart_button').addEventListener('click', function(e) {
@@ -408,12 +393,13 @@ function  DOMContentLoadedPOSTA() {
 		
 		
 		 // Eliminar los precios acumulados
-		document.querySelectorAll('.price').forEach(function(priceElement) {
+/* 		document.querySelectorAll('.price').forEach(function(priceElement) {
 			let amounts = priceElement.querySelectorAll('.woocommerce-Price-amount.amount');
 			if (amounts.length > 1) {
 				amounts[1].remove();
 			}
-		});
+		}); */
+
 		
 		document.querySelectorAll('ul.products li.product .astra-shop-thumbnail-wrap a').forEach(function (link) {
 			var parent = link.parentNode;
@@ -424,10 +410,26 @@ function  DOMContentLoadedPOSTA() {
 		});	
 
 
-		
-		BuscadorProductos();
-	}
 
+
+
+
+
+  
+  detectSessionJs();
+ //let cotizacion = obtenerEuroJS();
+		//BuscadorProductos();
+
+
+
+    //REFACTOR PRICES
+    priceUpdate();
+
+
+
+
+}
+// LoadedPOSTA 
 
 
 
@@ -454,6 +456,31 @@ $("#checkedDeseleccionar").on("change", function () {
 
 	$("#search").val('')	
 });
+
+
+function detectSessionJs(intentos = 0) {
+  let encontreJS = false;
+
+ my_if:   if (intentos < 20) {
+      
+        $.getScript("js/session.js")
+        .done(function () {
+          console.log("El session.js cargó correctamente.");
+          DOMContentLoadedPOSTA_carrito();
+          
+        })
+        .fail(function () {
+          console.log("Error al cargar el session.js.");
+        });
+
+      break my_if;
+      setTimeout(() => detectSessionJs(intentos + 1), 5000); // reintenta cada 200ms
+    } else {
+      console.warn("⚠️ No se pudo inicializar el buscador luego de varios intentos.");
+    }
+    return;
+  } 
+
 
 
 function BuscadorProductos(intentos = 0) {
@@ -505,6 +532,89 @@ function BuscadorProductos(intentos = 0) {
   console.log("✅ Buscador inicializado correctamente.");
 }
 
+async function obtenerEuroJS() {
+  const VALOR_RESPALDO = 1805.00; // Por si la API externa tarda o se cae
+
+  try {
+    const resp = await fetch('https://dolarapi.com/v1/cotizaciones/eur');
+    if (!resp.ok) throw new Error('Error consultando API');
+    
+    const data = await resp.json();
+    // data.venta trae el valor numérico de venta (ej: 1805)
+    const cotizacionVenta = Number(data.venta) || VALOR_RESPALDO;
+    
+    //console.log(`Euro Venta: $ ${cotizacionVenta.toLocaleString('es-AR')} ARS`);
+    return cotizacionVenta;
+
+  } catch (error) {
+    console.warn('No se pudo obtener cotización en vivo, se usa respaldo:', error);
+    return VALOR_RESPALDO;
+  }
+}
+
+async function priceUpdate() {
+/*   // 1. Marcamos la función contenedora como async (ej: $(document).ready(async function () { )
+  const cotizacion = await obtenerEuroJS(); // ✅ Ahora sí espera el número (ej: 1805)
+
+  $('bdi').each(function () {
+    const $bdi = $(this);
+
+    // Reemplazar en el HTML con el valor numérico ya resuelto
+    $bdi.html('<span class="woocommerce-Price-currencySymbol">$</span>' + cotizacion.toLocaleString('es-AR'));
+  }); */
+
+  //1 calculo cotizacion
+  const cotizacionEuro = await obtenerEuroJS();
+
+  // 2. Traer productos.json para cruzar el ASIN con su precio_numerico
+    $.getJSON('productos.json', function (productos) {
+      // Creamos un mapa rápido { asin: producto } para no buscar con .find() en cada vuelta
+      const mapaProductos = {};
+      productos.forEach(p => {
+        if (p.asin) mapaProductos[p.asin] = p;
+      });
+
+      // 3. Recorrer los <li> ya renderizados en el HTML
+      $('ul li').each(function () {
+        const $li = $(this);
+        // Tomamos el ASIN desde el id del div .astra-shop-thumbnail-wrap
+        const asin = $li.find('.astra-shop-thumbnail-wrap').attr('id');
+        const producto = mapaProductos[asin];
+
+        // Si ese <li> no es un producto con ASIN válido, lo saltea
+        if (!producto) return; 
+
+        const myGain = 1.12 //12% Celulares me cuestan entre 22 y 32%
+        const costo_envioE = EuroToNumber(producto.entrega.costo_envio);
+        const precioEnPesos = Math.ceil((producto.precio_numerico
+          ? Math.round((producto.precio_numerico + costo_envioE)
+          * cotizacionEuro): 0) * myGain);
+
+        const $bdi = $li.find('bdi');
+
+        if (precioEnPesos > 0) {
+          $bdi.html(
+            '<span class="woocommerce-Price-currencySymbol">$</span>' +
+            precioEnPesos.toLocaleString('es-AR') +
+            ' ARS'
+          );
+        } else {
+          $bdi.text('Consultar precio');
+        }
+      });
+    });
+}
+
+function EuroToNumber(texto) {
+  if (!texto) return 0;
+
+  const limpio = String(texto)
+    .replace(/\./g, '')       // 1. Quita puntos de miles (ej: "1.299,99" -> "1299,99")
+    .replace(',', '.')        // 2. Cambia la coma decimal por punto ("14,99" -> "14.99")
+    .replace(/[^\d.-]/g, ''); // 3. Quita "€", espacios y cualquier otro carácter
+
+  return parseFloat(limpio) || 0;
+}
 
 // document.addEventListener('DOMContentLoaded', inicializarBuscadorCuandoEsteListo);
 
