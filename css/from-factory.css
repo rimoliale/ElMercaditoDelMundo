@@ -26121,7 +26121,7 @@ html:not(.dgwt-wcas-overlay-mobile-on) .dgwt-wcas-style-pirx.dgwt-wcas-style-pir
   font-display: swap;
   font-family: star;
   src: url("/wp-content/plugins/woocommerce/assets/fonts/star.eot");
-  src: url("/wp-content/plugins/woocommerce/assets/fonts/star.eot?#iefix") format("embedded-opentype"), url("/wp-content/plugins/woocommerce/assets/fonts/star.woff") format("woff"), url("/wp-content/plugins/woocommerce/assets/fonts/star.ttf") format("truetype"), url("/wp-content/plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
+  src: url("/wp-content/plugins/woocommerce/assets/fonts/star.eot?#iefix") format("embedded-opentype"), url("/fonts/star.woff") format("woff"), url("/wp-content/plugins/woocommerce/assets/fonts/star.ttf") format("truetype"), url("/wp-content/plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
   font-weight: 400;
   font-style: normal
 }

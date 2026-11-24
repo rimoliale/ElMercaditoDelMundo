@@ -431,7 +431,6 @@ function gtag(){}gtag('js', new Date());
     const li = document.createElement("li");
     li.className = "ast-col-sm-12 ast-article-post desktop-align-center tablet-align-center mobile-align-center ast-col-md-6 ast-product-gallery-layout-horizontal ast-product-single-variable ast-product-tabs-layout-horizontal product type-product post-10000 status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-variable has-default-attributes";
 
-    const precio = formatearPrecio(prod.precio);
     const imagen = (prod.imagen);
 
     const regex = /^.*?(?=\s*(?:smartphone|,|-))/si;
@@ -486,16 +485,6 @@ async function esperarElemento(selector, intentos = 20, delay = 100) {
   return null;
 }
 
-function formatearPrecio(precioRaw) {
-  const numero = parseFloat(precioRaw.toString().replace(/[^\d,\.]/g, "").replace(",", "."));
-  if (isNaN(numero)) return "Consultar";
-
-  const final = numero * 1.25;
-  return final.toLocaleString("es-AR", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2
-  });
-}
 
 </script>
 
